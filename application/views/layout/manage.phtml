@@ -1,0 +1,27 @@
+<div class="back_header_nav">
+    <div class="back_header_container">
+        <a href="http://www.wujigang.cn/" class="back_header_logo"></a>
+        <span class="back_header_title">我是<?php echo $sideInfo['title'];?></span>
+    </div>
+</div>
+    <div class="back_body_con">
+        <div>
+            <div class="back_left_menu">
+                <?php foreach ($sideInfo['menu'] as $key => $item) :?>
+                <?php if(in_array($key, ['账号信息', '周材管理', '设置中心']) && $subAccount['identify'] == 0): continue; ?>
+                <?php endif;?>
+                <span class="side_title"><?php echo $key;?></span>
+                <ul class="side_list">
+                    <?php foreach ($item as $menu) :?>
+                    <li><a href="<?php echo $menu['uri'];?>" class="<?php echo $menu['uri'] === $activeMenu? 'side_item act' : 'side_item';?>"><?php echo $menu['name'];?></a></li>
+                    <?php endforeach;?>
+                </ul>
+                <?php endforeach;?>
+            </div>
+            <div class="back_right_container">
+                <?php echo $main;?>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>物集港</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <meta name="renderer" content="webkit" />
+    <link rel="stylesheet" type="text/css" href="<?php echo  $staticPath.'/??'.implode(',', $css).$staticVersion;?>">
+    <?php foreach ($thirdCss as $css):?>
+    <link rel="stylesheet" type="text/css" href="<?php echo  $thirdStatic.$css;?>">
+    <?php endforeach;?>
+    <?php if (isset($debugbarRenderer)) : ?>
+    <?php $debugbarRenderer->setBaseUrl($thirdStatic.'/phpdebugbar/'); echo $debugbarRenderer->renderHead();?>
+    <?php endif; ?>
+</head>
+<body>
+<div id="wrapper">
+    <div class="com_top_nav">
+        <div class="width1200"></div>
+    </div>
+    <?php echo $content;?>
+</div>
+<div class="toolbar_wrap"></div>
+<script type="text/javascript" src="<?php echo  $staticPath.'/??'.implode(',', $js).$staticVersion;?>"></script>
+<?php foreach ($thirdJs as $js):?>
+<script type="text/javascript" src="<?php echo  $thirdStatic.$js?>"></script>
+<?php endforeach;?>
+<?php if (isset($debugbarRenderer)) : ?>
+<?php echo $debugbarRenderer->render(); ?>
+<?php endif; ?>
+</body>
+</html>

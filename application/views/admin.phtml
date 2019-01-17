@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>物集港--租赁商城--后台管理</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <meta name="renderer" content="webkit" />
+    <link rel="stylesheet" type="text/css" href="<?php echo  $staticPath.'/??'.implode(',', $css).$staticVersion;?>">
+    <?php if (isset($debugbarRenderer)) :?>
+    <?php $debugbarRenderer->setBaseUrl('/debugbar/'); echo $debugbarRenderer->renderHead();?>
+    <?php endif;?>
+</head>
+<body>
+<div id="wrapper">
+    <div class="com_top_nav">
+        <div class="width1200"></div>
+    </div>
+    <div class="back_header_nav">
+        <div class="back_header_container">
+            <a href="http://www.wujigang.cn/" class="back_header_logo"></a>
+            <span class="back_header_title">后台管理系统</span>
+        </div>
+    </div>
+        <div class="back_body_con">
+            <div>
+                <div class="back_left_menu">
+                    <?php foreach ($sideInfo as $key => $item) :?>
+                    <span class="side_title"><?php echo $key;?></span>
+                    <ul class="side_list">
+                        <?php foreach ($item as $menu) :?>
+                        <li><a href="<?php echo $menu['uri'];?>" class="<?php echo $menu['uri'] === $activeMenu || (isset($menu['child_uri']) && $menu['child_uri'] === $activeMenu) ? 'side_item act' : 'side_item';?>"><?php echo $menu['name'];?></a></li>
+                        <?php endforeach;?>
+                    </ul>
+                    <?php endforeach;?>
+                </div>
+                <div class="back_right_container">
+                    <?php echo $content;?>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="toolbar_wrap"></div>
+<div class="bottom_layout">
+    <!--<div class="bottom_title">
+        <div class="bottom_title_con">
+            <ul>
+                <li>
+                    <i class="bottom-icons bottom-icon1"></i>
+                    <p class="title">质量把控</p>
+                    <p class="des">严格批准，实地考察</p>
+                </li>
+                <li>
+                    <i class="bottom-icons bottom-icon2"></i>
+                    <p class="title">规范透明</p>
+                    <p class="des">规范规则，减少灰度</p>
+                </li>
+                <li>
+                    <i class="bottom-icons bottom-icon3"></i>
+                    <p class="title">保供保租</p>
+                    <p class="des">优质保供，金融回租</p>
+                </li>
+                <li>
+                    <i class="bottom-icons bottom-icon4"></i>
+                    <p class="title">科学信用</p>
+                    <p class="des">信用积分，贯穿平台</p>
+                </li>
+                <li>
+                    <i class="bottom-icons bottom-icon5"></i>
+                    <p class="title">专注服务</p>
+                    <p class="des">专注服务，不涉业务</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bottom_des">
+        <div class="bottom_des_con">
+            <div class="des_cell">
+                <dl>
+                    <dt>新手入门</dt>
+                    <dl>
+                        <ul>
+                            <li><a href="#">注册流程</a></li>
+                            <li><a href="#">企业认领</a></li>
+                            <li><a href="#">申请入驻</a></li>
+                            <li><a href="#">常见文件</a></li>
+                        </ul>
+                    </dl>
+                </dl>
+            </div>
+            <div class="des_cell">
+                <dl>
+                    <dt>商场租采</dt>
+                    <dl>
+                        <ul>
+                            <li><a href="#">租赁流程</a></li>
+                            <li><a href="#">订单查询</a></li>
+                            <li><a href="#">支付结算</a></li>
+                            <li><a href="#">合同模板</a></li>
+                        </ul>
+                    </dl>
+                </dl>
+            </div>
+            <div class="des_cell">
+                <dl>
+                    <dt>关于物集港</dt>
+                    <dl>
+                        <ul>
+                            <li><a href="#">关于我们</a></li>
+                            <li><a href="#">联系我们</a></li>
+                            <li><a href="#">诚聘英才</a></li>
+                            <li><a href="#">法律声明</a></li>
+                        </ul>
+                    </dl>
+                </dl>
+            </div>
+            <div class="dex_info">
+                <p class="phone">027-52301697</p>
+                <p class="time">工作日 8:30-17:00</p>
+            </div>
+            <div class="dex_code">
+                <div class="code"></div>
+                <p>物集港官方微信</p>
+            </div>
+        </div>
+    </div>-->
+    <div class="bottom_copyRight">
+        <p>增值电信业务经营许可证：鄂B2-20160061</p>
+        <p>Copyright 2016 www.wujigang.cn. 鄂ICP备15023817号 -1</p>
+    </div>
+    <script type="text/javascript" src="<?php echo $staticPath . '/??' . implode(',', $js) . $staticVersion; ?>"></script>
+<?php if (isset($debugbarRenderer)) : ?>
+<?php echo $debugbarRenderer->render();?>
+<?php endif;?>
+</body>
+</html>

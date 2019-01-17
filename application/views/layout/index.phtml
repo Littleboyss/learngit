@@ -1,0 +1,46 @@
+<div class="com_header_nav">
+    <div class="com_header_logo width1200">
+        <a href="http://www.wujigang.cn/" class="logo floatL"></a>
+        <div class="searchFra floatL">
+            <div class="search">
+                <form action="/index" class="searchForm">
+                <input type="text" class="searchBox" name="keyword" placeholder="请输入关键词查询" value="<?php echo isset($keyword) ? $keyword : '';?>" autocomplete="off">
+                <input type="submit" class="searchBtn" value="搜索">
+                </form>
+            </div>
+            <div class="searchResult">
+
+            </div>
+        </div>
+        <?php if (isset($roleInfo) && $roleInfo['role_name'] == 'lessor') : // 如果当前登录用户是出租方，则不显示购物车?>
+        <?php else: ?>
+        <div class="header_cart">
+            <a href="/cart/list" target="_blank">
+                <i class="shopping-icon shopping-car"></i>
+                <span>购物车</span>
+                <i class="cart_num">0</i>
+                <i class="shopping-icon shopping-go"></i>
+            </a>
+        </div>
+        <?php endif;?>
+    </div>
+</div>
+<div class="com_index_menu">
+    <div class="com_header_menu width1200">
+        <ul class="header_menuList">
+            <li class="categorys">
+                <div class="dt_all">
+                    <a href="javascript:;"><i class="sprite sprite-list"></i>全部分类</a>
+                </div>
+                <div class="dd_mask"></div>
+
+            </li>
+            <li class="js_subject"><a href="<?php echo WWW_DOMAIN;?>" class="grayTxt1 textC">首页</a></li>
+            <li class="js_subject"><a href="<?php echo LEASE_DOMAIN;?>" class="grayTxt1 textC active">租赁商城</a></li>
+            <li class="js_subject"><a href="<?php echo SAD_DOMAIN;?>" class="grayTxt1 textC">撮合集市</a></li>
+            <li class="js_subject"><a href="<?php echo WWW_DOMAIN;?>/techstandard/index" class="grayTxt1 textC ">行业标准</a></li>
+        </ul>
+        <div class="menu_line"></div>
+    </div>
+</div>
+<?php echo $main;?>

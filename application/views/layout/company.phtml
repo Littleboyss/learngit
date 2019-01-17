@@ -1,0 +1,34 @@
+<div class="shops_header clearfix">
+	<div class="website-logo">
+		<a href="<?php echo WWW_DOMAIN;?>"></a>
+	</div>
+    <div class="shop_logo">
+        <div class="company_name"><?php echo $companyInfo['company_name'];?></div>
+    </div>
+    <!-- <div class="company_qr clearfix">
+        <i class="small_qr"></i><em class="qr_icon qr_down"></em>
+        <div id="cq_code_box">
+            <p><img width="98" height="98" src="http://api.wujigang.cn/qr/png?chl=http://company.wujigang.cn/company/index/?id=<?php echo $companyInfo['company_id'];?>&amp;show=1&amp;size=98"></p>
+            <p class="cq_code_txt">扫码进入手机店铺</p>
+        </div>
+    </div> -->
+    <form class="shops_search searchFra searchForm" action="/company/index" style="position:relative">
+        <input type="hidden" name="id" value="<?php echo $companyInfo['company_id'];?>"/><input class="shops_input searchBox" type="text" name="keyword"  value="<?php echo isset($keyword) ? $keyword : '';?>" autocomplete="off" placeholder="请输入关键词查询"><button class="local_sub" name="type" type="submit" value="company">搜本店</button><button class="whole_sub" type="button" onclick="window.location.href='/index/index?keyword='+keyword.value">搜全站</button>
+        <div class="searchResult">
+
+        </div>
+    </form>
+</div>
+<div class="company_bg">
+	<h1 class="company-name"><?php echo $companyInfo['company_name'];?></h1>
+</div>
+<div class="shops_menu_area">
+    <div class="shops_menu">
+        <ul>
+            <li class="first"><a class="active" href="/company/index?id=<?php echo $companyInfo['company_id'];?>">首页</a></li>
+            <li><a href="<?php echo COMPANY_DOMAIN;?>/company/about?id=<?php echo $companyInfo['company_id'];?>">企业介绍</a></li>
+            <li><a href="<?php echo COMPANY_DOMAIN;?>/company/contact?id=<?php echo $companyInfo['company_id'];?>">联系我们</a></li>
+        </ul>
+    </div>
+</div>
+<?php echo $main;?>
