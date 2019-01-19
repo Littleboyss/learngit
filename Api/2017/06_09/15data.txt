@@ -1,0 +1,2 @@
+{"user_token":"a4ebceb08f04b5a33b87129ad6a5ab95"}时间:2017/06/09 15:26:06请求url:/index.php?m=user&a=notice_list&user_token=a4ebceb08f04b5a33b87129ad6a5ab95
+{"id":"1","user_token":"a4ebceb08f04b5a33b87129ad6a5ab95"}时间:2017/06/09 15:41:56请求url:/index.php?m=user&a=set_notice_state&user_token=a4ebceb08f04b5a33b87129ad6a5ab95

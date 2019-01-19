@@ -1,0 +1,4 @@
+{"user_token":"4","id":"3","room_id":"33"}时间:2017/05/08 15:04:52请求url:/index.php?g=api&m=user&a=userroomdetail
+{"user_token":"4","id":"16","room_id":"33"}时间:2017/05/08 15:05:19请求url:/index.php?g=api&m=user&a=userroomdetail
+{"user_token":"4","id":"16","room_id":"33"}时间:2017/05/08 15:49:31请求url:/index.php?g=api&m=user&a=userroomdetail
+{"user_token":"4","lineup_id":"16","id":"33"}时间:2017/05/08 15:56:34请求url:/index.php?g=api&m=user&a=getuserlineup

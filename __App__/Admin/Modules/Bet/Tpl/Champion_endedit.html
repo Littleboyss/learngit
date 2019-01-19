@@ -1,0 +1,48 @@
+<include file="Public:header" />
+
+<style type="text/css">
+input.iptxt{
+    width: 350px;
+}
+</style>
+
+<div class="subnav">
+    <div class="content-menu ib-a blue line-x">
+    <a href='javascript:;' class="on"><em>添加</em></a>
+    <span>|</span>
+    <a href="{:U('endindex')}"><em>返回</em></a>
+    </div>
+</div>
+<div class="pad_10">
+    <div class="table-list">
+        <form method="post" id="form1" action="{:U('endedit')}">
+                <table width='98%' border='0' cellpadding='0' cellspacing='0'
+                       align="center" class="rtable">
+
+                    <tr>
+                        <td class="tRight">冠军猜id：</td>
+                        <td class="tLeft" colspan="3">
+                            <input type="text" name="champion_id" value="{$data.champion_id}" class="huge iptxt" />
+                        </td>
+                    </tr>
+   
+    
+                    <tr>
+                        <td class="tRight">队伍：</td>
+                        <td class="tLeft" colspan="3">
+                            <input type="text" name="teams" value="{$data.teams}" class="huge iptxt sm" />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="center"></td>
+                        <td class="center" colspan="3">
+                            <input type="submit" value="保 存" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <br /><br /><br />
+    </div>
+</div>
+</body></html>

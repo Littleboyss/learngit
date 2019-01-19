@@ -1,0 +1,36 @@
+<include file="Public:header" />
+        <div id="main_frameid" class="pad-10 display" style="_margin-right:-12px;_width:98.9%;">
+            <script type="text/javascript">
+                $(function(){if ($.browser.msie && parseInt($.browser.version) < 7) $('#browserVersionAlert').show();}); 
+            </script>
+            <div class="explain-col mb10" style="display:none" id="browserVersionAlert">
+                使用IE8浏览器可获得最佳视觉效果</div>
+            <div class="col-2 lf mr10" style="width:48%">
+                <h6>我的个人信息</h6>
+                <div class="content">
+                    您好，{$adminInfo.nickname}<br />
+                    权限：{$adminInfo.rights}<br />
+                    你的IP：{$adminInfo.ip}<br />
+                    登录本系统次数：{$adminInfo.logintimes}<br />
+                </div>
+            </div>
+            <div class="col-2 col-auto">
+                <h6>系统信息</h6>
+                <div class="content">
+                    操作系统：{$Think.const.PHP_OS}<br />
+                    服务器软件：{$Think.server.SERVER_SOFTWARE}<br />
+                    PHP版本：{$Think.const.PHP_VERSION}<br />
+                    PHP运行方式：{$Think.const.PHP_SAPI}<br />
+                    MySQL版本：{$sysInfo.mysqlVer}<br />
+                    服务器IP：{$Think.server.SERVER_ADDR}<br />
+                    phpinfo：<a href="{:U('Index/phpinfo')}" target="_blank">[查看]</a><br />
+                    <div class="bk20 hr"><hr /></div>
+                    ThinkPHP版本：{$Think.version}<br />
+                    APP_DEBUG：{$Think.const.APP_DEBUG}<br />
+                </div>
+            </div>
+            <div class="bk10"></div>
+        </div>
+    </body>
+</html>
+<script type="text/javascript">$("#main_frameid").removeClass("display");</script>

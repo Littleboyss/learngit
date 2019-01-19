@@ -1,0 +1,1739 @@
+[ 2017-04-14T09:55:52+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`username`,`entrance_ticket`,`diamond`,`gold`,`rank`,`phone`,`token` FROM `fa_user_user` WHERE ( `username` = '我是1号' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+SQL: SHOW COLUMNS FROM `fa_award_attendance` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`attend_day`,`user_id`,`add_time` FROM `fa_award_attendance` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `fa_award_attendance` SET `attend_day`=21,`add_time`=1492134952 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+
+[ 2017-04-14T10:00:15+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.023002s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.010000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.002000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001001s ]
+NOTIC: [8] Undefined offset: 0 F:\work\__App__\Api\Modules\Api\Action\AwardAction.class.php 第 252 行.
+
+[ 2017-04-14T10:00:23+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+
+[ 2017-04-14T10:06:29+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492135589) [ RunTime:0.066004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+50 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.012000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',50,1492135589) [ RunTime:0.067003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492135589) [ RunTime:0.067004s ]
+
+[ 2017-04-14T11:05:15+08:00 ] 127.0.0.1 /
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2017-04-14T11:29:58+08:00 ] 127.0.0.1 /index.php?m=award&a=get_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+ERR: Model:getFields您所请求的方法不存在！
+
+[ 2017-04-14T11:31:12+08:00 ] 127.0.0.1 /index.php?m=award&a=get_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+ERR: Action:getFields您所请求的方法不存在！
+
+[ 2017-04-14T11:32:51+08:00 ] 127.0.0.1 /index.php?m=award&a=get_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+ERR: Model:getFields您所请求的方法不存在！
+
+[ 2017-04-14T11:57:08+08:00 ] 127.0.0.1 /index.php?m=award&a=get_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+ERR: Model:getFields您所请求的方法不存在！
+
+[ 2017-04-14T17:13:50+08:00 ] 127.0.0.1 /index.php?m=user&a=user_info&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-04-14T17:14:37+08:00 ] 127.0.0.1 /index.php?m=User&a=user_info&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-14T17:15:37+08:00 ] 127.0.0.1 /index.php?m=User&a=user_info&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `entrance_ticket`,`diamond`,`gold` FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-04-14T17:28:15+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492162095) [ RunTime:0.076004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492162095) [ RunTime:0.068004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492162095) [ RunTime:0.067004s ]
+
+[ 2017-04-14T17:28:16+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492162096) [ RunTime:0.062003s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',20,1492162096) [ RunTime:0.064003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492162096) [ RunTime:0.066004s ]
+
+[ 2017-04-14T17:28:17+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492162097) [ RunTime:0.067004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+15 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',15,1492162097) [ RunTime:0.063004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492162097) [ RunTime:0.065004s ]
+
+[ 2017-04-14T17:28:18+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492162098) [ RunTime:0.062003s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+50 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001001s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',50,1492162098) [ RunTime:0.063003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492162098) [ RunTime:0.066004s ]
+
+[ 2017-04-14T17:28:19+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492162099) [ RunTime:0.080005s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond+15 WHERE ( `id` = 4 ) [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','砖石',15,1492162099) [ RunTime:0.068004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,2,4,1492162099) [ RunTime:0.066004s ]
+
+[ 2017-04-14T17:28:20+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492162100) [ RunTime:0.050002s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',20,1492162100) [ RunTime:0.046002s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492162100) [ RunTime:0.050003s ]
+
+[ 2017-04-14T17:28:21+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.044003s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492162101) [ RunTime:0.098006s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',20,1492162101) [ RunTime:0.046002s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492162101) [ RunTime:0.059003s ]
+
+[ 2017-04-14T17:28:22+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492162102) [ RunTime:0.070004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',20,1492162102) [ RunTime:0.064004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492162102) [ RunTime:0.066004s ]
+
+[ 2017-04-14T17:28:23+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492162103) [ RunTime:0.082005s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 4 ) [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',20,1492162103) [ RunTime:0.070004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492162103) [ RunTime:0.066004s ]
+
+[ 2017-04-14T17:28:23+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492162103) [ RunTime:0.072004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+15 WHERE ( `id` = 4 ) [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',15,1492162103) [ RunTime:0.062004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492162103) [ RunTime:0.067004s ]
+
+[ 2017-04-14T17:28:24+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492162104) [ RunTime:0.120007s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492162104) [ RunTime:0.069004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492162104) [ RunTime:0.067004s ]
+
+[ 2017-04-14T17:28:25+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492162105) [ RunTime:0.069004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492162105) [ RunTime:0.068004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492162105) [ RunTime:0.066004s ]
+
+[ 2017-04-14T17:59:01+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-04-14T17:59:29+08:00 ] 127.0.0.1 /index.php?m=public&a=login&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: uid F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 16 行.
+
+[ 2017-04-14T17:59:50+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-04-14T17:59:51+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-04-14T17:59:52+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-04-14T17:59:53+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-04-14T18:04:04+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`username`,`entrance_ticket`,`diamond`,`gold`,`rank`,`phone`,`token` FROM `fa_user_user` WHERE ( `username` = '我是1号' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:04:19+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`username`,`entrance_ticket`,`diamond`,`gold`,`rank`,`phone`,`token` FROM `fa_user_user` WHERE ( `username` = '我是1号' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:04:44+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`username`,`entrance_ticket`,`diamond`,`gold`,`rank`,`phone`,`token` FROM `fa_user_user` WHERE ( `username` = '我是1号' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+
+[ 2017-04-14T18:05:14+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`username`,`entrance_ticket`,`diamond`,`gold`,`rank`,`phone`,`token` FROM `fa_user_user` WHERE ( `username` = '我是1号' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+SQL: SHOW COLUMNS FROM `fa_award_attendance` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`attend_day`,`user_id`,`add_time` FROM `fa_award_attendance` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-04-14T18:05:21+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-04-14T18:09:58+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] var_dump() expects at least 1 parameter, 0 given F:\work\__App__\Api\Modules\Api\Action\AwardAction.class.php 第 227 行.
+
+[ 2017-04-14T18:10:01+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] var_dump() expects at least 1 parameter, 0 given F:\work\__App__\Api\Modules\Api\Action\AwardAction.class.php 第 227 行.
+
+[ 2017-04-14T18:10:02+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] var_dump() expects at least 1 parameter, 0 given F:\work\__App__\Api\Modules\Api\Action\AwardAction.class.php 第 227 行.
+
+[ 2017-04-14T18:10:04+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] var_dump() expects at least 1 parameter, 0 given F:\work\__App__\Api\Modules\Api\Action\AwardAction.class.php 第 227 行.
+
+[ 2017-04-14T18:10:05+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] var_dump() expects at least 1 parameter, 0 given F:\work\__App__\Api\Modules\Api\Action\AwardAction.class.php 第 227 行.
+
+[ 2017-04-14T18:10:38+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [2] var_dump() expects at least 1 parameter, 0 given F:\work\__App__\Api\Modules\Api\Action\AwardAction.class.php 第 227 行.
+
+[ 2017-04-14T18:10:39+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2] var_dump() expects at least 1 parameter, 0 given F:\work\__App__\Api\Modules\Api\Action\AwardAction.class.php 第 227 行.
+
+[ 2017-04-14T18:10:53+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164653) [ RunTime:0.073005s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+15 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',15,1492164653) [ RunTime:0.064004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164653) [ RunTime:0.066003s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:10:55+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164655) [ RunTime:0.080004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',20,1492164655) [ RunTime:0.062401s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164655) [ RunTime:0.069603s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:10:56+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164656) [ RunTime:0.068801s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+50 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',50,1492164656) [ RunTime:0.046800s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164656) [ RunTime:0.047800s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:10:57+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164657) [ RunTime:0.061801s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',20,1492164657) [ RunTime:0.033200s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164657) [ RunTime:0.062400s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:10:58+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002001s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164658) [ RunTime:0.098005s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002001s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164658) [ RunTime:0.062003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164658) [ RunTime:0.083005s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:10:59+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164659) [ RunTime:0.063004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+15 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',15,1492164659) [ RunTime:0.077005s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164659) [ RunTime:0.066004s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:00+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002001s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164660) [ RunTime:0.059003s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',20,1492164660) [ RunTime:0.066401s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164660) [ RunTime:0.064400s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:01+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164661) [ RunTime:0.059004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164661) [ RunTime:0.073400s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164661) [ RunTime:0.060004s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:05+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164665) [ RunTime:0.067202s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond+15 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','砖石',15,1492164665) [ RunTime:0.081001s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,2,4,1492164665) [ RunTime:0.066003s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:07+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001001s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164667) [ RunTime:0.077202s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.015600s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164667) [ RunTime:0.062400s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164667) [ RunTime:0.073203s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:08+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164668) [ RunTime:0.050003s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164668) [ RunTime:0.047002s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164668) [ RunTime:0.050003s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:09+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164669) [ RunTime:0.051003s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164669) [ RunTime:0.047003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164669) [ RunTime:0.050002s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:10+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164670) [ RunTime:0.055004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.015600s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164670) [ RunTime:0.062400s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164670) [ RunTime:0.066004s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:11+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164671) [ RunTime:0.088005s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164671) [ RunTime:0.079001s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164671) [ RunTime:0.063400s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:37+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002001s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164697) [ RunTime:0.068003s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164697) [ RunTime:0.063003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164697) [ RunTime:0.067004s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:38+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001001s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164698) [ RunTime:0.075004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.003000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164698) [ RunTime:0.068004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164698) [ RunTime:0.067004s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:39+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164699) [ RunTime:0.068004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',20,1492164699) [ RunTime:0.063004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164699) [ RunTime:0.067004s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:40+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164700) [ RunTime:0.065004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164700) [ RunTime:0.055003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164700) [ RunTime:0.043003s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:41+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164701) [ RunTime:0.085604s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164701) [ RunTime:0.060801s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164701) [ RunTime:0.047602s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:42+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002001s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164701) [ RunTime:0.064003s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 4 ) [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',20,1492164702) [ RunTime:0.056201s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164702) [ RunTime:0.078401s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:43+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164702) [ RunTime:0.098002s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',20,1492164702) [ RunTime:0.062400s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164702) [ RunTime:0.071202s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:43+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164703) [ RunTime:0.066004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+15 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',15,1492164703) [ RunTime:0.063003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164703) [ RunTime:0.067004s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:44+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164704) [ RunTime:0.135008s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 4 ) [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',20,1492164704) [ RunTime:0.076004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164704) [ RunTime:0.067004s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:45+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164705) [ RunTime:0.061003s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+50 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002001s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',50,1492164705) [ RunTime:0.066801s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164705) [ RunTime:0.059202s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:46+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164706) [ RunTime:0.114601s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164706) [ RunTime:0.060801s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164706) [ RunTime:0.081802s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:47+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001001s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164707) [ RunTime:0.065400s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+15 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',15,1492164707) [ RunTime:0.079604s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164707) [ RunTime:0.058800s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:48+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164708) [ RunTime:0.125007s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001001s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164708) [ RunTime:0.062003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164708) [ RunTime:0.075004s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:50+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164709) [ RunTime:0.121007s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164709) [ RunTime:0.063004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164710) [ RunTime:0.067004s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:11:51+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164711) [ RunTime:0.057003s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond+15 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','砖石',15,1492164711) [ RunTime:0.070802s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,2,4,1492164711) [ RunTime:0.054201s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:12:43+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+
+[ 2017-04-14T18:13:56+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164836) [ RunTime:0.083604s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164836) [ RunTime:0.070401s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164836) [ RunTime:0.067003s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:13:57+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164837) [ RunTime:0.083401s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+15 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',15,1492164837) [ RunTime:0.064400s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164837) [ RunTime:0.078000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:13:58+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164838) [ RunTime:0.054003s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001001s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164838) [ RunTime:0.032601s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164838) [ RunTime:0.063400s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:13:59+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164839) [ RunTime:0.135007s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164839) [ RunTime:0.130007s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164839) [ RunTime:0.127007s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:14:00+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164840) [ RunTime:0.146806s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.003000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',20,1492164840) [ RunTime:0.129003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164840) [ RunTime:0.096605s ]
+
+[ 2017-04-14T18:14:01+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164841) [ RunTime:0.064004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164841) [ RunTime:0.048602s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164841) [ RunTime:0.046800s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:14:02+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164842) [ RunTime:0.059003s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',20,1492164842) [ RunTime:0.062401s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164842) [ RunTime:0.047800s ]
+
+[ 2017-04-14T18:14:03+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164843) [ RunTime:0.065202s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+50 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',50,1492164843) [ RunTime:0.062003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164843) [ RunTime:0.067004s ]
+
+[ 2017-04-14T18:14:04+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164844) [ RunTime:0.064004s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond+15 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','砖石',15,1492164844) [ RunTime:0.070004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,2,4,1492164844) [ RunTime:0.067004s ]
+
+[ 2017-04-14T18:14:05+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164845) [ RunTime:0.057003s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164845) [ RunTime:0.062401s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164845) [ RunTime:0.078202s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:14:06+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164846) [ RunTime:0.072203s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',10,1492164846) [ RunTime:0.068400s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164846) [ RunTime:0.090204s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+
+[ 2017-04-14T18:14:07+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=4
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 34 行.
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,4,1492164846) [ RunTime:0.100006s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 4 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是4号','入场券',20,1492164847) [ RunTime:0.062400s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,4,1492164847) [ RunTime:0.075203s ]
+

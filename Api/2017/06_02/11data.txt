@@ -1,0 +1,3 @@
+{"user_token":"4"}时间:2017/06/02 11:05:01请求url:/index.php?g=api&m=user&a=userbetmatching
+{"user_token":"4"}时间:2017/06/02 11:05:01请求url:/index.php?g=api&m=user&a=userbetmatching
+{"status":"2","user_token":"4"}时间:2017/06/02 11:13:51请求url:/index.php?g=api&m=user&a=userbetmatch

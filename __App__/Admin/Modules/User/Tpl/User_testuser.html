@@ -1,0 +1,46 @@
+<include file="Public:header" />
+<div class="subnav">
+  <div class="content-menu ib-a blue line-x"> <a href='javascript:;' class="on"><em>列表</em></a></div>
+  </div>
+</div>
+<div class="subnav">用户数:{$count}</div>
+<div class="pad_10">
+  <div class="table-list">
+    <table id="checkList" class="tableList" width='98%' border='0'
+	cellpadding='1' cellspacing='1' align="center">
+  <thead>
+	<tr align="center" class="h_tr">
+    <th width="4%" align="center"><input type="checkbox" value="" id="check_box" onclick="selectall('id[]');"></th>
+    <th align="center">ID</th>
+		<th align="center">用户名</th>
+    <th align="center">token</th>
+    <th align="center">门票</th>
+    <th align="center">钻石</th>
+		<th align="center">木头</th>
+	</tr>
+  </thead>
+	<tbody id="checkList_tbody">
+  <foreach name= "data" item= "vo" >
+		<tr align='left'>
+      <td align="center"><input class="inputcheckbox" name="id[]" value="{$vo['hero_id']}" type="checkbox"></td>
+      <td align="center">{$vo.id}</td>
+      <td align="center">{$vo[username]}</td>
+      <td align="center">{$vo[token]}</td>
+      <td align="center">{$vo[entrance_ticket]}</td>
+			<td align="center">{$vo[diamond]}</td>
+      <td align="center">{$vo.gold}</td>
+		</tr>
+  </foreach>
+    <tr>
+      <td class="pagination" colspan="7" align="center">{$show}</td>
+    </tr>
+	</tbody>
+</table>
+      </table>
+      <!-- <div class="btn"><a href="#" onclick="javascript:$('input[type=checkbox]').attr('checked', true)">全选</a>/<a href="#" onclick="javascript:$('input[type=checkbox]').attr('checked', false)">取消</a>
+        <input name="submit" type="submit" onclick="return confirm('确认删除吗？');" value="删除" id="submit" class="button">
+      </div> -->
+    </form>
+  </div>
+</div>
+</body></html>

@@ -1,0 +1,6 @@
+{"id":"11825"}时间:2017/06/22 17:06:38请求url:/index.php?g=api&m=public&a=get_match_live&id=11825
+{"id":"11825"}时间:2017/06/22 17:06:41请求url:/index.php?g=api&m=public&a=get_match_live&id=11825
+{"id":"11825"}时间:2017/06/22 17:07:31请求url:/index.php?g=api&m=public&a=get_match_live&id=11825
+{"id":"11825"}时间:2017/06/22 17:35:42请求url:/index.php?g=api&m=public&a=get_match_live&id=11825
+{"id":"11825"}时间:2017/06/22 17:36:59请求url:/index.php?g=api&m=public&a=get_match_live&id=11825
+{"id":"11825"}时间:2017/06/22 17:54:41请求url:/index.php?g=api&m=public&a=get_match_live&id=11825

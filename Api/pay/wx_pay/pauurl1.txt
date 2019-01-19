@@ -1,0 +1,1 @@
+http://api.aifamu.com/index.php?g=api&m=pay&a=wxcallback&nonce_str=e531e258fe3098c3bdd707c30a687d73&cash_fee=10&out_trade_no=a02902c456bc38b943c145bf4e0405cf&transaction_id=4000442001201706308085515244&trade_type=JSAPI

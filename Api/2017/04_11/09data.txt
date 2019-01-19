@@ -1,0 +1,5 @@
+{"phone":"18579180150","type":"1","pass1":"chengye1","pass2":"chengye1"}时间:2017/04/11 09:31:20请求url:/index.php?g=api&m=public&a=register
+{"phoneNum":"18579180150","todo":"1"}时间:2017/04/11 09:32:40请求url:/index.php?g=api&m=sms&a=send
+{"phoneNum":"15656416823","todo":"1"}时间:2017/04/11 09:33:43请求url:/index.php?g=api&m=sms&a=send
+{"phoneNum":"15656416823","smsCode":"964733"}时间:2017/04/11 09:34:02请求url:/index.php?g=api&m=sms&a=verify
+{"phone":"15656416823","type":"1","pass1":"chengye1","pass2":"chengye1"}时间:2017/04/11 09:34:25请求url:/index.php?g=api&m=public&a=register

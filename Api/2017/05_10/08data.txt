@@ -1,0 +1,7 @@
+{"id":"33","guess_num":"1","user_token":"1fehsdffd","team_info":{"1":"6","2":"2","3":"8","4":"5","5":"7","6":"47","7":"37","8":"4"}}时间:2017/05/10 08:51:57请求url:/index.php?g=api&m=bet&a=guess
+{"match_id":"8"}时间:2017/05/10 08:54:12请求url:/index.php?g=api&m=public&a=player_match_data_lol_add&match_id=8
+{"id":"33","guess_num":"1","user_token":"1fehsdffd","team_info":{"1":"6","2":"2","3":"8","4":"5","5":"7","6":"47","7":"37","8":"4"}}时间:2017/05/10 08:54:20请求url:/index.php?g=api&m=bet&a=guess
+{"type":"3"}时间:2017/05/10 08:56:20请求url:/index.php?g=api&m=public&a=add_rand_salary&type=3
+{"id":"33","guess_num":"1","user_token":"1fehsdffd","team_info":{"1":"6","2":"2","3":"8","4":"5","5":"7","6":"47","7":"37","8":"4"}}时间:2017/05/10 08:57:12请求url:/index.php?g=api&m=bet&a=guess
+{"id":"33","guess_num":"1","user_token":"1fehsdffd","team_info":{"1":"6","2":"2","3":"8","4":"5","5":"7","6":"47","7":"37","8":"4"}}时间:2017/05/10 08:59:17请求url:/index.php?g=api&m=bet&a=guess
+{"id":"33","guess_num":"1","user_token":"1fehsdffd","team_info":{"1":"6","2":"2","3":"8","4":"5","5":"7","6":"47","7":"37","8":"4"}}时间:2017/05/10 08:59:58请求url:/index.php?g=api&m=bet&a=guess

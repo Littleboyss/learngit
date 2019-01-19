@@ -1,0 +1,6 @@
+{"user_token":"4","player_id":"9"}时间:2017/05/22 09:19:42请求url:/index.php?g=api&m=extra&a=lolplayermatchdata
+{"user_token":"4","player_id":"10"}时间:2017/05/22 09:20:01请求url:/index.php?g=api&m=extra&a=lolplayermatchdata
+{"user_token":"4","player_id":"17"}时间:2017/05/22 09:26:24请求url:/index.php?g=api&m=extra&a=lolplayermatchdata
+{"user_token":"4","player_id":"17"}时间:2017/05/22 09:35:12请求url:/index.php?g=api&m=extra&a=lolplayermatchdata
+{"user_token":"4","player_id":"17"}时间:2017/05/22 09:35:49请求url:/index.php?g=api&m=extra&a=lolplayermatchdata
+{"user_token":"4","player_id":"100053"}时间:2017/05/22 09:53:53请求url:/index.php?g=api&m=extra&a=lolplayermatchdata

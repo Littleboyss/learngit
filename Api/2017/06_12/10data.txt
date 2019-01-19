@@ -1,0 +1,5 @@
+{"phoneNum":"15629067913","todo":"3"}时间:2017/06/12 10:00:35请求url:/index.php?g=api&m=sms&a=send
+{"phoneNum":"15629067913","smsCode":"704358"}时间:2017/06/12 10:00:56请求url:/index.php?g=api&m=sms&a=verify
+[]时间:2017/06/12 10:01:46请求url:/index.php?g=api&m=user&a=verify
+{"user_token":"eecfa06e6a2a5c13c4f37ecfac8e3dce","phone":"15629067913"}时间:2017/06/12 10:02:43请求url:/index.php?g=api&m=user&a=bind_phone
+{"user_token":"eecfa06e6a2a5c13c4f37ecfac8e3dce","phone":"15629067912"}时间:2017/06/12 10:03:06请求url:/index.php?g=api&m=user&a=bind_phone

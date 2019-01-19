@@ -1,0 +1,846 @@
+[ 2017-06-08T09:13:55+08:00 ] 127.0.0.1 /index.php?g=api&m=sms&a=send
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM www_aifamu_com_user.fa_user_user WHERE ( `phone` = '15656416823' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-06-08T09:14:08+08:00 ] 127.0.0.1 /index.php?g=api&m=sms&a=send
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM www_aifamu_com_user.fa_user_user WHERE ( `phone` = '15656416822' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_admin_sms [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_admin_sms WHERE ( `ip` = '2130706433' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT COUNT(*) AS tp_count FROM www_aifamu_com_user.fa_admin_sms WHERE ( `ip` = '2130706433' ) AND ( `sms_time` > 1496851200 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_admin_sms WHERE ( `phone` = '15656416822' ) ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO www_aifamu_com_user.fa_admin_sms (`phone`,`sms_code`,`todo`,`sms_time`,`source`,`ip`) VALUES ('15656416822',592105,1,1496884448,2,'2130706433') [ RunTime:0.001000s ]
+
+[ 2017-06-08T09:17:07+08:00 ] 127.0.0.1 /index.php?g=api&m=sms&a=send
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM www_aifamu_com_user.fa_user_user WHERE ( `phone` = '15656416823' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-06-08T09:20:07+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=register
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_admin_sms` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `status` = 1 ) AND ( `todo` = 1 ) AND ( `phone` = '15656416823' ) AND ( `sms_time` > 1496884207 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-06-08T09:28:28+08:00 ] 127.0.0.1 /index.php?g=api&m=sms&a=send
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM www_aifamu_com_user.fa_user_user WHERE ( `phone` = '15656416823' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-06-08T09:28:37+08:00 ] 127.0.0.1 /index.php?g=api&m=sms&a=send
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM www_aifamu_com_user.fa_user_user WHERE ( `phone` = '15656416822' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_admin_sms [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_admin_sms WHERE ( `ip` = '2130706433' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT COUNT(*) AS tp_count FROM www_aifamu_com_user.fa_admin_sms WHERE ( `ip` = '2130706433' ) AND ( `sms_time` > 1496851200 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_admin_sms WHERE ( `phone` = '15656416822' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead F:\work\__App__\Api\Modules\Api\Action\SmsAction.class.php 第 122 行.
+SQL: UPDATE www_aifamu_com_user.fa_admin_sms SET `get_count`=get_count+1 WHERE ( `phone` = '15656416822' ) [ RunTime:0.000000s ]
+SQL: UPDATE www_aifamu_com_user.fa_admin_sms SET `sms_code`=474524,`sms_time`=1496885317,`status`=0,`ip`='2130706433',`todo`=1,`source`=2 WHERE ( `phone` = '15656416822' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_admin_smscount [ RunTime:0.001000s ]
+SQL: INSERT INTO www_aifamu_com_user.fa_admin_smscount (`phone`,`request_time`) VALUES ('15656416822',1496885317) [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT COUNT(*) AS tp_count FROM www_aifamu_com_user.fa_admin_smscount WHERE ( `request_time` > 1496881717 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM www_aifamu_com_user.fa_admin_smscount WHERE ( request_time <1496764800 ) [ RunTime:0.000000s ]
+SQL: UPDATE www_aifamu_com_user.fa_admin_sms SET `total`=total+1 WHERE ( `phone` = '15656416822' ) [ RunTime:0.000000s ]
+
+[ 2017-06-08T09:30:12+08:00 ] 127.0.0.1 /index.php?g=api&m=sms&a=send
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM www_aifamu_com_user.fa_user_user WHERE ( `phone` = '15656416822' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_admin_sms [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_admin_sms WHERE ( `ip` = '2130706433' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT COUNT(*) AS tp_count FROM www_aifamu_com_user.fa_admin_sms WHERE ( `ip` = '2130706433' ) AND ( `sms_time` > 1496851200 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_admin_sms WHERE ( `phone` = '15656416822' ) ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead F:\work\__App__\Api\Modules\Api\Action\SmsAction.class.php 第 122 行.
+SQL: UPDATE www_aifamu_com_user.fa_admin_sms SET `get_count`=get_count+1 WHERE ( `phone` = '15656416822' ) [ RunTime:0.001000s ]
+SQL: UPDATE www_aifamu_com_user.fa_admin_sms SET `sms_code`=255924,`sms_time`=1496885412,`status`=0,`ip`='2130706433',`todo`=1,`source`=2 WHERE ( `phone` = '15656416822' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_admin_smscount [ RunTime:0.001000s ]
+SQL: INSERT INTO www_aifamu_com_user.fa_admin_smscount (`phone`,`request_time`) VALUES ('15656416822',1496885412) [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT COUNT(*) AS tp_count FROM www_aifamu_com_user.fa_admin_smscount WHERE ( `request_time` > 1496881812 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM www_aifamu_com_user.fa_admin_smscount WHERE ( request_time <1496764800 ) [ RunTime:0.001000s ]
+SQL: UPDATE www_aifamu_com_user.fa_admin_sms SET `total`=total+1 WHERE ( `phone` = '15656416822' ) [ RunTime:0.000000s ]
+
+[ 2017-06-08T09:30:41+08:00 ] 127.0.0.1 /index.php?g=api&m=sms&a=verify
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_admin_sms [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_admin_sms WHERE ( `phone` = '15656416822' ) AND ( `sms_code` = 255924 ) AND ( `status` = 0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE www_aifamu_com_user.fa_admin_sms SET `status`=1 WHERE ( `phone` = '15656416822' ) AND ( `sms_code` = 255924 ) AND ( `status` = 0 ) [ RunTime:0.000000s ]
+
+[ 2017-06-08T09:30:57+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=register
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_admin_sms` [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `status` = 1 ) AND ( `todo` = 1 ) AND ( `phone` = '15656416822' ) AND ( `sms_time` > 1496884857 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-06-08T09:36:18+08:00 ] 127.0.0.1 /index.php?g=api&m=sms&a=send
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM `fa_user_user` WHERE ( `phone` = '15656416822' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_admin_sms` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `ip` = '2130706433' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fa_admin_sms` WHERE ( `ip` = '2130706433' ) AND ( `sms_time` > 1496851200 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `phone` = '15656416822' ) ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_admin_sms` (`phone`,`sms_code`,`todo`,`sms_time`,`source`,`ip`) VALUES ('15656416822',714410,1,1496885778,2,'2130706433') [ RunTime:0.000000s ]
+
+[ 2017-06-08T09:36:25+08:00 ] 127.0.0.1 /index.php?g=api&m=sms&a=verify
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_admin_sms` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `phone` = '15656416822' ) AND ( `sms_code` = 714410 ) AND ( `status` = 0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `fa_admin_sms` SET `status`=1 WHERE ( `phone` = '15656416822' ) AND ( `sms_code` = 714410 ) AND ( `status` = 0 ) [ RunTime:0.001000s ]
+
+[ 2017-06-08T09:36:31+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=register
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `fa_admin_sms` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `status` = 1 ) AND ( `todo` = 1 ) AND ( `phone` = '15656416822' ) AND ( `sms_time` > 1496885191 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `phone` = '15656416822' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_user` (`type`,`add_time`,`ip`,`username`,`phone`,`password`,`entrance_ticket`,`diamond`,`gold`) VALUES (1,1496885791,'2130706433','phone_48NiWt1N#1578','15656416822','f8f6ea3f43453e446d1814dfcf4221f6',100,100,100) [ RunTime:0.154009s ]
+SQL: UPDATE `fa_user_user` SET `token`='5ae7a8446b329be6c3ae6dbdc7573f72' WHERE ( id = 11 ) [ RunTime:0.049003s ]
+SQL: SHOW COLUMNS FROM `fa_user_error_try` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_error_try` (`user_id`) VALUES (11) [ RunTime:0.048003s ]
+
+[ 2017-06-08T09:38:47+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login_do
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+ERR: 非法操作:login_do
+
+[ 2017-06-08T09:39:00+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_user_error_try` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `phone` = '15656416822 ' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `user_error`,`user_time` FROM `fa_user_error_try` WHERE ( `user_id` = 11 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_error_try` SET `user_error`=0 WHERE ( `user_id` = 11 ) [ RunTime:0.070004s ]
+NOTIC: [8] Undefined variable: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 228 行.
+SQL: UPDATE `fa_user_user` SET `ip`='2130706433',`last_time`=1496885940,`token`='5f1519f0fbdd804beab2082db650d135' WHERE ( `id` = 11 ) [ RunTime:0.050003s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [2] Missing argument 3 for CommonAction::cache(), called in F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php on line 240 and defined F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `fa_user_rank` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name` FROM `fa_user_rank`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_attendance` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`attend_day`,`user_id`,`add_time` FROM `fa_award_attendance` WHERE ( `user_id` = 11 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `fa_award_attendance` SET `attend_day`=2,`add_time`=1496885940 WHERE ( `user_id` = 11 ) [ RunTime:0.001000s ]
+
+[ 2017-06-08T09:43:45+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=forget
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_admin_sms` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `status` = 1 ) AND ( `todo` = 2 ) AND ( `phone` = '18579180150' ) AND ( `sms_time` > 1496885625 ) LIMIT 1   [ RunTime:0.001001s ]
+
+[ 2017-06-08T09:48:35+08:00 ] 127.0.0.1 /index.php?g=api&m=sms&a=send
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM `fa_user_user` WHERE ( `phone` = '15656416822' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_admin_sms` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `ip` = '2130706433' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fa_admin_sms` WHERE ( `ip` = '2130706433' ) AND ( `sms_time` > 1496851200 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `phone` = '15656416822' ) ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead F:\work\__App__\Api\Modules\Api\Action\SmsAction.class.php 第 122 行.
+SQL: UPDATE `fa_admin_sms` SET `get_count`=get_count+1 WHERE ( `phone` = '15656416822' ) [ RunTime:0.001000s ]
+SQL: UPDATE `fa_admin_sms` SET `sms_code`=556674,`sms_time`=1496886515,`status`=0,`ip`='2130706433',`todo`=2,`source`=2 WHERE ( `phone` = '15656416822' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_admin_smscount` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_admin_smscount` (`phone`,`request_time`) VALUES ('15656416822',1496886515) [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fa_admin_smscount` WHERE ( `request_time` > 1496882915 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: DELETE FROM `fa_admin_smscount` WHERE ( request_time <1496764800 ) [ RunTime:0.000000s ]
+SQL: UPDATE `fa_admin_sms` SET `total`=total+1 WHERE ( `phone` = '15656416822' ) [ RunTime:0.001000s ]
+
+[ 2017-06-08T09:48:42+08:00 ] 127.0.0.1 /index.php?g=api&m=sms&a=verify
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_admin_sms` [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `phone` = '15656416822' ) AND ( `sms_code` = 556674 ) AND ( `status` = 0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `fa_admin_sms` SET `status`=1 WHERE ( `phone` = '15656416822' ) AND ( `sms_code` = 556674 ) AND ( `status` = 0 ) [ RunTime:0.000000s ]
+
+[ 2017-06-08T09:48:56+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=forget
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_admin_sms` [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `status` = 1 ) AND ( `todo` = 2 ) AND ( `phone` = '15656416822' ) AND ( `sms_time` > 1496885936 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `phone` = '15656416822' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-06-08T09:49:20+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=forget
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_admin_sms` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `status` = 1 ) AND ( `todo` = 2 ) AND ( `phone` = '15656416822' ) AND ( `sms_time` > 1496885959 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `phone` = '15656416822' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `phone`='15656416822',`password`='98803da12da0fe454bd3c63d71bbf9a8',`token`='e86b324442bfb0af12f0583b749e0639',`ip`='2130706433' WHERE ( id = 11 ) [ RunTime:0.071004s ]
+
+[ 2017-06-08T10:12:25+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=register
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: phone F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 406 行.
+
+[ 2017-06-08T10:12:45+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=check_token
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: [8] Undefined variable: user F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 195 行.
+
+[ 2017-06-08T10:12:58+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=check_token
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: [8] Undefined variable: user F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 195 行.
+
+[ 2017-06-08T10:13:18+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=check_token
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = 'e86b324442bfb0af12f0583b749e0639' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-06-08T10:14:37+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=check_token
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = 'e86b324442bfb0af12f0583b749e0639' ) LIMIT 1   [ RunTime:0.001001s ]
+
+[ 2017-06-08T10:16:12+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=check_token
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = 'e86b324442bfb0af12f0583b749e0639' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 244 行.
+SQL: UPDATE `fa_user_user` SET `ip`='2130706433',`last_time`=1496888172,`token`='8db501c5c0367ad2553c63c6d59801eb' WHERE ( `id` = 11 ) [ RunTime:0.072004s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [2] Missing argument 3 for CommonAction::cache(), called in F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php on line 256 and defined F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `fa_award_attendance` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`attend_day`,`user_id`,`add_time` FROM `fa_award_attendance` WHERE ( `user_id` = 11 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-06-08T10:53:04+08:00 ] 127.0.0.1 /index.php?g=api&m=sms&a=send
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM `fa_user_user` WHERE ( `phone` = '18579180150' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_admin_sms` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `ip` = '2130706433' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fa_admin_sms` WHERE ( `ip` = '2130706433' ) AND ( `sms_time` > 1496851200 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `phone` = '18579180150' ) ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead F:\work\__App__\Api\Modules\Api\Action\SmsAction.class.php 第 122 行.
+SQL: UPDATE `fa_admin_sms` SET `get_count`=1 WHERE ( `phone` = '18579180150' ) [ RunTime:0.001000s ]
+SQL: UPDATE `fa_admin_sms` SET `sms_code`=786865,`sms_time`=1496890382,`status`=0,`ip`='2130706433',`todo`=2,`source`=2 WHERE ( `phone` = '18579180150' ) [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fa_admin_smscount` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_admin_smscount` (`phone`,`request_time`) VALUES ('18579180150',1496890382) [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fa_admin_smscount` WHERE ( `request_time` > 1496886782 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: DELETE FROM `fa_admin_smscount` WHERE ( request_time <1496764800 ) [ RunTime:0.000000s ]
+SQL: UPDATE `fa_admin_sms` SET `total`=total+1 WHERE ( `phone` = '18579180150' ) [ RunTime:0.001000s ]
+
+[ 2017-06-08T10:55:49+08:00 ] 127.0.0.1 /index.php?g=api&m=sms&a=send
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM `fa_user_user` WHERE ( `phone` = '18579180150' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_admin_sms` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `ip` = '2130706433' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fa_admin_sms` WHERE ( `ip` = '2130706433' ) AND ( `sms_time` > 1496851200 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `phone` = '18579180150' ) ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead F:\work\__App__\Api\Modules\Api\Action\SmsAction.class.php 第 122 行.
+SQL: UPDATE `fa_admin_sms` SET `get_count`=get_count+1 WHERE ( `phone` = '18579180150' ) [ RunTime:0.000000s ]
+SQL: UPDATE `fa_admin_sms` SET `sms_code`=832376,`sms_time`=1496890547,`status`=0,`ip`='2130706433',`todo`=2,`source`=2 WHERE ( `phone` = '18579180150' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_admin_smscount` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_admin_smscount` (`phone`,`request_time`) VALUES ('18579180150',1496890547) [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fa_admin_smscount` WHERE ( `request_time` > 1496886947 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: DELETE FROM `fa_admin_smscount` WHERE ( request_time <1496764800 ) [ RunTime:0.001001s ]
+SQL: UPDATE `fa_admin_sms` SET `total`=total+1 WHERE ( `phone` = '18579180150' ) [ RunTime:0.001000s ]
+
+[ 2017-06-08T11:00:39+08:00 ] 127.0.0.1 /index.php?g=api&m=sms&a=send
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM `fa_user_user` WHERE ( `phone` = '18579180150' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_admin_sms` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `ip` = '2130706433' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fa_admin_sms` WHERE ( `ip` = '2130706433' ) AND ( `sms_time` > 1496851200 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `phone` = '18579180150' ) ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [2048] mktime(): You should be using the time() function instead F:\work\__App__\Api\Modules\Api\Action\SmsAction.class.php 第 122 行.
+SQL: UPDATE `fa_admin_sms` SET `get_count`=get_count+1 WHERE ( `phone` = '18579180150' ) [ RunTime:0.000000s ]
+SQL: UPDATE `fa_admin_sms` SET `sms_code`=153998,`sms_time`=1496890838,`status`=0,`ip`='2130706433',`todo`=2,`source`=2 WHERE ( `phone` = '18579180150' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_admin_smscount` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_admin_smscount` (`phone`,`request_time`) VALUES ('18579180150',1496890838) [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fa_admin_smscount` WHERE ( `request_time` > 1496887238 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `fa_admin_smscount` WHERE ( request_time <1496764800 ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 F:\work\__App__\Api\Modules\Api\Action\SmsAction.class.php 第 319 行.
+SQL: UPDATE `fa_admin_sms` SET `total`=total+1 WHERE ( `phone` = '18579180150' ) [ RunTime:0.000000s ]
+
+[ 2017-06-08T11:03:12+08:00 ] 127.0.0.1 /index.php?g=api&m=sms&a=verify
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_admin_sms` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_admin_sms` WHERE ( `phone` = '18579180150' ) AND ( `sms_code` = 153998 ) AND ( `status` = 0 ) ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `fa_admin_sms` SET `status`=1 WHERE ( `phone` = '18579180150' ) AND ( `sms_code` = 153998 ) AND ( `status` = 0 ) [ RunTime:0.001000s ]
+
+[ 2017-06-08T11:18:58+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=change_username
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = 'c16c154113b79530cb4b08a1571b76d9' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `username`='小叶子' WHERE ( id =1 ) [ RunTime:0.076005s ]
+
+[ 2017-06-08T11:19:37+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=change_username
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '3dc85f2fdec4099f5774ad2440a43356' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `username`='小叶子' WHERE ( id =2 ) [ RunTime:0.034002s ]
+ERR: 1062:Duplicate entry '小叶子' for key 'username'
+ [ SQL语句 ] : UPDATE `fa_user_user` SET `username`='小叶子' WHERE ( id =2 )
+
+[ 2017-06-08T11:34:49+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=change_username
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '3dc85f2fdec4099f5774ad2440a43356' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `username` = '小叶子' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-06-08T11:34:55+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=change_username
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '3dc85f2fdec4099f5774ad2440a43356' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `username` = '小叶子1' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `username`='小叶子1' WHERE ( id =2 ) [ RunTime:0.070004s ]
+
+[ 2017-06-08T15:53:44+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=show_all_rank
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-06-08T15:54:14+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=show_all_rank
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = 'c16c154113b79530cb4b08a1571b76d9' ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fa_user_rank` [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where F:\work\__App__\Api\Modules\Api\Action\UserAction.class.php 第 548 行.
+NOTIC: [8] Undefined variable: page F:\work\__App__\Api\Modules\Api\Action\UserAction.class.php 第 548 行.
+NOTIC: [8] Trying to get property of non-object F:\work\__App__\Api\Modules\Api\Action\UserAction.class.php 第 548 行.
+NOTIC: [8] Undefined variable: page F:\work\__App__\Api\Modules\Api\Action\UserAction.class.php 第 548 行.
+NOTIC: [8] Trying to get property of non-object F:\work\__App__\Api\Modules\Api\Action\UserAction.class.php 第 548 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.*,t2.name as class_name FROM `fa_user_rank` as t1 left join fa_user_rank_class as t2 on t1.class_id = t2.id LIMIT ,   [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT t1.*,t2.name as class_name FROM `fa_user_rank` as t1 left join fa_user_rank_class as t2 on t1.class_id = t2.id LIMIT ,  
+
+[ 2017-06-08T15:54:39+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=show_all_rank
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = 'c16c154113b79530cb4b08a1571b76d9' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_rank` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.*,t2.name as class_name FROM `fa_user_rank` as t1 left join fa_user_rank_class as t2 on t1.class_id = t2.id  [ RunTime:0.001000s ]
+
+[ 2017-06-08T15:59:12+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=show_all_rank
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = 'c16c154113b79530cb4b08a1571b76d9' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_rank` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.*,t2.name as class_name FROM `fa_user_rank` as t1 left join fa_user_rank_class as t2 on t1.class_id = t2.id  [ RunTime:0.001000s ]
+
+[ 2017-06-08T16:00:43+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=show_all_rank
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = 'c16c154113b79530cb4b08a1571b76d9' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_rank` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.name,t1.avatar_img,t1.depict,t2.name as class_name FROM `fa_user_rank` as t1 left join fa_user_rank_class as t2 on t1.class_id = t2.id  [ RunTime:0.000000s ]
+
+[ 2017-06-08T16:12:28+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=get_user_rank
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = 'c16c154113b79530cb4b08a1571b76d9' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_rank_info` [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_rank_info` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: rank_id F:\work\__App__\Api\Modules\Api\Action\UserAction.class.php 第 540 行.
+
+[ 2017-06-08T16:12:47+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=get_user_rank
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = 'c16c154113b79530cb4b08a1571b76d9' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_rank_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_rank_info` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rank_id F:\work\__App__\Api\Modules\Api\Action\UserAction.class.php 第 540 行.
+
+[ 2017-06-08T16:13:15+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=get_user_rank
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = 'c16c154113b79530cb4b08a1571b76d9' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_rank_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_rank_info` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-06-08T16:30:47+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=set_user_rank
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = 'c16c154113b79530cb4b08a1571b76d9' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_rank_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_rank_info` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `rank`=3 WHERE ( id =1 ) [ RunTime:0.077005s ]
+
+[ 2017-06-08T16:32:01+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login_do
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_user_error_try` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `phone` = '18579180150' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `user_error`,`user_time` FROM `fa_user_error_try` WHERE ( `user_id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_error_try` SET `user_error`=0 WHERE ( `user_id` = 1 ) [ RunTime:0.069004s ]
+NOTIC: [8] Undefined variable: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 251 行.
+SQL: UPDATE `fa_user_user` SET `ip`='2130706433',`last_time`=1496910721,`token`='a4ebceb08f04b5a33b87129ad6a5ab95' WHERE ( `id` = 1 ) [ RunTime:0.066004s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [2] Missing argument 3 for CommonAction::cache(), called in F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php on line 263 and defined F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `fa_user_rank` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name` FROM `fa_user_rank`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_attendance` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`attend_day`,`user_id`,`add_time` FROM `fa_award_attendance` WHERE ( `user_id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-06-08T16:32:39+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=set_user_rank
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = 'c16c154113b79530cb4b08a1571b76d9' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-06-08T16:32:55+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=set_user_rank
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = 'a4ebceb08f04b5a33b87129ad6a5ab95' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_rank_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_rank_info` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `rank`=3 WHERE ( id =1 ) [ RunTime:0.153009s ]
+
+[ 2017-06-08T16:33:01+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=set_user_rank
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = 'a4ebceb08f04b5a33b87129ad6a5ab95' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_rank_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_rank_info` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `rank`=4 WHERE ( id =1 ) [ RunTime:0.060003s ]
+
+[ 2017-06-08T16:56:08+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=check_bind
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = 'a4ebceb08f04b5a33b87129ad6a5ab95' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_open_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `phone` FROM `fa_user_user` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_open_info` WHERE ( user_id =1 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-06-08T16:56:58+08:00 ] 127.0.0.1 /index.php?g=api&m=user&a=check_bind
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = 'a4ebceb08f04b5a33b87129ad6a5ab95' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_open_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_open_info` WHERE ( user_id =1 ) LIMIT 1   [ RunTime:0.001001s ]
+

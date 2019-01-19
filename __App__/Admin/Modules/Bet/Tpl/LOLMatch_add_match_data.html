@@ -1,0 +1,163 @@
+<include file="Public:header" />
+<link rel="stylesheet" type="text/css" href="/js/calendar/jscal2.css" />
+<link rel="stylesheet" type="text/css" href="/js/calendar/border-radius.css" />
+<link rel="stylesheet" type="text/css" href="/js/calendar/win2k.css" />
+
+<style type="text/css">
+input.iptxt {
+    width: 350px;
+}
+</style>
+<div class="subnav">
+    <div class="content-menu ib-a blue line-x">
+        <a href='javascript:;' class="on"><em>添加比赛数据</em></a>
+        <span>|</span>
+        <a href="{:U('index')}"><em>返回列表</em></a>
+    </div>
+</div>
+<div class="pad_10">
+    <div class="table-list">
+        <form method="post" id="form1" action="{:U('add_match_data')}">
+            <table width='98%' border='0' cellpadding='0' cellspacing='0' align="center" class="rtable">
+                <tr>
+                </tr>
+                <tr>
+                    <td class="tRight">选择球员：</td>
+                    <td class="tLeft" colspan="3">
+                        <select name="player_id" id="select_player">
+                            <volist name="playerlist['list']" id="rs">
+                                <option value="{$rs.id}">{$rs.name}</option>
+                            </volist>
+                        </select>
+                    </td>
+                </tr>
+                <tbody id="player"></tbody>
+                    
+
+                    <tr>
+                        <td class="center "></td>
+                        <td class="center " colspan="3 ">
+                            <input type="submit" value="保 存 " />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <br /><br /><br />
+    </div>
+</div>
+<script type="text/javascript ">
+function get_player_id(player_id){
+  var html = '';
+  $("#player").html();
+  var match_id = {$playerlist['match_id']};
+   $.ajax({
+            type:'post',
+            url:"{:U( 'get_player_data')} ",
+            data:{'player_id':player_id,
+                'match_id' : match_id
+            },
+            dataType:'json',
+            success:function(e){
+                console.log(e);
+                if (e.position != '6') {
+                    html += "<tr>";
+                    html += "<td class=\'tRight\'>击杀数：</td>";
+                    html += "<td class=\'tLeft\' colspan=\'3\'>";
+                    html += "<input type=\'text\' name=\'kill\' value=\'"+e.kill+"\' class=\'huge iptxt\' />";
+                    html += "</td>";
+                    html += "</tr>";
+                    html += "<tr>";
+                    html += "<td class=\'tRight\'>死亡数：</td>";
+                    html += "<td class=\'tLeft\' colspan=\'3\'>";
+                    html += "<input type=\'text\' name=\'death\' value=\'"+e.death+"\' class=\'huge iptxt\' />";
+                    html += "</td>";
+                    html += "</tr>";
+                    html += "<tr>";
+                    html += "<td class=\'tRight\'>助攻数：</td>";
+                    html += "<td class=\'tLeft\' colspan=\'3\'>";
+                    html += "<input type=\'text\' name=\'assists\' value=\'"+e.assists+"\' class=\'huge iptxt\' />";
+                    html += "</td>";
+                    html += "</tr>";
+                    html += "<tr>";
+                    html += "<td class=\'tRight\'>补刀数：</td>";
+                    html += "<td class=\'tLeft\' colspan=\'3\'>";
+                    html += "<input type=\'text\' name=\'jungle\' value=\'"+e.jungle+"\' class=\'huge iptxt\' />";
+                    html += "</td>";
+                    html += "</tr>";
+                     html += "<tr>";
+                    html += "<td class=\'tRight\'>上场场数：</td>";
+                    html += "<td class=\'tLeft\' colspan=\'3\'>";
+                    html += "<input type=\'text\' name=\'times\' value=\'"+e.times+"\' class=\'huge iptxt\' />";
+                    html += "</td>";
+                    html += "</tr>"; 
+                    html += "<tr>";
+                    html += "<td class=\'tRight\'>是否上场：</td>";
+                    html += "<td class=\'tLeft\' colspan=\'3\'>";
+                    html += "<input type=\'text\' name=\'is_join\' value=\'"+e.is_join+"\' class=\'huge iptxt\' />1是2否";
+                    html += "</td>";
+                    html += "</tr>";
+                    html += "<tr>";
+                    html += "<td class=\'tRight\'>十次击杀或助攻数：</td>";
+                    html += "<td class=\'tLeft\' colspan=\'3\'>";
+                    html += "<input type=\'text\' name=\'ten_kill\' value=\'"+e.ten_kill+"\' class=\'huge iptxt\' />";
+                    html += "</td>";
+                    html += "</tr>";
+                }else{
+                    html += "<tr>";
+                    html += "<td class=\'tRight\'>推塔数：</td>";
+                    html += "<td class=\'tLeft\' colspan=\'3\'>";
+                    html += "<input type=\'text\' name=\'tower\' value=\'"+e.tower+"\' class=\'huge iptxt\' />";
+                    html += "</td>";
+                    html += "</tr>";
+                    html += "<tr>";
+                    html += "<td class=\'tRight\'>小龙击杀数：</td>";
+                    html += "<td class=\'tLeft\' colspan=\'3\'>";
+                    html += "<input type=\'text\' name=\'dragons\' value=\'"+e.dragons+"\' class=\'huge iptxt\' />";
+                    html += "</td>";
+                    html += "</tr>";
+                    html += "<tr>";
+                    html += "<td class=\'tRight\'>大龙击杀数：</td>";
+                    html += "<td class=\'tLeft\' colspan=\'3\'>";
+                    html += "<input type=\'text\' name=\'barons\' value=\'"+e.barons+"\' class=\'huge iptxt\' />";
+                    html += "</td>";
+                    html += "</tr>";
+                    html += "<tr>";
+                    html += "<td class=\'tRight\'>获得一血的场数：</td>";
+                    html += "<td class=\'tLeft\' colspan=\'3\'>";
+                    html += "<input type=\'text\' name=\'first_blood\' value=\'"+e.first_blood+"\' class=\'huge iptxt\' />";
+                    html += "</td>";
+                    html += "</tr>";
+                    html += "<tr>";
+                    html += "<td class=\'tRight\'>30分内赢得比赛的场数：</td>";
+                    html += "<td class=\'tLeft\' colspan=\'3\'>";
+                    html += "<input type=\'text\' name=\'is_fast\' value=\'"+e.is_fast+"\' class=\'huge iptxt\' />";
+                    html += "</td>";
+                    html += "</tr>";    
+                }
+                html += "<tr>";
+                html += "<td class=\'tRight \'>比赛时间：</td>";
+                html += "<td class=\'tLeft \' colspan=\'3 \'>";
+                html += "<input  type=\'text \' readonly=\"ture\" name=\'date\' value=\'"+e.date+"\' class=\'huge iptxt\' />";
+                html += "</td>";
+                html += "</tr>";
+                html += "<tr>";
+                html += "<td class=\'tRight \'>对手队伍名称：</td>";
+                html += "<td class=\'tLeft \' colspan=\'3 \'>";
+                html += "<input type=\'text \' readonly=\"ture\" name=\'opp\' value=\'"+e.opponents+" \' class=\'huge iptxt\' />";
+                html += "</td>";
+                html += "</tr>";
+                html += "<tr><td><input type=\"text\" hidden name=\"player_id\" value='"+player_id+"' />";
+                html += "<input type=\"text\" hidden name=\"match_id\" value='"+match_id+"' /></td></tr>";
+                $("#player").html(html);
+            }
+        });
+   
+}
+$('#select_player').on('change',function(){
+    var player_id = $(this).val();
+    get_player_id(player_id)
+});
+var player_id = $('#select_player').val();
+get_player_id(player_id);
+</script>
+</body></html>

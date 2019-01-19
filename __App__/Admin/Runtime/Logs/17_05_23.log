@@ -1,0 +1,510 @@
+[ 2017-05-23T17:15:45+08:00 ] 127.0.0.1 /index.php?g=Bet&m=NBA&a=match
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:NBA
+
+[ 2017-05-23T17:15:47+08:00 ] 127.0.0.1 /index.php?g=Bet&m=Match&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `fa_match_list` LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( project_id=4 ) ORDER BY id desc LIMIT 0,15   [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 273 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 273 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 168 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 273 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 168 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 197 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 197 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 137 行.
+NOTIC: [8] Undefined variable: addbg F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 2 行.
+NOTIC: [8] Undefined index: hero_id F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 65 行.
+NOTIC: [8] Use of undefined constant project_id - assumed 'project_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 67 行.
+NOTIC: [8] Use of undefined constant only_id - assumed 'only_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 68 行.
+NOTIC: [8] Use of undefined constant match_name_id - assumed 'match_name_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant team_a - assumed 'team_a' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant home_id - assumed 'home_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant team_a - assumed 'team_a' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Undefined index: hero_id F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 65 行.
+NOTIC: [8] Use of undefined constant project_id - assumed 'project_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 67 行.
+NOTIC: [8] Use of undefined constant only_id - assumed 'only_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 68 行.
+NOTIC: [8] Use of undefined constant match_name_id - assumed 'match_name_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant team_a - assumed 'team_a' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant home_id - assumed 'home_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Undefined index: hero_id F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 65 行.
+NOTIC: [8] Use of undefined constant project_id - assumed 'project_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 67 行.
+NOTIC: [8] Use of undefined constant only_id - assumed 'only_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 68 行.
+NOTIC: [8] Use of undefined constant match_name_id - assumed 'match_name_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant team_a - assumed 'team_a' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant home_id - assumed 'home_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Undefined index: hero_id F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 65 行.
+NOTIC: [8] Use of undefined constant project_id - assumed 'project_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 67 行.
+NOTIC: [8] Use of undefined constant only_id - assumed 'only_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 68 行.
+NOTIC: [8] Use of undefined constant match_name_id - assumed 'match_name_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant team_a - assumed 'team_a' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant home_id - assumed 'home_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Undefined index: hero_id F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 65 行.
+NOTIC: [8] Use of undefined constant project_id - assumed 'project_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 67 行.
+NOTIC: [8] Use of undefined constant only_id - assumed 'only_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 68 行.
+NOTIC: [8] Use of undefined constant match_name_id - assumed 'match_name_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant team_a - assumed 'team_a' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant home_id - assumed 'home_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Undefined index: hero_id F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 65 行.
+NOTIC: [8] Use of undefined constant project_id - assumed 'project_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 67 行.
+NOTIC: [8] Use of undefined constant only_id - assumed 'only_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 68 行.
+NOTIC: [8] Use of undefined constant match_name_id - assumed 'match_name_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant team_a - assumed 'team_a' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant home_id - assumed 'home_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Undefined index: hero_id F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 65 行.
+NOTIC: [8] Use of undefined constant project_id - assumed 'project_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 67 行.
+NOTIC: [8] Use of undefined constant only_id - assumed 'only_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 68 行.
+NOTIC: [8] Use of undefined constant match_name_id - assumed 'match_name_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant team_a - assumed 'team_a' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant home_id - assumed 'home_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Undefined index: hero_id F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 65 行.
+NOTIC: [8] Use of undefined constant project_id - assumed 'project_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 67 行.
+NOTIC: [8] Use of undefined constant only_id - assumed 'only_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 68 行.
+NOTIC: [8] Use of undefined constant match_name_id - assumed 'match_name_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant team_a - assumed 'team_a' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant home_id - assumed 'home_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Undefined index: hero_id F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 65 行.
+NOTIC: [8] Use of undefined constant project_id - assumed 'project_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 67 行.
+NOTIC: [8] Use of undefined constant only_id - assumed 'only_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 68 行.
+NOTIC: [8] Use of undefined constant match_name_id - assumed 'match_name_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant team_a - assumed 'team_a' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant home_id - assumed 'home_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Undefined index: hero_id F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 65 行.
+NOTIC: [8] Use of undefined constant project_id - assumed 'project_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 67 行.
+NOTIC: [8] Use of undefined constant only_id - assumed 'only_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 68 行.
+NOTIC: [8] Use of undefined constant match_name_id - assumed 'match_name_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant team_a - assumed 'team_a' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant home_id - assumed 'home_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Undefined index: hero_id F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 65 行.
+NOTIC: [8] Use of undefined constant project_id - assumed 'project_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 67 行.
+NOTIC: [8] Use of undefined constant only_id - assumed 'only_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 68 行.
+NOTIC: [8] Use of undefined constant match_name_id - assumed 'match_name_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant team_a - assumed 'team_a' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant home_id - assumed 'home_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Undefined index: hero_id F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 65 行.
+NOTIC: [8] Use of undefined constant project_id - assumed 'project_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 67 行.
+NOTIC: [8] Use of undefined constant only_id - assumed 'only_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 68 行.
+NOTIC: [8] Use of undefined constant match_name_id - assumed 'match_name_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant team_a - assumed 'team_a' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant home_id - assumed 'home_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Undefined index: hero_id F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 65 行.
+NOTIC: [8] Use of undefined constant project_id - assumed 'project_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 67 行.
+NOTIC: [8] Use of undefined constant only_id - assumed 'only_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 68 行.
+NOTIC: [8] Use of undefined constant match_name_id - assumed 'match_name_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant team_a - assumed 'team_a' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant home_id - assumed 'home_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Undefined index: hero_id F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 65 行.
+NOTIC: [8] Use of undefined constant project_id - assumed 'project_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 67 行.
+NOTIC: [8] Use of undefined constant only_id - assumed 'only_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 68 行.
+NOTIC: [8] Use of undefined constant match_name_id - assumed 'match_name_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant team_a - assumed 'team_a' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant home_id - assumed 'home_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Undefined index: hero_id F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 65 行.
+NOTIC: [8] Use of undefined constant project_id - assumed 'project_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 67 行.
+NOTIC: [8] Use of undefined constant only_id - assumed 'only_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 68 行.
+NOTIC: [8] Use of undefined constant match_name_id - assumed 'match_name_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Undefined offset: 0 F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 69 行.
+NOTIC: [8] Use of undefined constant team_a - assumed 'team_a' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 70 行.
+NOTIC: [8] Use of undefined constant home_id - assumed 'home_id' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant team_b - assumed 'team_b' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' F:\work\__App__\Admin\Runtime\Cache\Bet\538d8bfe6562763cd86448f123015230.php 第 71 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.100006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101006s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-05-23T17:17:57+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T17:20:37+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T17:23:17+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-23T17:25:57+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-23T17:28:37+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T17:31:17+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-23T17:33:57+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T17:36:37+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T17:39:17+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T17:41:57+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-23T17:44:37+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-23T17:47:17+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T17:49:57+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-23T17:52:37+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T17:55:17+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T17:57:57+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-23T18:00:37+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-23T18:03:17+08:00 ] 127.0.0.1 /index.php?m=Index&a=sessionLife
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

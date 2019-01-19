@@ -1,0 +1,6 @@
+{"phoneNum":"18579180150","todo":"2"}时间:2017/06/08 11:00:38请求url:/index.php?g=api&m=sms&a=send
+{"phoneNum":"18579180150","smsCode":"153998"}时间:2017/06/08 11:03:12请求url:/index.php?g=api&m=sms&a=verify
+{"user_token":"c16c154113b79530cb4b08a1571b76d9","username":"\u5c0f\u53f6\u5b50"}时间:2017/06/08 11:18:58请求url:/index.php?g=api&m=user&a=change_username
+{"user_token":"3dc85f2fdec4099f5774ad2440a43356","username":"\u5c0f\u53f6\u5b50"}时间:2017/06/08 11:19:37请求url:/index.php?g=api&m=user&a=change_username
+{"user_token":"3dc85f2fdec4099f5774ad2440a43356","username":"\u5c0f\u53f6\u5b50"}时间:2017/06/08 11:34:49请求url:/index.php?g=api&m=user&a=change_username
+{"user_token":"3dc85f2fdec4099f5774ad2440a43356","username":"\u5c0f\u53f6\u5b501"}时间:2017/06/08 11:34:55请求url:/index.php?g=api&m=user&a=change_username

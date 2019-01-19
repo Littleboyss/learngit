@@ -1,0 +1,43 @@
+<include file="Public:header" />
+<div class="subnav">
+  <div class="content-menu ib-a blue line-x"> <a href='javascript:;' class="on"><em>淘汰列表</em></a>
+    <span>|</span><a href="{:U('endadd')}"><em>添加</em></a></div>
+  </div>
+</div>
+<div class="pad_10">
+  <div class="table-list">
+    <form name="myform" action="" method="post" id="myform">
+    
+    <table id="checkList" class="tableList" width='98%' border='0'
+	cellpadding='1' cellspacing='1' align="center">
+  <thead>
+	<tr align="center" class="h_tr">
+    <th width="4%" align="center"><input type="checkbox" value="" id="check_box" onclick="selectall('id[]');"></th>
+		<th align="center">冠军猜ID</th>
+		<th align="center">队伍列表</th>
+		<th align="center">操作</th>
+	</tr>
+  </thead>
+	<tbody id="checkList_tbody">
+                <foreach name= "data" item= "vo" >
+		<tr align='left'>
+      <td align="center"><input class="inputcheckbox" name="id[]" value="{$vo['hero_id']}" type="checkbox"></td>
+			<td align="center">{$vo.champion_id}</td>
+			<td align="center">{$vo.teams}</td>
+      <td width="20%" align="center">
+          <a href="{:U('endedit', array('id' => $vo['champion_id']))}">修改</a>
+          &nbsp;
+          <a href="{:U('enddel', array('id' => $vo['champion_id']))}" onclick="return confirm('你确定删除该项目？')">删除</a>
+      </td>
+		</tr>
+                </foreach>
+    <tr>
+      <td class="pagination" colspan="7" align="center">{$show}</td>
+    </tr>
+	</tbody>
+</table>
+      </table>
+    </form>
+  </div>
+</div>
+</body></html>

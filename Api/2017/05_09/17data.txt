@@ -1,0 +1,2 @@
+[]时间:2017/05/09 17:11:38请求url:/index.php?g=api&m=extra&a=playermatchdata
+{"player_id":"2","user_token":"4"}时间:2017/05/09 17:12:12请求url:/index.php?g=api&m=extra&a=playermatchdata

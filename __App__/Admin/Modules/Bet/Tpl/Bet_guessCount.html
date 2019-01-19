@@ -1,0 +1,25 @@
+<include file="Public:header" />
+<div class="pad_10">
+    <div class="common-form">
+        <form name="myform" action="" method="post" id="myform">
+            <input type="hidden" name="id" value="{$admin.id}" />
+            <table width="100%" class="table_form contentWrap">
+                <tr>
+                    <td width="80">下注次数:</td> 
+                    <td>{$guess_all}</td>
+                </tr>
+                <tr>
+                    <td width="100">用户赢取总木头:</td> 
+                    <td>
+                    {$guess_win}
+                    </td>
+                </tr>
+     
+            </table>
+            <div class="bk15"></div>
+            <input type="button" value="提交" class="dialog" id="dosubmit" />
+        </form>
+    </div>
+</div>
+</body>
+</html>

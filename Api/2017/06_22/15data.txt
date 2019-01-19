@@ -1,0 +1,2 @@
+{"id":"11697"}时间:2017/06/22 15:25:38请求url:/index.php?g=api&m=public&a=get_match_live&id=11697
+{"id":"11697 1110011000011000000000"}时间:2017/06/22 15:59:15请求url:/index.php?g=api&m=public&a=get_match_live&id=11697%201110011000011000000000

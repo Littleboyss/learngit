@@ -1,0 +1,59 @@
+<include file="Public:header" />
+<div class="subnav">
+ <div class="content-menu ib-a blue line-x">
+    <a onclick="return confirm('确认删除吗？');" href="{:U('product_delete',array('id'=>$goods_id))}">清空库存</a>
+  </div>
+</div>
+<div class="pad_10">
+  <div class="table-list">
+      <table width="100%" cellspacing="0">
+        <thead>
+          <tr>
+          <th width="15%">编号</th>
+            <th width="45%">属性名称</th>
+            <th width="50%">数量</th>
+          </tr>
+        </thead>
+        <tbody>
+          <form method="post" id="form1" action="{:U('product_edit')}">
+          <volist name="rs" id="v">
+            <tr>
+            <td align="center">{$i}<?php 
+                if(isset($v['id'])){
+                  echo '<input type="text" hidden="" name="id[]" value="'.$v['id'].'">';
+                }
+              ?></td>
+              <td align="center"><?php 
+                if(isset($v['attr_value'])){
+                  echo $v['attr_value'];
+                  echo '<input type="text" hidden="" name="attr_value[]" value="'.$v['attr_value'].'">';
+                }else{
+                  echo $v;
+                  echo '<input type="text" hidden="" name="attr_value[]" value="'.$v.'">';
+                }
+              ?></td>
+              <td align="center"><input align="center" type="text" name="attr_nums[]" value="<?php 
+                if(isset($v['nums'])){
+                  echo $v['nums'];
+                }else{
+                  echo 0;
+                }
+              ?>">
+              <input type="text" hidden="" name="goods_id" value="{$goods_id}">
+              </td>
+            </tr>
+          </volist>
+            <tr id="subtn">
+                <td class="center"></td>
+                <td class="center"></td>
+                <td class="center" colspan="2">
+                    <input type="submit" value="保 存" />
+                </td>
+            </tr>
+              </form>
+        </tbody>
+      </table>
+    
+  </div>
+</div>
+</body></html>

@@ -1,0 +1,12 @@
+{"id":"1","user_token":"1fehsdffd"}时间:2017/06/07 10:39:23请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"2","user_token":"1fehsdffd"}时间:2017/06/07 10:40:19请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"2","user_token":"1fehsdffd"}时间:2017/06/07 10:41:40请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"1","user_token":"1fehsdffd"}时间:2017/06/07 10:41:45请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"4","user_token":"1fehsdffd"}时间:2017/06/07 10:41:49请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"6","user_token":"1fehsdffd"}时间:2017/06/07 10:41:53请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"6","user_token":"1fehsdffd"}时间:2017/06/07 10:44:36请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"6","user_token":"1fehsdffd"}时间:2017/06/07 10:55:21请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"6","user_token":"1fehsdffd"}时间:2017/06/07 10:57:14请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"1","user_token":"1fehsdffd"}时间:2017/06/07 10:58:55请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"1","lineup_id":"2","user_token":"1fehsdffd"}时间:2017/06/07 10:59:05请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"1","lineup_id":"2","user_token":"1fehsdffd"}时间:2017/06/07 10:59:50请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd

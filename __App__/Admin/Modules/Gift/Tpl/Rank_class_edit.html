@@ -1,0 +1,111 @@
+<include file="Public:header" />
+
+<link rel="stylesheet" type="text/css" href="/js/calendar/jscal2.css"/>
+<link rel="stylesheet" type="text/css" href="/js/calendar/border-radius.css"/>
+<link rel="stylesheet" type="text/css" href="/js/calendar/win2k.css"/>
+<script type="text/javascript" src="/js/calendar/calendar.js"></script>
+<script type="text/javascript" src="/js/calendar/lang/en.js"></script>
+
+<style type="text/css">
+select optgroup {
+    color: #2288cc;
+}
+select option {
+    color: #2288cc;
+}
+input.iptxt{
+    width: 350px;
+}
+input.sm{
+    width: 100px;
+}
+.sbtn{
+    height: 35px;
+    line-height: 35px;
+    cursor: pointer;
+    display: inline-block;
+}
+.sbtn:hover{
+    color: blue;
+}
+.tRight{
+    text-align: right;
+}
+.tarea{
+    width:345px;
+    height: 106px;
+}
+</style>
+<script>
+    config.filterMode = true;
+    config.width= '700px';
+    KindEditor.ready(function(K) {
+        var editor = K.create('#background',config);
+    });
+function upload_img(input,out){
+    KindEditor.ready(function(K) {
+        var editor =  K.editor(config);
+        var uploadbutton = K.uploadbutton({
+            button : K('#'+input)[0],
+            fieldName : 'imgFile',
+            url :  './index.php?m=Index&a=upload',
+            afterUpload : function(data) {
+                if (data.error === 0) {
+                    var url = K.formatUrl(data.url, 'absolute');
+                    K('#'+out).val(url);
+                } else {
+                    alert(data.message);
+                }
+            },
+            afterError : function(str) {
+                alert('上传失败');
+               return false;
+            }
+        });
+        uploadbutton.fileBox.change(function(e) {
+            uploadbutton.submit();
+        });
+    });
+}
+upload_img('wqico','ico'); 
+</script>
+<div class="subnav">
+    <div class="content-menu ib-a blue line-x">
+        <a href='javascript:;' class="on"><em>修改分类</em></a>
+        <span>|</span>
+        <a href="{:U('class_list')}"><em>返回列表</em></a>
+    </div>
+</div>
+<div class="pad_10">
+    <div class="table-list">
+        <form method="post" id="form1" action="{:U('class_add',array('id'=>$data['id']))}">
+                <table width='98%' border='0' cellpadding='0' cellspacing='0'
+                       align="center" class="rtable">
+                    <tr>
+                        <td class="tRight">分类名称：</td>
+                        <td class="tLeft" colspan="3">
+                            <input type="text" name="name" value="{$data.name}" class="huge iptxt" />
+                        </td>
+                    </tr>
+                    <tr id="subtn">
+                        <td class="center"></td>
+                        <td class="center" colspan="3">
+                            <input type="submit" value="保 存" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <br /><br /><br />
+    </div>
+</div>
+</body>
+<script>
+
+function checktype(a,b){
+    $("." + a).css('display','table-row');
+    $("." + b).css('display','none');
+}
+
+
+</script>
+</html>

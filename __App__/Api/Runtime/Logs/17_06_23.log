@@ -1,0 +1,304 @@
+[ 2017-06-23T09:01:39+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=get_match_live&id=11825
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_player_match_data_dota2` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( id = 11825 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`only_id`,`team_id`,`name` FROM `fa_match_player_wcg` WHERE ( project_id = 6 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_team` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`code` FROM `fa_match_team` WHERE ( project_id = 6 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1278 行.
+NOTIC: [8] Undefined index: roshan F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1279 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1279 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1280 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1280 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100371 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1278 行.
+NOTIC: [8] Undefined index: roshan F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1279 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1279 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1280 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1280 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100391 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100352 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100351 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100349 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100348 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100350 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100252 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100249 ) LIMIT 1   [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100251 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100248 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100250 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100352 ) LIMIT 1   [ RunTime:0.004000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=3,`death`=7,`assists`=21,`jungle`=114,`ten_kill`=1,`remain`=1,`scores`=683,`opp`='Newbee',`score`='2:0',`player_id`=100352,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179698 WHERE ( id =3262 ) [ RunTime:0.060003s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100351 ) LIMIT 1   [ RunTime:0.005001s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=3,`death`=11,`assists`=21,`jungle`=37,`ten_kill`=1,`remain`=1,`scores`=627,`opp`='Newbee',`score`='2:0',`player_id`=100351,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179698 WHERE ( id =3263 ) [ RunTime:0.061003s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100349 ) LIMIT 1   [ RunTime:0.005001s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=8,`death`=2,`assists`=14,`jungle`=314,`ten_kill`=1,`remain`=1,`scores`=783,`opp`='Newbee',`score`='2:0',`player_id`=100349,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179698 WHERE ( id =3264 ) [ RunTime:0.062003s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100348 ) LIMIT 1   [ RunTime:0.005000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=14,`death`=3,`assists`=12,`jungle`=487,`ten_kill`=2,`remain`=1,`scores`=967,`opp`='Newbee',`score`='2:0',`player_id`=100348,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179698 WHERE ( id =3265 ) [ RunTime:0.062004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100350 ) LIMIT 1   [ RunTime:0.005000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=6,`death`=4,`assists`=19,`jungle`=98,`ten_kill`=1,`remain`=1,`scores`=760,`opp`='Newbee',`score`='2:0',`player_id`=100350,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179698 WHERE ( id =3266 ) [ RunTime:0.061004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100252 ) LIMIT 1   [ RunTime:0.005000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=8,`death`=9,`assists`=13,`jungle`=99,`ten_kill`=1,`remain`=0,`scores`=450,`opp`='TNC',`score`='0:2',`player_id`=100252,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179698 WHERE ( id =3257 ) [ RunTime:0.070004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100249 ) LIMIT 1   [ RunTime:0.005000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=7,`death`=3,`assists`=13,`jungle`=345,`ten_kill`=1,`remain`=0,`scores`=529,`opp`='TNC',`score`='0:2',`player_id`=100249,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179698 WHERE ( id =3258 ) [ RunTime:0.061004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100251 ) LIMIT 1   [ RunTime:0.004000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=0,`death`=9,`assists`=11,`jungle`=36,`ten_kill`=1,`remain`=0,`scores`=157,`opp`='TNC',`score`='0:2',`player_id`=100251,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179698 WHERE ( id =3259 ) [ RunTime:0.061004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100248 ) LIMIT 1   [ RunTime:0.004000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=12,`death`=7,`assists`=12,`jungle`=285,`ten_kill`=2,`remain`=0,`scores`=627,`opp`='TNC',`score`='0:2',`player_id`=100248,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179698 WHERE ( id =3260 ) [ RunTime:0.061004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100250 ) LIMIT 1   [ RunTime:0.005000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=0,`death`=6,`assists`=15,`jungle`=186,`ten_kill`=1,`remain`=0,`scores`=297,`opp`='TNC',`score`='0:2',`player_id`=100250,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179698 WHERE ( id =3261 ) [ RunTime:0.062003s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100371 ) LIMIT 1   [ RunTime:0.005001s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `tower`=5,`barons`=0,`is_fast`=0,`remain`=1,`is_win`=1,`score`='2:0',`opp`='Newbee',`scores`=220,`player_id`=100371,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179698 WHERE ( id =3267 ) [ RunTime:0.061003s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100391 ) LIMIT 1   [ RunTime:0.005000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `tower`=11,`barons`=0,`is_fast`=0,`remain`=0,`is_win`=0,`score`='0:2',`opp`='TNC',`scores`=110,`player_id`=100391,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179698 WHERE ( id =3268 ) [ RunTime:0.061003s ]
+
+[ 2017-06-23T09:04:27+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=get_match_live&id=11825
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_player_match_data_dota2` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.015600s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( id = 11825 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`only_id`,`team_id`,`name` FROM `fa_match_player_wcg` WHERE ( project_id = 6 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_team` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`code` FROM `fa_match_team` WHERE ( project_id = 6 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1278 行.
+NOTIC: [8] Undefined index: roshan F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1279 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1279 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1280 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1280 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100371 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1278 行.
+NOTIC: [8] Undefined index: roshan F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1279 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1279 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1280 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1280 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100391 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100352 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100351 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100349 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100348 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100350 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100252 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100249 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100251 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100248 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1302 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1303 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1304 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1305 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `position` FROM `fa_match_player_wcg` WHERE ( `id` = 100250 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 1144 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100352 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=3,`death`=7,`assists`=21,`jungle`=114,`ten_kill`=1,`remain`=1,`scores`=683,`opp`='Newbee',`score`='2:0',`player_id`=100352,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179866 WHERE ( id =3262 ) [ RunTime:0.062400s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100351 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=3,`death`=11,`assists`=21,`jungle`=37,`ten_kill`=1,`remain`=1,`scores`=627,`opp`='Newbee',`score`='2:0',`player_id`=100351,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179866 WHERE ( id =3263 ) [ RunTime:0.074603s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100349 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=8,`death`=2,`assists`=14,`jungle`=314,`ten_kill`=1,`remain`=1,`scores`=783,`opp`='Newbee',`score`='2:0',`player_id`=100349,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179866 WHERE ( id =3264 ) [ RunTime:0.124800s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100348 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=14,`death`=3,`assists`=12,`jungle`=487,`ten_kill`=2,`remain`=1,`scores`=967,`opp`='Newbee',`score`='2:0',`player_id`=100348,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179866 WHERE ( id =3265 ) [ RunTime:0.125801s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100350 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=6,`death`=4,`assists`=19,`jungle`=98,`ten_kill`=1,`remain`=1,`scores`=760,`opp`='Newbee',`score`='2:0',`player_id`=100350,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179866 WHERE ( id =3266 ) [ RunTime:0.147400s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100252 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=8,`death`=9,`assists`=13,`jungle`=99,`ten_kill`=1,`remain`=0,`scores`=450,`opp`='TNC',`score`='0:2',`player_id`=100252,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179866 WHERE ( id =3257 ) [ RunTime:0.172803s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100249 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=7,`death`=3,`assists`=13,`jungle`=345,`ten_kill`=1,`remain`=0,`scores`=529,`opp`='TNC',`score`='0:2',`player_id`=100249,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179866 WHERE ( id =3258 ) [ RunTime:0.062400s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100251 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=0,`death`=9,`assists`=11,`jungle`=36,`ten_kill`=1,`remain`=0,`scores`=157,`opp`='TNC',`score`='0:2',`player_id`=100251,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179866 WHERE ( id =3259 ) [ RunTime:0.051202s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100248 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=12,`death`=7,`assists`=12,`jungle`=285,`ten_kill`=2,`remain`=0,`scores`=627,`opp`='TNC',`score`='0:2',`player_id`=100248,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179866 WHERE ( id =3260 ) [ RunTime:0.046800s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100250 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `kill`=0,`death`=6,`assists`=15,`jungle`=186,`ten_kill`=1,`remain`=0,`scores`=297,`opp`='TNC',`score`='0:2',`player_id`=100250,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179866 WHERE ( id =3261 ) [ RunTime:0.046800s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100371 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `tower`=11,`barons`=0,`is_fast`=0,`remain`=1,`is_win`=1,`score`='2:0',`opp`='Newbee',`scores`=280,`player_id`=100371,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179866 WHERE ( id =3267 ) [ RunTime:0.046800s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_dota2` WHERE ( match_id = 11825 and player_id = 100391 ) LIMIT 1   [ RunTime:0.016600s ]
+SQL: UPDATE `fa_player_match_data_dota2` SET `tower`=5,`barons`=0,`is_fast`=0,`remain`=0,`is_win`=0,`score`='0:2',`opp`='TNC',`scores`=50,`player_id`=100391,`match_id`=11825,`season`=2017,`date`='06/15',`addtime`=1498179866 WHERE ( id =3268 ) [ RunTime:0.058801s ]
+

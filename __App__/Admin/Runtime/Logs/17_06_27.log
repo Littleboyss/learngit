@@ -1,0 +1,18 @@
+[ 2017-06-27T17:31:04+08:00 ] 127.0.0.1 /index.php?g=Bet&m=Player&a=update_opp
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_player_match_data_dota2` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`player_id`,`match_id` FROM `fa_player_match_data_dota2`  [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: post F:\work\__App__\Admin\Modules\Bet\Action\PlayerAction.class.php 第 179 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_player_wcg` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 11824 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_team` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `e_name` FROM `fa_match_team` WHERE ( id = 100194 ) LIMIT 1   [ RunTime:0.000000s ]
+

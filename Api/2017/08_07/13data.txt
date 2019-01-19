@@ -1,0 +1,12 @@
+{"class_id":"1","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/08/07 13:00:58请求url:/index.php?m=award&a=try_turnplate&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"class_id":"2","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/08/07 13:01:15请求url:/index.php?m=award&a=try_turnplate&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"class_id":"2","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/08/07 13:01:27请求url:/index.php?m=award&a=try_turnplate&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"user_token":"agdashasdfeq"}时间:2017/08/07 13:01:50请求url:/index.php?m=award&a=turnplate_list&user_token=agdashasdfeq
+{"class_id":"2","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/08/07 13:03:12请求url:/index.php?m=award&a=try_turnplate&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"class_id":"2","user_token":"3d06409957765c0467cdfa9d5c5156ee"}时间:2017/08/07 13:03:53请求url:/index.php?m=award&a=try_turnplate&user_token=3d06409957765c0467cdfa9d5c5156ee
+{"class_id":"2","user_token":"3d06409957765c0467cdfa9d5c5156ee"}时间:2017/08/07 13:03:58请求url:/index.php?m=award&a=try_turnplate&user_token=3d06409957765c0467cdfa9d5c5156ee
+{"class_id":"2","user_token":"3d06409957765c0467cdfa9d5c5156ee"}时间:2017/08/07 13:04:06请求url:/index.php?m=award&a=try_turnplate&user_token=3d06409957765c0467cdfa9d5c5156ee
+{"class_id":"2","user_token":"3d06409957765c0467cdfa9d5c5156ee"}时间:2017/08/07 13:04:08请求url:/index.php?m=award&a=try_turnplate&user_token=3d06409957765c0467cdfa9d5c5156ee
+{"class_id":"2","user_token":"3d06409957765c0467cdfa9d5c5156ee"}时间:2017/08/07 13:04:10请求url:/index.php?m=award&a=try_turnplate&user_token=3d06409957765c0467cdfa9d5c5156ee
+{"class_id":"2","user_token":"3d06409957765c0467cdfa9d5c5156ee"}时间:2017/08/07 13:04:16请求url:/index.php?m=award&a=try_turnplate&user_token=3d06409957765c0467cdfa9d5c5156ee
+{"class_id":"2","user_token":"3d06409957765c0467cdfa9d5c5156ee"}时间:2017/08/07 13:04:21请求url:/index.php?m=award&a=try_turnplate&user_token=3d06409957765c0467cdfa9d5c5156ee

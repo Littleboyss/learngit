@@ -1,0 +1,2 @@
+{"id":"33","user_token":"1fehsdffd"}时间:2017/05/10 16:08:24请求url:/index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+{"user_token":"4","player_id":"2"}时间:2017/05/10 16:41:05请求url:/index.php?g=api&m=extra&a=lolplayermatchdata

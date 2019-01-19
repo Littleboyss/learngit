@@ -1,0 +1,78 @@
+<include file="Public:header" />
+<div class="subnav">
+  <div class="content-menu ib-a blue line-x"> <a href='javascript:;' class="on"><em>赛程列表</em></a>
+    <span>|</span><a href="{:U('add')}"><em>添加赛程</em></a> </div>
+
+  </div>
+</div>
+<div class="subnav">
+    <div class="explain-col search-form">
+    <form name="myform" action="{:U('index')}" method="post">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="230">队伍：
+                  <select name="team_id" type="text" id="team" />
+                    <option value="0">所有</option>
+                    <volist name="team" id="rs">
+                      <option value="{$rs.id}" <if condition="$rs['id'] eq $team_id">selected="selected"</if>>{$rs.name}</option>
+                    </volist>
+                  </select>
+                </td>
+                <td>
+                    <input name="submit" type="submit" value="查询" class="button"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</div>
+<div class="pad_10">
+  <div class="table-list">
+    <form name="myform" action="" method="post" id="myform">
+    
+    <table id="checkList" class="tableList" width='98%' border='0'
+	cellpadding='1' cellspacing='1' align="center">
+  <thead>
+	<tr align="center" class="h_tr">
+    <th width="4%" align="center"><input type="checkbox" value="" id="check_box" onclick="selectall('id[]');"></th>
+		<th align="center">ID</th>
+    <th align="center">项目</th>
+		<th align="center">比赛名称</th>
+    <th align="center">比赛队伍</th>
+		<th align="center">比赛时间</th>
+		<th align="center">操作</th>
+	</tr>
+  </thead>
+	<tbody id="checkList_tbody">
+  <foreach name= "data" item= "vo" >
+		<tr align='left'>
+      <td align="center"><input class="inputcheckbox" name="id[]" value="{$vo['hero_id']}" type="checkbox"></td>
+			<td align="center">{$vo.id}</td>
+      <td width="200" align="center">{$project[$vo[project_id]]}</td>
+      <td align="center">{$match_type[$vo[match_name_id]][name]}</td>
+      <td align="center">{$team[$vo[team_a]][name]} VS {$team[$vo[team_b]][name]}</td>
+			<td align="center">{$vo.match_time|date="Y-m-d H:i:s",###}</td>
+      <td width="20%" align="center">
+          <a href="{:U('edit', array('id' => $vo['id']))}">修改</a>
+          &nbsp;
+          <a href="{:U('add_match_data', array('id' => $vo['id']))}">添加比赛数据</a>
+          &nbsp;
+<!--            <a onclick="return confirm('请确定该比赛是否添加正确了？')" target="_blank" href="{:U('Bet/Match/add_match_player_info', array('match_id' => $vo['id'],'project_id'=>5))}" >添加比赛初始数据</a>
+          &nbsp; -->
+          <a href="{:U('del', array('id' => $vo['id']))}" onclick="return confirm('你确定删除该项目？')">删除</a>
+      </td>
+		</tr>
+  </foreach>
+    <tr>
+      <td class="pagination" colspan="7" align="center">{$show}</td>
+    </tr>
+	</tbody>
+</table>
+      </table>
+      <!-- <div class="btn"><a href="#" onclick="javascript:$('input[type=checkbox]').attr('checked', true)">全选</a>/<a href="#" onclick="javascript:$('input[type=checkbox]').attr('checked', false)">取消</a>
+        <input name="submit" type="submit" onclick="return confirm('确认删除吗？');" value="删除" id="submit" class="button">
+      </div> -->
+    </form>
+  </div>
+</div>
+</body></html>

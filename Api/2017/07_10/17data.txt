@@ -1,0 +1,6 @@
+{"id":"3"}时间:2017/07/10 17:42:29请求url:/index.php?g=api&m=public&a=update_champion_data&id=3
+{"id":"3"}时间:2017/07/10 17:42:37请求url:/index.php?g=api&m=public&a=update_champion_data&id=3
+{"id":"3"}时间:2017/07/10 17:43:18请求url:/index.php?g=api&m=public&a=update_champion_data&id=3
+{"id":"3"}时间:2017/07/10 17:43:42请求url:/index.php?g=api&m=public&a=update_champion_data&id=3
+{"id":"3"}时间:2017/07/10 17:44:03请求url:/index.php?g=api&m=public&a=update_champion_data&id=3
+{"id":"3"}时间:2017/07/10 17:44:15请求url:/index.php?g=api&m=public&a=update_champion_data&id=3

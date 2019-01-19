@@ -1,0 +1,1898 @@
+[ 2017-05-23T09:44:29+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\RoomAction.class.php 第 137 行.
+
+[ 2017-05-23T09:44:33+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.005000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( id =33 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-05-23T09:44:35+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( id =33 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-05-23T09:44:36+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( id =33 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-05-23T09:44:36+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( id =33 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-05-23T09:45:57+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( id =33 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-05-23T09:46:11+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( id =33 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-05-23T09:46:11+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( id =33 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-05-23T09:46:12+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( id =33 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-05-23T09:46:13+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( id =33 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-05-23T09:46:13+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( id =33 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-05-23T09:46:42+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+
+[ 2017-05-23T09:47:43+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.004000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 374 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.001001s ]
+
+[ 2017-05-23T09:48:30+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.004001s ]
+
+[ 2017-05-23T09:49:32+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003001s ]
+
+[ 2017-05-23T09:50:30+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+
+[ 2017-05-23T09:51:04+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+
+[ 2017-05-23T09:51:22+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.004000s ]
+
+[ 2017-05-23T09:51:28+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 376 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index:  F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 375 行.
+NOTIC: [8] Undefined index: match_time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 376 行.
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+
+[ 2017-05-23T09:51:38+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+
+[ 2017-05-23T09:52:11+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.004000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-05-23T09:53:09+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-05-23T09:58:44+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-05-23T09:59:24+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-05-23T10:00:33+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.004000s ]
+
+[ 2017-05-23T10:00:35+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.004000s ]
+
+[ 2017-05-23T10:00:36+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+
+[ 2017-05-23T10:00:36+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+
+[ 2017-05-23T10:00:36+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+
+[ 2017-05-23T10:00:36+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003001s ]
+
+[ 2017-05-23T10:00:37+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003001s ]
+
+[ 2017-05-23T10:00:57+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 164 ) LIMIT 1   [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 100055 ) LIMIT 1   [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 100091 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 217 ) LIMIT 1   [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 218 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 442 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 446 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 447 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 452 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 453 ) LIMIT 1   [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 455 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 456 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 457 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 475 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 857 ) LIMIT 1   [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 1058 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 1059 ) LIMIT 1   [ RunTime:0.003001s ]
+
+[ 2017-05-23T10:01:13+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 164 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 100055 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 100091 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 217 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 218 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 442 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 446 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 447 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 452 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 453 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 455 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 456 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 457 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 475 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 857 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 1058 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 1059 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-05-23T10:01:27+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 164 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 100055 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 100091 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 217 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 218 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 442 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 446 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 447 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 452 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 453 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 455 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 456 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 457 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 475 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 857 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 1058 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 1059 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( id =33 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 164 ) ORDER BY id desc LIMIT 11   [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 100055 ) ORDER BY id desc LIMIT 11   [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 100091 ) ORDER BY id desc LIMIT 11   [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 217 ) ORDER BY id desc LIMIT 11   [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 218 ) ORDER BY id desc LIMIT 11   [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 442 ) ORDER BY id desc LIMIT 11   [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 446 ) ORDER BY id desc LIMIT 11   [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 447 ) ORDER BY id desc LIMIT 11   [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 452 ) ORDER BY id desc LIMIT 11   [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 453 ) ORDER BY id desc LIMIT 11   [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 455 ) ORDER BY id desc LIMIT 11   [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 456 ) ORDER BY id desc LIMIT 11   [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 457 ) ORDER BY id desc LIMIT 11   [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 475 ) ORDER BY id desc LIMIT 11   [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 857 ) ORDER BY id desc LIMIT 11   [ RunTime:0.004000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 1058 ) ORDER BY id desc LIMIT 11   [ RunTime:0.004000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 1059 ) ORDER BY id desc LIMIT 11   [ RunTime:0.003000s ]
+
+[ 2017-05-23T10:02:08+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomdetail&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) AND ( `settlement_status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_type` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`tag_img` FROM `fa_match_room_type`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_project` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`img` FROM `fa_match_project`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 7 F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 320 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_guess_record` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_guess_record` WHERE ( `room_id` = 33 ) ORDER BY guess_num desc LIMIT 20   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `username`,`rank` FROM `fa_user_user` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT SUM(guess_num) AS tp_sum FROM `fa_user_guess_record` WHERE ( `uid` = 1 ) AND ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_reward_rule` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`data` FROM `fa_reward_rule`  [ RunTime:0.001000s ]
+
+[ 2017-05-23T10:14:26+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.004000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 164 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 100055 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 100091 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 217 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 218 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 442 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 446 ) LIMIT 1   [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 447 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 452 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 453 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 455 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 456 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 457 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 475 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 857 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 1058 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 1059 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( id =33 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 164 ) ORDER BY id desc LIMIT 11   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 100055 ) ORDER BY id desc LIMIT 11   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 100091 ) ORDER BY id desc LIMIT 11   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 217 ) ORDER BY id desc LIMIT 11   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 218 ) ORDER BY id desc LIMIT 11   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 442 ) ORDER BY id desc LIMIT 11   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 446 ) ORDER BY id desc LIMIT 11   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 447 ) ORDER BY id desc LIMIT 11   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 452 ) ORDER BY id desc LIMIT 11   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 453 ) ORDER BY id desc LIMIT 11   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 455 ) ORDER BY id desc LIMIT 11   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 456 ) ORDER BY id desc LIMIT 11   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 457 ) ORDER BY id desc LIMIT 11   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 475 ) ORDER BY id desc LIMIT 11   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 857 ) ORDER BY id desc LIMIT 11   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 1058 ) ORDER BY id desc LIMIT 11   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_id`,`score`,`is_join` FROM `fa_player_match_data_lol` WHERE ( `player_id` = 1059 ) ORDER BY id desc LIMIT 11   [ RunTime:0.001001s ]
+
+[ 2017-05-23T10:15:58+08:00 ] 127.0.0.1 /index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: room_players F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 186 行.
+SQL: SHOW COLUMNS FROM `fa_match_room_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `match_team` FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_room` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `project_id` FROM `fa_match_room` WHERE ( `status` = 1 ) AND ( `id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b` FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id`,`name`,`project_id`,`img`,`e_name`,`salary`,`nationality`,`position`,`average`,`KDA`,`result`,`is_undetermined`,`is_illness`,`is_ban`,`is_out` FROM `fa_match_player_wcg`  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_room_info` WHERE ( `room_id` = 33 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: data F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `fa_match_type` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name`,`introduce` FROM `fa_match_type`  [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_match_list` WHERE ( `id` = 1334 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 164 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 100055 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 100091 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 217 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 218 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 442 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 446 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 447 ) LIMIT 1   [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 452 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 453 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 455 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 456 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 457 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 475 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 857 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 1058 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `is_join` FROM `fa_player_match_data_lol` WHERE ( `match_id` = 1334 ) AND ( `player_id` = 1059 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-05-23T17:45:11+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: [2] mysqli::mysqli():  F:\ThinkPHP\Lib\Driver\Db\DbMysqli.class.php 第 47 行.
+ERR: �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+
+
+[ 2017-05-23T17:46:30+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'sgamer'@'192.168.0.245' (using password: NO) F:\ThinkPHP\Lib\Driver\Db\DbMysqli.class.php 第 47 行.
+ERR: Access denied for user 'sgamer'@'192.168.0.245' (using password: NO)
+
+[ 2017-05-23T17:46:36+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: [2] mysqli::mysqli(): (HY000/1045): Access denied for user 'sgamer'@'192.168.0.245' (using password: NO) F:\ThinkPHP\Lib\Driver\Db\DbMysqli.class.php 第 47 行.
+ERR: Access denied for user 'sgamer'@'192.168.0.245' (using password: NO)
+
+[ 2017-05-23T17:47:04+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,1,1495532824) [ RunTime:0.087005s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+15 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是1号','入场券',15,1495532824) [ RunTime:0.064003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,1,1495532824) [ RunTime:0.067004s ]
+
+[ 2017-05-23T17:47:09+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,1,1495532828) [ RunTime:0.086004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是1号','入场券',20,1495532829) [ RunTime:0.049003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,1,1495532829) [ RunTime:0.050003s ]
+
+[ 2017-05-23T17:47:11+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,1,1495532831) [ RunTime:0.071004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是1号','入场券',10,1495532831) [ RunTime:0.047003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,1,1495532831) [ RunTime:0.066004s ]
+
+[ 2017-05-23T17:47:12+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,1,1495532831) [ RunTime:0.123007s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是1号','入场券',10,1495532832) [ RunTime:0.064003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,1,1495532832) [ RunTime:0.067004s ]
+
+[ 2017-05-23T17:47:13+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,1,1495532833) [ RunTime:0.064004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+15 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是1号','入场券',15,1495532833) [ RunTime:0.063004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,1,1495532833) [ RunTime:0.067003s ]
+
+[ 2017-05-23T17:52:38+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,1,1495533158) [ RunTime:0.066003s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是1号','入场券',20,1495533158) [ RunTime:0.064004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,1,1495533158) [ RunTime:0.067004s ]
+
+[ 2017-05-23T17:52:39+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,1,1495533159) [ RunTime:0.071004s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond+15 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是1号','砖石',15,1495533159) [ RunTime:0.063004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,2,1,1495533159) [ RunTime:0.066004s ]
+
+[ 2017-05-23T17:52:40+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,1,1495533160) [ RunTime:0.063004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是1号','入场券',10,1495533160) [ RunTime:0.046002s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,1,1495533160) [ RunTime:0.050002s ]
+
+[ 2017-05-23T17:52:41+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,1,1495533161) [ RunTime:0.055004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是1号','入场券',20,1495533161) [ RunTime:0.047002s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,1,1495533161) [ RunTime:0.058003s ]
+
+[ 2017-05-23T17:52:42+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,1,1495533162) [ RunTime:0.071004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+50 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是1号','入场券',50,1495533162) [ RunTime:0.063004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,1,1495533162) [ RunTime:0.066003s ]
+
+[ 2017-05-23T17:52:43+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001001s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,1,1495533163) [ RunTime:0.065003s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 1 ) [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是1号','入场券',10,1495533163) [ RunTime:0.062003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,1,1495533163) [ RunTime:0.067004s ]
+
+[ 2017-05-23T17:52:44+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,1,1495533164) [ RunTime:0.119007s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是1号','入场券',10,1495533164) [ RunTime:0.062003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,1,1495533164) [ RunTime:0.067004s ]
+
+[ 2017-05-23T17:52:45+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,1,1495533165) [ RunTime:0.061003s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+20 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是1号','入场券',20,1495533165) [ RunTime:0.063004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,1,1495533165) [ RunTime:0.066004s ]
+
+[ 2017-05-23T17:52:46+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001001s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,1,1495533165) [ RunTime:0.066003s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+15 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是1号','入场券',15,1495533166) [ RunTime:0.063003s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,1,1495533166) [ RunTime:0.066004s ]
+
+[ 2017-05-23T17:52:46+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,1,1495533166) [ RunTime:0.080005s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+10 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是1号','入场券',10,1495533166) [ RunTime:0.063004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,1,1495533166) [ RunTime:0.067003s ]
+
+[ 2017-05-23T17:52:47+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,1,1495533167) [ RunTime:0.060004s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+15 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是1号','入场券',15,1495533167) [ RunTime:0.047002s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,1,1495533167) [ RunTime:0.059004s ]
+
+[ 2017-05-23T17:52:48+08:00 ] 127.0.0.1 /index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_class` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `cost` FROM `fa_award_turnplate_class` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.chance,t1.level,t2.type,t2.nums,t2.name FROM `fa_award_turnplate` as t1 LEFT JOIN fa_award_turnplate_bonus t2 on t1.bonus_id = t2.id WHERE ( `class_id` = '1' )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_user_user` SET `diamond`=diamond-20 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_user_account` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_user_account` (`go_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,5,2,1,1495533168) [ RunTime:0.056003s ]
+SQL: UPDATE `fa_user_user` SET `entrance_ticket`=entrance_ticket+15 WHERE ( `id` = 1 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_award_turnplate_list` [ RunTime:0.002000s ]
+SQL: INSERT INTO `fa_award_turnplate_list` (`user_name`,`prize_name`,`prize_num`,`addtime`) VALUES ('我是1号','入场券',15,1495533168) [ RunTime:0.063004s ]
+SQL: INSERT INTO `fa_user_account` (`back_nums`,`class_id`,`type`,`user_id`,`addtime`) VALUES (20,11,1,1,1495533168) [ RunTime:0.066004s ]
+

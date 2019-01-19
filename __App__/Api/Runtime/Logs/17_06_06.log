@@ -1,0 +1,663 @@
+[ 2017-06-06T10:28:20+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+ERR: Action:c_url您所请求的方法不存在！
+
+[ 2017-06-06T10:28:42+08:00 ] 127.0.0.1 /index.php?g=api&m=Public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+ERR: Action:c_url您所请求的方法不存在！
+
+[ 2017-06-06T10:30:04+08:00 ] 127.0.0.1 /index.php?g=api&m=Public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+ERR: Action:c_url您所请求的方法不存在！
+
+[ 2017-06-06T10:30:14+08:00 ] 127.0.0.1 /index.php?m=shop&a=customer_care&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-06-06T10:34:43+08:00 ] 127.0.0.1 /index.php?g=api&m=Public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: unionid F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 264 行.
+SQL: SHOW COLUMNS FROM `fa_connect_login` [ RunTime:0.000000s ]
+ERR: 1146:Table 'www_aifamu_com_1.fa_connect_login' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `fa_connect_login`
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_connect_login` WHERE ( `qq_openid` = null ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'www_aifamu_com_1.fa_connect_login' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `fa_connect_login` WHERE ( `qq_openid` = null ) LIMIT 1  
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_post
+ERR: Action:errorMSG您所请求的方法不存在！
+
+[ 2017-06-06T10:35:23+08:00 ] 127.0.0.1 /index.php?g=api&m=Public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: unionid F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 264 行.
+SQL: SHOW COLUMNS FROM `fa_connect_login` [ RunTime:0.001000s ]
+ERR: 1146:Table 'www_aifamu_com_1.fa_connect_login' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `fa_connect_login`
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_connect_login` WHERE ( `qq_openid` = null ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1146:Table 'www_aifamu_com_1.fa_connect_login' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `fa_connect_login` WHERE ( `qq_openid` = null ) LIMIT 1  
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: 请绑定论坛账号，或者注册 F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2017-06-06T10:36:45+08:00 ] 127.0.0.1 /index.php?g=api&m=Public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-06T10:37:06+08:00 ] 127.0.0.1 /index.php?g=api&m=Public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-06T10:39:07+08:00 ] 127.0.0.1 /index.php?g=api&m=Public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-06T11:14:12+08:00 ] 127.0.0.1 /index.php?g=api&m=Public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: unionid F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 263 行.
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_open_info [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_open_info WHERE ( `qq_openid` = null ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined variable: UserUser F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 339 行.
+
+[ 2017-06-06T11:14:45+08:00 ] 127.0.0.1 /index.php?g=api&m=Public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: unionid F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 263 行.
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_open_info [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_open_info WHERE ( `qq_openid` = null ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined variable: User F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 339 行.
+
+[ 2017-06-06T11:15:46+08:00 ] 127.0.0.1 /index.php?g=api&m=Public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: unionid F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 263 行.
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_open_info [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_open_info WHERE ( `qq_openid` = null ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_post
+SQL: INSERT INTO www_aifamu_com_user.fa_user_user (`type`,`add_time`,`ip`,`username`,`entrance_ticket`,`diamond`,`gold`) VALUES (2,1496718946,'2130706433','QQ_sjGNEcBW#7712',100,100,100) [ RunTime:0.085004s ]
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `token`='eecfa06e6a2a5c13c4f37ecfac8e3dce' WHERE ( id = 4 ) [ RunTime:0.058004s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_error_try [ RunTime:0.002000s ]
+SQL: INSERT INTO www_aifamu_com_user.fa_user_error_try (`user_id`) VALUES (4) [ RunTime:0.065004s ]
+SQL: INSERT INTO www_aifamu_com_user.fa_user_open_info (`user_id`,`addtime`) VALUES (4,1496718946) [ RunTime:0.067003s ]
+
+[ 2017-06-06T11:40:45+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login_do
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_error_try [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_user WHERE ( `phone` = '15656416823 ' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `user_error`,`user_time` FROM www_aifamu_com_user.fa_user_error_try WHERE ( `user_id` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE www_aifamu_com_user.fa_user_error_try SET `user_error`=0 WHERE ( `user_id` = 2 ) [ RunTime:0.058003s ]
+NOTIC: [8] Undefined variable: user F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 226 行.
+
+[ 2017-06-06T11:41:37+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login_do
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_error_try [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_user WHERE ( `phone` = '15656416823 ' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `user_error`,`user_time` FROM www_aifamu_com_user.fa_user_error_try WHERE ( `user_id` = 2 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE www_aifamu_com_user.fa_user_error_try SET `user_error`=0 WHERE ( `user_id` = 2 ) [ RunTime:0.064004s ]
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `ip`='2130706433',`last_time`=1496720497 WHERE ( `id` = 2 ) [ RunTime:0.067004s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [2] Missing argument 3 for CommonAction::cache(), called in F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php on line 237 and defined F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `fa_user_rank` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name` FROM `fa_user_rank`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_award_attendance` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`attend_day`,`user_id`,`add_time` FROM `fa_award_attendance` WHERE ( `user_id` = 2 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `fa_award_attendance` SET `attend_day`=2,`add_time`=1496720497 WHERE ( `user_id` = 2 ) [ RunTime:0.001000s ]
+
+[ 2017-06-06T11:42:39+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login_do
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_error_try [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_user WHERE ( `phone` = '' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `user_error`,`user_time` FROM www_aifamu_com_user.fa_user_error_try WHERE ( `user_id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE www_aifamu_com_user.fa_user_error_try SET `user_error`=1,`user_time`=1496720559 WHERE ( `user_id` = 4 ) [ RunTime:0.077005s ]
+
+[ 2017-06-06T11:43:02+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login_do
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_error_try [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_user WHERE ( `phone` = '' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `user_error`,`user_time` FROM www_aifamu_com_user.fa_user_error_try WHERE ( `user_id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: password F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 173 行.
+SQL: UPDATE www_aifamu_com_user.fa_user_error_try SET `user_error`=0 WHERE ( `user_id` = 4 ) [ RunTime:0.068004s ]
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `ip`='2130706433',`last_time`=1496720582 WHERE ( `id` = 4 ) [ RunTime:0.066003s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [2] Missing argument 3 for CommonAction::cache(), called in F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php on line 237 and defined F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 75 行.
+NOTIC: [8] Undefined offset: -1 F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 243 行.
+SQL: SHOW COLUMNS FROM `fa_award_attendance` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`attend_day`,`user_id`,`add_time` FROM `fa_award_attendance` WHERE ( `user_id` = 4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_attendance` (`attend_day`,`user_id`,`add_time`) VALUES (1,4,1496720582) [ RunTime:0.001000s ]
+
+[ 2017-06-06T11:43:45+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login_do
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_error_try [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_user WHERE ( `phone` = '15656416823 ' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `user_error`,`user_time` FROM www_aifamu_com_user.fa_user_error_try WHERE ( `user_id` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE www_aifamu_com_user.fa_user_error_try SET `user_error`=0 WHERE ( `user_id` = 2 ) [ RunTime:0.068004s ]
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `ip`='2130706433',`last_time`=1496720625 WHERE ( `id` = 2 ) [ RunTime:0.067003s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [2] Missing argument 3 for CommonAction::cache(), called in F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php on line 237 and defined F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `fa_award_attendance` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`attend_day`,`user_id`,`add_time` FROM `fa_award_attendance` WHERE ( `user_id` = 2 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-06-06T11:45:51+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login_do
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_error_try [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_user WHERE ( `phone` = '15656416823 ' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `user_error`,`user_time` FROM www_aifamu_com_user.fa_user_error_try WHERE ( `user_id` = 2 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE www_aifamu_com_user.fa_user_error_try SET `user_error`=0 WHERE ( `user_id` = 2 ) [ RunTime:0.076004s ]
+NOTIC: [8] Undefined variable: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 226 行.
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `ip`='2130706433',`last_time`=1496720750,`token`='b124a2c32de10e473ac60b83982627db' WHERE ( `id` = 2 ) [ RunTime:0.067004s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [2] Missing argument 3 for CommonAction::cache(), called in F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php on line 238 and defined F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `fa_award_attendance` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`attend_day`,`user_id`,`add_time` FROM `fa_award_attendance` WHERE ( `user_id` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-06-06T11:46:03+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login_do
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_error_try [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_user WHERE ( `phone` = '15656416823 ' ) LIMIT 1   [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `user_error`,`user_time` FROM www_aifamu_com_user.fa_user_error_try WHERE ( `user_id` = 2 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE www_aifamu_com_user.fa_user_error_try SET `user_error`=0 WHERE ( `user_id` = 2 ) [ RunTime:0.074004s ]
+NOTIC: [8] Undefined variable: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 226 行.
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `ip`='2130706433',`last_time`=1496720763,`token`='a20a78b21c0c65c3bc5d6973b25902d6' WHERE ( `id` = 2 ) [ RunTime:0.066004s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [2] Missing argument 3 for CommonAction::cache(), called in F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php on line 238 and defined F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `fa_award_attendance` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`attend_day`,`user_id`,`add_time` FROM `fa_award_attendance` WHERE ( `user_id` = 2 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-06-06T11:46:06+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login_do
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_error_try [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_user WHERE ( `phone` = '15656416823 ' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `user_error`,`user_time` FROM www_aifamu_com_user.fa_user_error_try WHERE ( `user_id` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE www_aifamu_com_user.fa_user_error_try SET `user_error`=0 WHERE ( `user_id` = 2 ) [ RunTime:0.075004s ]
+NOTIC: [8] Undefined variable: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 226 行.
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `ip`='2130706433',`last_time`=1496720766,`token`='2f78eead5a5d6e40d27c93a82d9d719a' WHERE ( `id` = 2 ) [ RunTime:0.067004s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [2] Missing argument 3 for CommonAction::cache(), called in F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php on line 238 and defined F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `fa_award_attendance` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`attend_day`,`user_id`,`add_time` FROM `fa_award_attendance` WHERE ( `user_id` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-06-06T11:50:32+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login_do
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_error_try [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_user WHERE ( `phone` = '15656416823 ' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `user_error`,`user_time` FROM www_aifamu_com_user.fa_user_error_try WHERE ( `user_id` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE www_aifamu_com_user.fa_user_error_try SET `user_error`=0 WHERE ( `user_id` = 2 ) [ RunTime:0.082005s ]
+NOTIC: [8] Undefined variable: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 227 行.
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `ip`='2130706433',`last_time`=1496721032,`token`='3dc85f2fdec4099f5774ad2440a43356' WHERE ( `id` = 2 ) [ RunTime:0.066004s ]
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [2] Missing argument 3 for CommonAction::cache(), called in F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php on line 239 and defined F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `fa_award_attendance` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`attend_day`,`user_id`,`add_time` FROM `fa_award_attendance` WHERE ( `user_id` = 2 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-06-06T14:10:24+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=login_do
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: [8] Undefined index: phone F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 151 行.
+NOTIC: [8] Undefined index: pwd F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 153 行.
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_error_try [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_user WHERE ( `phone` = null ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-06-06T14:10:35+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2017-06-06T14:10:56+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: unionid F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 276 行.
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_open_info [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_open_info WHERE ( `qq_openid` = null ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_post
+SQL: INSERT INTO www_aifamu_com_user.fa_user_user (`type`,`add_time`,`ip`,`username`,`entrance_ticket`,`diamond`,`gold`) VALUES (2,1496729455,'2130706433','QQ_q0R5LDI4#4383',100,100,100) [ RunTime:0.080005s ]
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `token`='d1b2d2752c951a12c03e1156fd973e77' WHERE ( id = 5 ) [ RunTime:0.067003s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_error_try [ RunTime:0.002001s ]
+SQL: INSERT INTO www_aifamu_com_user.fa_user_error_try (`user_id`) VALUES (5) [ RunTime:0.065003s ]
+SQL: INSERT INTO www_aifamu_com_user.fa_user_open_info (`user_id`,`addtime`) VALUES (5,1496729456) [ RunTime:0.067004s ]
+
+[ 2017-06-06T14:12:59+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_open_info [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_open_info WHERE ( `qq_openid` = 5145613 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002001s ]
+NOTIC: 建议使用I方法替代_post
+SQL: INSERT INTO www_aifamu_com_user.fa_user_user (`type`,`add_time`,`ip`,`username`,`entrance_ticket`,`diamond`,`gold`) VALUES (2,1496729578,'2130706433','QQ_8k0x3z54#1654',100,100,100) [ RunTime:0.075004s ]
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `token`='96eba6a281d6e48f3d3949582a42cabe' WHERE ( id = 6 ) [ RunTime:0.066004s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_error_try [ RunTime:0.001000s ]
+SQL: INSERT INTO www_aifamu_com_user.fa_user_error_try (`user_id`) VALUES (6) [ RunTime:0.065004s ]
+SQL: INSERT INTO www_aifamu_com_user.fa_user_open_info (`user_id`,`qq_openid`,`addtime`) VALUES (6,5145613,1496729579) [ RunTime:0.066003s ]
+NOTIC: [8] Undefined index: login F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2017-06-06T14:45:30+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: unionid F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 276 行.
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_open_info [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_open_info WHERE ( `qq_openid` = null ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_post
+SQL: INSERT INTO www_aifamu_com_user.fa_user_user (`type`,`add_time`,`ip`,`username`,`entrance_ticket`,`diamond`,`gold`) VALUES (2,1496731529,'2130706433','QQ_cm6TlC0m#5460',100,100,100) [ RunTime:0.127007s ]
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `token`='c49639f9c858c1dc20c32e4e50d9c959' WHERE ( id = 7 ) [ RunTime:0.050003s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_error_try [ RunTime:0.002000s ]
+SQL: INSERT INTO www_aifamu_com_user.fa_user_error_try (`user_id`) VALUES (7) [ RunTime:0.048003s ]
+SQL: INSERT INTO www_aifamu_com_user.fa_user_open_info (`user_id`,`addtime`) VALUES (7,1496731530) [ RunTime:0.059004s ]
+SQL: SHOW COLUMNS FROM `fa_award_attendance` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`attend_day`,`user_id`,`add_time` FROM `fa_award_attendance` WHERE ( `user_id` = 7 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_attendance` (`attend_day`,`user_id`,`add_time`) VALUES (1,7,1496731530) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 230 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 232 行.
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `ip`='2130706433',`last_time`=1496731530,`token`='369ee2fcfbfea2610adb721e38087183' WHERE ( `id` = null ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 234 行.
+NOTIC: [8] Undefined index: phone F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 234 行.
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 241 行.
+NOTIC: [2] Missing argument 3 for CommonAction::cache(), called in F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php on line 242 and defined F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `fa_user_rank` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`name` FROM `fa_user_rank`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: rank F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 248 行.
+NOTIC: [8] Undefined offset: -1 F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 248 行.
+NOTIC: [8] Undefined index: login F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2017-06-06T14:47:15+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_open_info [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_open_info WHERE ( `wx_openid` = '11146131' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_post
+SQL: INSERT INTO www_aifamu_com_user.fa_user_user (`type`,`add_time`,`ip`,`username`,`entrance_ticket`,`diamond`,`gold`) VALUES (3,1496731635,'2130706433','WChat_1bNKdqjg#3838',100,100,100) [ RunTime:0.062003s ]
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `token`='cdf65209447aa2c150d4328d27b9f913' WHERE ( id = 8 ) [ RunTime:0.066004s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_error_try [ RunTime:0.001000s ]
+SQL: INSERT INTO www_aifamu_com_user.fa_user_error_try (`user_id`) VALUES (8) [ RunTime:0.065004s ]
+SQL: INSERT INTO www_aifamu_com_user.fa_user_open_info (`user_id`,`wx_openid`,`addtime`) VALUES (8,'11146131',1496731635) [ RunTime:0.066004s ]
+SQL: SHOW COLUMNS FROM `fa_award_attendance` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`attend_day`,`user_id`,`add_time` FROM `fa_award_attendance` WHERE ( `user_id` = 8 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_attendance` (`attend_day`,`user_id`,`add_time`) VALUES (1,8,1496731635) [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 230 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 232 行.
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `ip`='2130706433',`last_time`=1496731635,`token`='df152cab14a5f682fd21cec564b9b4f6' WHERE ( `id` = null ) [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 234 行.
+NOTIC: [8] Undefined index: phone F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 234 行.
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 241 行.
+NOTIC: [2] Missing argument 3 for CommonAction::cache(), called in F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php on line 242 and defined F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 75 行.
+NOTIC: [8] Undefined index: rank F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 248 行.
+NOTIC: [8] Undefined offset: -1 F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 248 行.
+NOTIC: [8] Undefined index: login F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2017-06-06T14:48:06+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined variable: accessToken F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 287 行.
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_open_info [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_open_info WHERE ( `wb_openid` = '11146131' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_post
+SQL: INSERT INTO www_aifamu_com_user.fa_user_user (`type`,`add_time`,`ip`,`username`,`entrance_ticket`,`diamond`,`gold`) VALUES (4,1496731686,'2130706433','WeiBoPTBKBr32#1870',100,100,100) [ RunTime:0.070004s ]
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `token`='2d194f889c36793919797fcfdef0fbe7' WHERE ( id = 9 ) [ RunTime:0.067004s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_error_try [ RunTime:0.002000s ]
+SQL: INSERT INTO www_aifamu_com_user.fa_user_error_try (`user_id`) VALUES (9) [ RunTime:0.065004s ]
+SQL: INSERT INTO www_aifamu_com_user.fa_user_open_info (`user_id`,`wb_openid`,`addtime`) VALUES (9,'11146131',1496731686) [ RunTime:0.067003s ]
+SQL: SHOW COLUMNS FROM `fa_award_attendance` [ RunTime:0.001001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`attend_day`,`user_id`,`add_time` FROM `fa_award_attendance` WHERE ( `user_id` = 9 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `fa_award_attendance` (`attend_day`,`user_id`,`add_time`) VALUES (1,9,1496731686) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 230 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 232 行.
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `ip`='2130706433',`last_time`=1496731686,`token`='f840d11f55e6913f74e7062f614b1b91' WHERE ( `id` = null ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 234 行.
+NOTIC: [8] Undefined index: phone F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 234 行.
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 241 行.
+NOTIC: [2] Missing argument 3 for CommonAction::cache(), called in F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php on line 242 and defined F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 75 行.
+NOTIC: [8] Undefined index: rank F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 248 行.
+NOTIC: [8] Undefined offset: -1 F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 248 行.
+NOTIC: [8] Undefined index: login F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 62 行.
+
+[ 2017-06-06T14:59:21+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=alllogin
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+NOTIC: [8] Undefined index: unionid F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 276 行.
+NOTIC: [8] Undefined variable: qqUser F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 296 行.
+NOTIC: [8] Undefined variable: qqUser F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 296 行.
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_open_info [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM www_aifamu_com_user.fa_user_open_info WHERE ( `qq_openid` = null ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_user [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: [2] Illegal string offset 'type' F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 356 行.
+NOTIC: [2] Illegal string offset 'add_time' F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 357 行.
+NOTIC: [2] Illegal string offset 'ip' F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 358 行.
+NOTIC: [2] Illegal string offset 'type' F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 359 行.
+NOTIC: [2] Illegal string offset 'username' F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 359 行.
+NOTIC: [2] Illegal string offset 'entrance_ticket' F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 360 行.
+NOTIC: [2] Illegal string offset 'diamond' F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 361 行.
+NOTIC: [2] Illegal string offset 'gold' F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 362 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\ThinkPHP\Lib\Core\Model.class.php 第 269 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\ThinkPHP\Lib\Core\Db.class.php 第 697 行.
+SQL: INSERT INTO www_aifamu_com_user.fa_user_user () VALUES () [ RunTime:0.062400s ]
+NOTIC: [2] Illegal string offset 'id' F:\ThinkPHP\Lib\Core\Model.class.php 第 323 行.
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `token`='25339adc7f824cb291af08c1afe06038' WHERE ( id = 10 ) [ RunTime:0.066603s ]
+SQL: SHOW COLUMNS FROM www_aifamu_com_user.fa_user_error_try [ RunTime:0.002000s ]
+SQL: INSERT INTO www_aifamu_com_user.fa_user_error_try (`user_id`) VALUES (10) [ RunTime:0.056004s ]
+SQL: INSERT INTO www_aifamu_com_user.fa_user_open_info (`user_id`,`addtime`) VALUES (10,1496732361) [ RunTime:0.062400s ]
+SQL: SHOW COLUMNS FROM `fa_award_attendance` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`attend_day`,`user_id`,`add_time` FROM `fa_award_attendance` WHERE ( `user_id` = 10 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `fa_award_attendance` (`attend_day`,`user_id`,`add_time`) VALUES (1,10,1496732361) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 230 行.
+NOTIC: [2] Illegal string offset 'id' F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 232 行.
+SQL: UPDATE www_aifamu_com_user.fa_user_user SET `ip`='2130706433',`last_time`=1496732361,`token`='c16c154113b79530cb4b08a1571b76d9' WHERE ( `id` = 1 ) [ RunTime:0.062400s ]
+NOTIC: [2] Illegal string offset 'id' F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 234 行.
+NOTIC: [2] Illegal string offset 'username' F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 234 行.
+NOTIC: [2] Illegal string offset 'phone' F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 234 行.
+NOTIC: [2] mcrypt_generic_init(): Key size too large; supplied length: 14, max: 8 F:\work\__App__\Api\Common\common.php 第 15 行.
+NOTIC: [2] Illegal string offset 'id' F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 241 行.
+NOTIC: [2] Illegal string offset 'avatar_img' F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 241 行.
+NOTIC: [2] Missing argument 3 for CommonAction::cache(), called in F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php on line 242 and defined F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 75 行.
+NOTIC: [2] Illegal string offset 'rank' F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 248 行.
+NOTIC: [8] Undefined offset: -1 F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 248 行.
+NOTIC: [2] Illegal string offset 'rank_name' F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 248 行.
+

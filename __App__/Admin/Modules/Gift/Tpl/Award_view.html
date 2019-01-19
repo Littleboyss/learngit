@@ -1,0 +1,39 @@
+<include file="Public:header" />
+<div class="subnav">
+</div>
+<div class="pad_10">
+  <a href="{:U('delcard',array('id'=>$gift_id))}">删除全部</a>
+  <div class="table-list">
+      <table width="100%" cellspacing="0">
+        <thead>
+          <tr>
+          <th width="5%">编号</th>
+            <th width="15%">兑换码</th>
+            <th width="22%">添加时间</th>
+            <th width="8%">状态</th>
+            <th width="22%">领取时间</th>
+            <th width="5%">UID</th>
+          </tr>
+        </thead>
+        <tbody>
+          <volist name="rs" id="v">
+            <tr>
+            <td align="center">{$i}</td>
+              <td align="center">{$v['codes']}</td>
+              <td align="center">{$v['addtime']|date="Y-m-d H:i:s",###}</td>
+              <td align="center"><if condition="$v['updatetime'] eq 0"> <font color="#CCCCCC">未使用</font>
+                  <else/>
+                  <font color="#FF0000">已使用</font> </if></td>
+              <td align="center"><notempty name="v['updatetime']">{$v['updatetime']|date="Y-m-d H:i:s",###}<else/>未领取</notempty></td>
+              <td align="center">{$v['user_id']}</td>
+            </tr>
+          </volist>
+          <tr>
+            <td colspan="8" class="pagination" align="center">{$show}</td>
+          </tr>
+        </tbody>
+      </table>
+    
+  </div>
+</div>
+</body></html>

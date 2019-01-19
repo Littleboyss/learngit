@@ -1,0 +1,5 @@
+{"id":"1","user_token":"1fehsdffd"}时间:2017/04/24 18:00:21请求url:/index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+{"id":"1","user_token":"1fehsdffd"}时间:2017/04/24 18:00:34请求url:/index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+{"id":"1","user_token":"1fehsdffd"}时间:2017/04/24 18:00:55请求url:/index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+{"id":"1","user_token":"1fehsdffd"}时间:2017/04/24 18:02:05请求url:/index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+{"id":"1","user_token":"1fehsdffd"}时间:2017/04/24 18:03:01请求url:/index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd

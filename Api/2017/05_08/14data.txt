@@ -1,0 +1,6 @@
+{"user_token":"4"}时间:2017/05/08 14:19:52请求url:/index.php?g=api&m=user&a=userbetmatch
+{"user_token":"4"}时间:2017/05/08 14:35:57请求url:/index.php?g=api&m=user&a=userbetmatching
+{"user_token":"4"}时间:2017/05/08 14:35:57请求url:/index.php?g=api&m=user&a=userbetmatching
+{"user_token":"4"}时间:2017/05/08 14:36:06请求url:/index.php?g=api&m=user&a=userbetmatch
+{"user_token":"4"}时间:2017/05/08 14:36:38请求url:/index.php?g=api&m=user&a=userbetmatching
+{"user_token":"4"}时间:2017/05/08 14:36:39请求url:/index.php?g=api&m=user&a=userbetmatching

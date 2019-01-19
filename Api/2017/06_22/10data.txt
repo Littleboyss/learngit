@@ -1,0 +1,9 @@
+{"id":"3084312846"}时间:2017/06/22 10:34:06请求url:/index.php?g=api&m=public&a=get_match_live&id=3084312846
+{"id":"3084312846"}时间:2017/06/22 10:35:51请求url:/index.php?g=api&m=public&a=get_match_live&id=3084312846
+{"id":"3084312846"}时间:2017/06/22 10:36:00请求url:/index.php?g=api&m=public&a=get_match_live&id=3084312846
+{"id":"3084312846"}时间:2017/06/22 10:36:18请求url:/index.php?g=api&m=public&a=get_match_live&id=3084312846
+{"id":"3084312846"}时间:2017/06/22 10:50:43请求url:/index.php?g=api&m=public&a=get_match_live&id=3084312846
+{"id":"3084312846"}时间:2017/06/22 10:51:02请求url:/index.php?g=api&m=public&a=get_match_live&id=3084312846
+{"id":"3084312846"}时间:2017/06/22 10:51:07请求url:/index.php?g=api&m=public&a=get_match_live&id=3084312846
+{"id":"11697"}时间:2017/06/22 10:51:27请求url:/index.php?g=api&m=public&a=get_match_live&id=11697
+{"id":"11697"}时间:2017/06/22 10:53:51请求url:/index.php?g=api&m=public&a=get_match_live&id=11697

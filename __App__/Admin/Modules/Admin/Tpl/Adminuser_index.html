@@ -1,0 +1,58 @@
+<include file="Public:header" />
+<div class="subnav">
+    <div class="content-menu ib-a blue line-x">
+    <a href='javascript:;' class="on"><em>管理员管理</em></a><span>|</span><a href="{:U('add')}"><em>添加管理员</em></a> 
+    </div>
+</div>
+<div class="pad_10">
+<div class="table-list">
+    <table width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th width="5%">ID</th>
+                <th width="10%" align="left">用户名</th>
+                <th width="10%" align="left">昵称</th>
+                <th width="10%" align="left">备注</th>
+                <th width="" align="left">权限</th>
+                <th width="15%" align="left">最后登录时间</th>
+                <th width="10%" align="left">最后登录IP</th>
+                <th width="5%" align="left">登录次数</th>
+                <th width="10%">管理操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <volist name="admin" id="vo">
+            <tr>
+                <td align="center">{$vo.id}</td>
+                <td>{$vo.username}</td>
+                <td>{$vo.nickname}</td>
+                <td>{$vo.remark}</td>
+                <td>{$vo.rights}</td>
+                <td><eq name="vo.logintime" value="0">-<else/>{$vo.logintime|date='Y-m-d H:i:s',###}</eq></td>
+                <td>{$vo.loginip}</td>
+                <td>{$vo.logintimes}</td>
+                <td align="center"><a href="javascript:edit({$vo.id})">修改</a> | <php>if (in_array($vo['username'], C('SUPER_ADMINS'))){</php><font color="#cccccc">删除</font><php>}else{</php><a href="{:U('del', array('id' => $vo['id']))}" onclick="return confirm('确定删除该管理员？')">删除</a><php>}</php></td>
+            </tr>
+            </volist>
+        </tbody>
+    </table>
+</div>
+</div>
+<script>
+    function edit(id) {
+        window.top.art.dialog(
+            { title:'修改管理员信息', id:'edit', iframe:'/index.php?m=Adminuser&a=edit&id='+id ,width:'700px',height:'200px'},
+            function(){
+                var d = window.top.art.dialog({id:'edit'}).data.iframe;
+                var form = d.document.getElementById('dosubmit');
+                form.click();
+                return false;
+            },
+            function(){
+                window.top.art.dialog({id:'edit'}).close()
+            }
+        );
+    }
+</script>
+</body>
+</html>

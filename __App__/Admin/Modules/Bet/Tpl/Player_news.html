@@ -1,0 +1,54 @@
+<include file="Public:header" />
+<div class="subnav">
+  <div class="content-menu ib-a blue line-x"> 
+    <a href='javascript:;' class="on"><em>球员新闻列表</em></a>
+    <span>|</span><a href="{:U('news_add')}"><em>添加新闻</em></a> </div>
+  </div>
+</div>
+<div class="pad_10">
+  <div class="table-list">
+    <form name="myform" action="" method="post" id="myform">
+    
+    <table id="checkList" class="tableList" width='98%' border='0'
+	cellpadding='1' cellspacing='1' align="center">
+  <thead>
+	<tr align="center" class="h_tr">
+		<th align="center">ID</th>
+    <th align="center">项目</th>
+		<th align="center">球员id</th>
+    <th align="center">球员名称</th>
+		<th align="center">添加时间</th>
+		<th align="center">操作</th>
+	</tr>
+  </thead>
+	<tbody id="checkList_tbody">
+  <foreach name= "data" item= "vo" >
+		<tr align='left'>
+     
+			<td align="center">{$vo.id}</td>
+      <td width="200" align="center">{$project[$vo[project_id]]}</td>
+      <td width="200" align="center">{$vo[player_id]}</td>
+      <!-- <td align="center">{$match_type[$vo[match_name_id]][name]}</td> -->
+      <td align="center">{$vo[name]}</td>
+			<td align="center">{$vo.addtime|date="Y-m-d H:i:s",###}</td>
+      <td width="20%" align="center">
+          <a href="{:U('news_edit', array('id' => $vo['id']))}">修改</a>
+          &nbsp;
+          <a href="{:U('news_del', array('id' => $vo['id']))}" >删除</a>
+          &nbsp;
+      </td>
+		</tr>
+  </foreach>
+    <tr>
+      <td class="pagination" colspan="7" align="center">{$show}</td>
+    </tr>
+	</tbody>
+</table>
+      </table>
+      <!-- <div class="btn"><a href="#" onclick="javascript:$('input[type=checkbox]').attr('checked', true)">全选</a>/<a href="#" onclick="javascript:$('input[type=checkbox]').attr('checked', false)">取消</a>
+        <input name="submit" type="submit" onclick="return confirm('确认删除吗？');" value="删除" id="submit" class="button">
+      </div> -->
+    </form>
+  </div>
+</div>
+</body></html>

@@ -1,0 +1,4 @@
+{"class_id":"1","user_token":"1fehsdffd"}时间:2017/04/14 11:29:58请求url:/index.php?m=award&a=get_turnplate&user_token=1fehsdffd
+{"class_id":"1","user_token":"1fehsdffd"}时间:2017/04/14 11:31:12请求url:/index.php?m=award&a=get_turnplate&user_token=1fehsdffd
+{"class_id":"1","user_token":"1fehsdffd"}时间:2017/04/14 11:32:51请求url:/index.php?m=award&a=get_turnplate&user_token=1fehsdffd
+{"class_id":"1","user_token":"1fehsdffd"}时间:2017/04/14 11:57:08请求url:/index.php?m=award&a=get_turnplate&user_token=1fehsdffd

@@ -1,0 +1,13 @@
+[ 2017-07-28T11:30:22+08:00 ] 127.0.0.1 /index.php?m=user&a=notice_list&user_token=a4ebceb08f04b5a33b87129ad6a5ab95
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php ç¬¬ 171 è¡Œ.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php ç¬¬ 38 è¡Œ.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php ç¬¬ 38 è¡Œ.
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_request
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_request
+NOTIC: [2] mysqli::mysqli():  F:\ThinkPHP\Lib\Driver\Db\DbMysqli.class.php ç¬¬ 47 è¡Œ.
+ERR: ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+

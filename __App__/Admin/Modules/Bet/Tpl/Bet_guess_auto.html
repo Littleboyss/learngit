@@ -1,0 +1,80 @@
+<include file="Public:header" />
+<link rel="stylesheet" type="text/css" href="/js/calendar/jscal2.css" />
+<link rel="stylesheet" type="text/css" href="/js/calendar/border-radius.css" />
+<link rel="stylesheet" type="text/css" href="/js/calendar/win2k.css" />
+<script type="text/javascript" src="/js/calendar/calendar.js"></script>
+<script type="text/javascript" src="/js/calendar/lang/en.js"></script>
+<div class="subnav">
+  <div class="content-menu ib-a blue line-x">
+    <a href="javascript:;" class="on"><em>自动投注</em></a>
+  </div>
+  </div>
+<div class="pad_10">
+    <div class="table-list">
+            <input name="id" type="hidden" value="{$data.id}" />
+            <table width='98%' border='0' cellpadding='0' cellspacing='0' align="center" class="rtable">
+                <tr>
+                    <td class="tRight">投注的房间号：</td>
+                    <td class="tLeft" colspan="3">
+                        <input type="text" name="room_id" value="" class="huge iptxt"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tRight">房间投注的次数：</td>
+                    <td class="tLeft" colspan="3">
+                        <input type="text" name="room_guess_num" value="" class="huge iptxt" />
+                    </td>
+                </tr>
+                <tr id="subtn">
+                    <td class="center"></td>
+                    <td class="center" colspan="3">
+                        <input type="button" value="提交" />
+                    </td>
+                </tr>
+            </table>
+        <br />
+        <br />
+        <br />
+    </div>
+</div>
+<div style="width:auto; height:300px; border:1px solid #CCC; overflow-y:scroll; text-align:left;" class="input-text" id="jindu"></div>
+
+</body>
+<script>
+
+$(function(){
+    $('input[type=button]').on('click',function(){
+        var room_id = $('input[name=room_id]').val();
+        var room_guess_num = $('input[name=room_guess_num]').val();
+        if(parseInt(room_id) <= 0 || parseInt(room_guess_num) <=0 ){
+            alert('请填写正确的参数');return false;
+        }
+        if(parseInt(room_guess_num) >= 131){
+            alert('超出用户数');
+        }
+
+        for(var i = 1;i <= room_guess_num;i++){
+            request(room_id,room_guess_num);
+        }
+
+
+    });
+});
+
+function request(room_id,room_guess_num){
+    $.ajax({
+        type:'post',url:'__SELF__',async:false,data:{'room_id':room_id,'room_guess_num':room_guess_num},dataType:'json',
+        success:function(e){
+            console.log(e);
+            if(e.error == 0){
+                $("#jindu").prepend("<p>"+e.msg+"</p>");
+            }else{
+                $("#jindu").prepend('<p style="color:red;">'+e.msg+'</p>');
+            }
+        }
+    });
+}
+
+</script>
+
+</html>

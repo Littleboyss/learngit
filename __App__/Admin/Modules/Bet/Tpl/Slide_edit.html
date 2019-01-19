@@ -1,0 +1,112 @@
+<include file="Public:header" />
+<style type="text/css">
+input.iptxt{
+    width: 350px;
+}
+.tRight{
+    text-align: right;
+}
+input.sm{
+    width:100px;
+}
+</style>
+<script type="text/javascript" src="/js/calendar/calendar.js"></script>
+<script type="text/javascript" src="/js/calendar/lang/en.js"></script>
+<script language="javascript" type="text/javascript" src="/kindeditor/kindeditor-min.js" charset="UTF-8"></script>
+<script language="javascript" type="text/javascript" src="/kindeditor/lang/zh_CN.js" charset="UTF-8"></script>
+<script language="javascript" type="text/javascript" src="/kindeditor/kconfig.js" charset="UTF-8"></script>
+<script type="text/javascript">
+    config.filterMode = false;
+    KindEditor.ready(function(K) {
+        var editor =  K.editor(config);
+        var uploadbutton = K.uploadbutton({
+            button : K('#wqico')[0],
+            fieldName : 'imgFile',
+            url :  './index.php?m=Index&a=upload',
+            afterUpload : function(data) {
+                if (data.error === 0) {
+                    var url = K.formatUrl(data.url, 'absolute');
+                    K('#ico').val(url);
+                } else {
+                    alert(data.message);
+                }
+            },
+            afterError : function(str) {
+                alert('自定义错误信息: ' + str);
+            }
+        });
+        uploadbutton.fileBox.change(function(e) {
+            uploadbutton.submit();
+        });
+    });
+</script>
+<div class="subnav">
+    <div class="content-menu ib-a blue line-x">
+    <a href='javascript:;' class="on"><em>添加图片</em></a>
+    <span>|</span>
+    <a href="{:U('index')}"><em>返回列表</em></a>
+    </div>
+</div>
+<div class="pad_10">
+    <div class="table-list">
+        <form method="post" id="form1" action="__SELF__">
+                <table width='98%' border='0' cellpadding='0' cellspacing='0'
+                       align="center" class="rtable">
+                       <input type="hidden" name="id" value="{$_GET['id']}">
+                    <tr>
+                        <td class="tRight">幻灯类型：</td>
+                        <td class="tLeft" colspan="3">
+                            <select name="type">
+                            <option value="0">未选择</option>
+
+                            <foreach name="types" item="v"> 
+                            <option value="{$key}" <if condition="$data[type] eq $key">selected="selected"</if>>{$v}</option>
+                            </foreach>
+
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tRight">图片标题：</td>
+                        <td class="tLeft" colspan="3">
+                            <input type="text" class="large iptxt" name="title" value="{$data.title}" style="margin-top: 3px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tRight">图标：</td>
+                        <td class="tLeft" colspan="3">
+                            <input type="text" class="large iptxt" id="ico" name="img" value="{$data.img}" style="margin-top: 3px"> 
+                            <input type="button" id="wqico" value="上传图片">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tRight">图片链接：</td>
+                        <td class="tLeft" colspan="3">
+                            <input type="text" class="large iptxt" name="url" value="{$data.url}" style="margin-top: 3px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tRight">排序号：</td>
+                        <td class="tLeft" colspan="3">
+                            <input type="text" class="large iptxt" name="sort" value="{$data.sort}" style="margin-top: 3px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tRight">图片简介：</td>
+                        <td class="tLeft" colspan="3">
+                            <textarea placeholder="可为空" name="introduce" style="width:350px;height:100px;" id="shuoming_pc">{$data.introduce}</textarea>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="center"></td>
+                        <td class="center" colspan="3">
+                            <input type="submit" value="保 存" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <br /><br /><br />
+    </div>
+</div>
+</body></html>

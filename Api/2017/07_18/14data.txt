@@ -1,0 +1,15 @@
+{"id":"34","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 14:41:53请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"id":"34","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 14:43:25请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"id":"34","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 14:43:30请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"id":"34","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 14:43:34请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"id":"34","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 14:43:50请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"id":"34","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 14:44:15请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"id":"34","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 14:44:35请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"id":"34","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 14:44:54请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"id":"34","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 14:45:03请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"id":"34","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 14:45:07请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"id":"34","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 14:49:32请求url:/index.php?g=api&m=bet&a=getlineupcount&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"id":"34","guess_num":"1","user_token":"4093e5bbbc23222c6a161bd5954620d6","team_info":{"1":"100308","2":"100234","3":"100215","4":"100311","5":"100237","6":"100392","7":"100309","8":"100310"}}时间:2017/07/18 14:53:55请求url:/index.php?g=api&m=bet&a=guess
+{"user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 14:55:44请求url:/index.php?g=api&m=user&a=userbetmatching&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 14:56:10请求url:/index.php?g=api&m=user&a=userbetmatching&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 14:59:51请求url:/index.php?g=api&m=user&a=userbetmatching&user_token=4093e5bbbc23222c6a161bd5954620d6

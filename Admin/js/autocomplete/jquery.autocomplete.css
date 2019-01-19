@@ -1,0 +1,18 @@
+﻿@charset "utf-8";
+.ac_results {
+	border:#666666 1px solid;  padding:0; z-index: 99999;background: #fff;}
+.ac_results ul {
+	padding: 0px; list-style-position:outside;  MARGIN: 0px; width: 100%; list-style-type:none;
+}
+.ac_results li {
+ text-align:left; padding: 2px 5px; display:block; font-size:12px;margin:0px; overflow: hidden; cursor: pointer;  line-height:16px;
+}
+.ac_loading {
+	background: url(indicator.gif) #fff no-repeat right center;
+}
+.ac_odd {
+	background-color: #eee
+}
+.ac_over {
+	color: white; BACKGROUND-color: #0a246a
+}

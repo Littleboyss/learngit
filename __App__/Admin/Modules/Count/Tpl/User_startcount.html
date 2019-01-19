@@ -1,0 +1,322 @@
+<include file="Public:header" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/highcharts/highcharts.js"></script>
+<div class="subnav">
+    <div class="content-menu ib-a blue line-x">
+        <a href='javascript:;' class="on"><em>概况</em></a>
+    </div>
+</div>
+
+<div class="subnav">
+
+    <div class="explain-col search-form">
+    
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+            <tr>
+                <td width="230">
+                  起始日期:<input placeholder="起始日期" name="start_time" type="text" class="input-text" />
+                </td>
+                <td width="230">
+                  截止日期:<input placeholder="截止日期" name="end_time" type="text" class="input-text" />
+                </td>
+                <td width="60">
+                    <input type="submit" value="查询" class="button"/>
+                </td width="60">
+                <td width="60">
+                    <input name="button" type="button" onclick="getdata(7)" value="最近7天" class="button"/>
+                </td width="60">
+
+                <td>
+                    <input name="button" type="button"  onclick="getdata(30)" value="最近30天" class="button"/>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+
+<div class="pad_10">
+    <div style="margin: 0 2em">
+        <div id="container1" style="min-width: 500px; height: 500px; margin: 0 auto"></div>
+        <br />
+    </div>
+
+    <div style="margin: 0 2em">
+        <div id="container2" style="min-width: 500px; height: 500px; margin: 0 auto"></div>
+        <br />
+    </div>
+    <div style="margin: 0 2em">
+        <div id="container3" style="min-width: 500px; height: 500px; margin: 0 auto"></div>
+        <br />
+    </div>
+    <div style="margin: 0 2em">
+        <div id="container4" style="min-width: 500px; height: 500px; margin: 0 auto"></div>
+        <br />
+    </div>
+
+</div>
+</body>
+<script type="text/javascript">
+    
+
+function show_datas(match_time, go_nums) {
+    //曲线图初始化
+    chart = new Highcharts.Chart({
+        chart: {
+            renderTo: 'container1',
+            type: 'line',
+            marginRight: 220,
+            marginBottom: 25
+        },
+        title: {
+            text: '启动次数图表',
+            x: -20 //center
+        },
+        subtitle: {
+            text: '启动次数',
+            x: -20
+        },
+        xAxis: {
+            scrollbar: {
+               enabled: true
+            },
+            categories: match_time
+        },
+        yAxis: {
+            title: {
+                text: '数量'
+            },
+            plotLines: [{
+                value: 0,
+                width: 2,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            formatter: function() {
+                return '<b>' + this.series.name + '</b><br/>启动次数:' + this.y + '<br />时间:'+this.x;
+            }
+        },
+        legend: {
+           layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: [{name: '启动次数',data: go_nums}]
+    });
+}
+
+
+function show_datas_count(match_time, data) {
+    //曲线图初始化
+    chart = new Highcharts.Chart({
+        chart: {
+            renderTo: 'container2',
+            type: 'line',
+            marginRight: 220,
+            marginBottom: 25
+        },
+        title: {
+            text: '新增用户曲线图表',
+            x: -20 //center
+        },
+        subtitle: {
+            text: '数量',
+            x: -20
+        },
+        xAxis: {
+            scrollbar: {
+               enabled: true
+            },
+            categories: match_time
+        },
+        yAxis: {
+            title: {
+                text: '数量'
+            },
+            plotLines: [{
+                value: 0,
+                width: 2,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            formatter: function() {
+                return '<b>' + this.series.name + '</b><br/>数量:' + this.y + '<br />时间:'+this.x;
+            }
+        },
+        legend: {
+           layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: [{
+            name: '增加用户数量',
+            data: data
+        }]
+    });
+}
+function show_datas_count_1(match_time, data) {
+    //曲线图初始化
+    chart = new Highcharts.Chart({
+        chart: {
+            renderTo: 'container3',
+            type: 'line',
+            marginRight: 220,
+            marginBottom: 25
+        },
+        title: {
+            text: '付费人数曲线图表',
+            x: -20 //center
+        },
+        subtitle: {
+            text: '付费人数',
+            x: -20
+        },
+        xAxis: {
+            scrollbar: {
+               enabled: true
+            },
+            categories: match_time
+        },
+        yAxis: {
+            title: {
+                text: '数量'
+            },
+            plotLines: [{
+                value: 0,
+                width: 2,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            formatter: function() {
+                return '<b>' + this.series.name + '</b><br/>数量:' + this.y + '<br />时间:'+this.x;
+            }
+        },
+        legend: {
+           layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: [{
+            name: '付费人数',
+            data: data
+        }]
+    });
+}
+
+function show_datas_count_2(match_time, data) {
+    //曲线图初始化
+    chart = new Highcharts.Chart({
+        chart: {
+            renderTo: 'container4',
+            type: 'line',
+            marginRight: 220,
+            marginBottom: 25
+        },
+        title: {
+            text: '付费金额曲线图表',
+            x: -20 //center
+        },
+        subtitle: {
+            text: '付费金额',
+            x: -20
+        },
+        xAxis: {
+            scrollbar: {
+               enabled: true
+            },
+            categories: match_time
+        },
+        yAxis: {
+            title: {
+                text: '金额(元)'
+            },
+            plotLines: [{
+                value: 0,
+                width: 2,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            formatter: function() {
+                return '<b>' + this.series.name + '</b><br/>数量:' + this.y + '<br />时间:'+this.x;
+            }
+        },
+        legend: {
+           layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: [{
+            name: '付费金额',
+            data: data
+        }]
+    });
+}
+$(function(){
+    getdata();
+
+    $('input[type=submit]').click(function(){
+        var start_time = $('input[name=start_time]').val();
+        var end_time = $('input[name=end_time]').val();
+        // alert(start_time);alert(end_time);
+        getdata('',start_time,end_time);
+    });
+
+});
+
+
+
+function getdata(day,start_time,end_time){
+
+    if(typeof(day) != 'undefined' && day != ''){
+        var json = {"day":day};
+    }else if(typeof(start_time) != 'undefined' && typeof(end_time) != 'undefined'){
+        var json = {"start_time":start_time,"end_time":end_time};
+    }else{
+        var json = {};
+    }
+    console.log(json);
+    $.ajax({
+        type:'post',
+        url:"__SELF__",
+        dataType:'json',
+        data:json,
+        success:function(e){
+            console.log(e);
+            if(e.error == 0){
+                show_datas(e.data.date,e.data.start);
+                show_datas_count(e.data.date,e.data.new_user);
+                show_datas_count_1(e.data.date,e.data.pay_user);
+                show_datas_count_2(e.data.date,e.data.pay_money);
+                // var _data = e.data.time;
+                // var html = '';
+                // for(var i in _data){
+                //     var f = _data[i];
+                //     html += '<tr align="left"><td align="center">'+f+'</td><td align="center">'+e.data.pay_money[i]+'</td><td align="center">'+e.data.pay_uid[i]+'</td></tr>';
+                // }
+                // // console.log(htm)
+                // // alert(html);
+                // $('#checkList_tbody').html(html);
+
+            }else{
+                // alert(e.msg);
+            }
+        }
+    });
+}
+
+
+</script>
+
+</html>

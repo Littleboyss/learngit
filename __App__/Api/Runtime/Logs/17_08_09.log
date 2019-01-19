@@ -1,0 +1,1054 @@
+[ 2017-08-09T08:43:36+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=update_team_info
+NOTIC: [8] Constant GROUP_NAME already defined F:\ThinkPHP\Lib\Core\Dispatcher.class.php 第 140 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM `fa_match_player_wcg` WHERE ( position = 6 and result = "0W-0L" )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100009 or team_b =100009 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100010 or team_b =100010 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100012 or team_b =100012 )  [ RunTime:0.003001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100013 or team_b =100013 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100014 or team_b =100014 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100015 or team_b =100015 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100016 or team_b =100016 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100017 or team_b =100017 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100018 or team_b =100018 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100019 or team_b =100019 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100020 or team_b =100020 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100022 or team_b =100022 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100024 or team_b =100024 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100025 or team_b =100025 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100026 or team_b =100026 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100027 or team_b =100027 )  [ RunTime:0.002001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100028 or team_b =100028 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100033 or team_b =100033 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100035 or team_b =100035 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100039 or team_b =100039 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100050 or team_b =100050 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100052 or team_b =100052 )  [ RunTime:0.003001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100054 or team_b =100054 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100057 or team_b =100057 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100060 or team_b =100060 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100061 or team_b =100061 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100063 or team_b =100063 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100064 or team_b =100064 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100067 or team_b =100067 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100068 or team_b =100068 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100070 or team_b =100070 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100071 or team_b =100071 )  [ RunTime:0.008000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100072 or team_b =100072 )  [ RunTime:0.002001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100074 or team_b =100074 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100075 or team_b =100075 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100076 or team_b =100076 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100077 or team_b =100077 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100078 or team_b =100078 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100080 or team_b =100080 )  [ RunTime:0.003001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100081 or team_b =100081 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100082 or team_b =100082 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100083 or team_b =100083 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100084 or team_b =100084 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100087 or team_b =100087 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100088 or team_b =100088 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100089 or team_b =100089 )  [ RunTime:0.002001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100090 or team_b =100090 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100093 or team_b =100093 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100094 or team_b =100094 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100095 or team_b =100095 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100096 or team_b =100096 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100097 or team_b =100097 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100098 or team_b =100098 )  [ RunTime:0.003001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100099 or team_b =100099 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100101 or team_b =100101 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100103 or team_b =100103 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100104 or team_b =100104 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100105 or team_b =100105 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100106 or team_b =100106 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100107 or team_b =100107 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100108 or team_b =100108 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100109 or team_b =100109 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100110 or team_b =100110 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100111 or team_b =100111 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100112 or team_b =100112 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100113 or team_b =100113 )  [ RunTime:0.003001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100114 or team_b =100114 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100115 or team_b =100115 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100117 or team_b =100117 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100121 or team_b =100121 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100122 or team_b =100122 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100123 or team_b =100123 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100124 or team_b =100124 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100125 or team_b =100125 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100126 or team_b =100126 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100127 or team_b =100127 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100128 or team_b =100128 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100129 or team_b =100129 )  [ RunTime:0.003001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100130 or team_b =100130 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100131 or team_b =100131 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100132 or team_b =100132 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100133 or team_b =100133 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100134 or team_b =100134 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100135 or team_b =100135 )  [ RunTime:0.003001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100138 or team_b =100138 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100142 or team_b =100142 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100144 or team_b =100144 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100145 or team_b =100145 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100146 or team_b =100146 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100147 or team_b =100147 )  [ RunTime:0.002001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100148 or team_b =100148 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100149 or team_b =100149 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100368 or team_b =100368 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100369 or team_b =100369 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100370 or team_b =100370 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100371 or team_b =100371 )  [ RunTime:0.002001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100372 or team_b =100372 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100373 or team_b =100373 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100374 or team_b =100374 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100375 or team_b =100375 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100376 or team_b =100376 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100377 or team_b =100377 )  [ RunTime:0.002001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100378 or team_b =100378 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100379 or team_b =100379 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100380 or team_b =100380 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100381 or team_b =100381 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100382 or team_b =100382 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100383 or team_b =100383 )  [ RunTime:0.003001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100384 or team_b =100384 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100385 or team_b =100385 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100386 or team_b =100386 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100387 or team_b =100387 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100388 or team_b =100388 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100389 or team_b =100389 )  [ RunTime:0.003001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100390 or team_b =100390 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100391 or team_b =100391 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100392 or team_b =100392 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100393 or team_b =100393 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100394 or team_b =100394 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100395 or team_b =100395 )  [ RunTime:0.003001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100396 or team_b =100396 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100397 or team_b =100397 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100398 or team_b =100398 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100399 or team_b =100399 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100400 or team_b =100400 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100401 or team_b =100401 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+
+[ 2017-08-09T08:44:03+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=update_team_info
+NOTIC: [8] Constant GROUP_NAME already defined F:\ThinkPHP\Lib\Core\Dispatcher.class.php 第 140 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM `fa_match_player_wcg` WHERE ( position = 6 and project_id = 6 )  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100368 or team_b =100368 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100369 or team_b =100369 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100370 or team_b =100370 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100371 or team_b =100371 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100372 or team_b =100372 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100373 or team_b =100373 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100374 or team_b =100374 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100375 or team_b =100375 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100376 or team_b =100376 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100377 or team_b =100377 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100378 or team_b =100378 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100379 or team_b =100379 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100380 or team_b =100380 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100381 or team_b =100381 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100382 or team_b =100382 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100383 or team_b =100383 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100384 or team_b =100384 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100385 or team_b =100385 )  [ RunTime:0.001001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100386 or team_b =100386 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100387 or team_b =100387 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100388 or team_b =100388 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100389 or team_b =100389 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100390 or team_b =100390 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100391 or team_b =100391 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100392 or team_b =100392 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100393 or team_b =100393 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100394 or team_b =100394 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100395 or team_b =100395 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100396 or team_b =100396 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100397 or team_b =100397 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100398 or team_b =100398 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100399 or team_b =100399 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100400 or team_b =100400 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100401 or team_b =100401 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+
+[ 2017-08-09T08:44:20+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=update_team_info
+NOTIC: [8] Constant GROUP_NAME already defined F:\ThinkPHP\Lib\Core\Dispatcher.class.php 第 140 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM `fa_match_player_wcg` WHERE ( position = 6 and project_id = 6 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100368 or team_b =100368 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100369 or team_b =100369 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100370 or team_b =100370 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100371 or team_b =100371 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100372 or team_b =100372 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100373 or team_b =100373 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100374 or team_b =100374 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100375 or team_b =100375 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100376 or team_b =100376 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100377 or team_b =100377 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100378 or team_b =100378 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100379 or team_b =100379 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100380 or team_b =100380 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100381 or team_b =100381 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100382 or team_b =100382 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100383 or team_b =100383 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100384 or team_b =100384 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100385 or team_b =100385 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100386 or team_b =100386 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100387 or team_b =100387 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100388 or team_b =100388 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100389 or team_b =100389 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100390 or team_b =100390 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100391 or team_b =100391 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100392 or team_b =100392 )  [ RunTime:0.001001s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100393 or team_b =100393 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100394 or team_b =100394 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100395 or team_b =100395 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100396 or team_b =100396 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100397 or team_b =100397 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100398 or team_b =100398 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100399 or team_b =100399 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100400 or team_b =100400 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100401 or team_b =100401 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+
+[ 2017-08-09T08:44:32+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=update_team_info
+NOTIC: [8] Constant GROUP_NAME already defined F:\ThinkPHP\Lib\Core\Dispatcher.class.php 第 140 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM `fa_match_player_wcg` WHERE ( position = 6 and project_id = 6 )  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100368 or team_b =100368 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+
+[ 2017-08-09T08:44:43+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=update_team_info
+NOTIC: [8] Constant GROUP_NAME already defined F:\ThinkPHP\Lib\Core\Dispatcher.class.php 第 140 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM `fa_match_player_wcg` WHERE ( position = 6 and project_id = 6 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100368 or team_b =100368 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+
+[ 2017-08-09T08:45:25+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=update_team_info
+NOTIC: [8] Constant GROUP_NAME already defined F:\ThinkPHP\Lib\Core\Dispatcher.class.php 第 140 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM `fa_match_player_wcg` WHERE ( position = 6 and project_id = 6 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100368 or team_b =100368 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+
+[ 2017-08-09T08:45:38+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=update_team_info
+NOTIC: [8] Constant GROUP_NAME already defined F:\ThinkPHP\Lib\Core\Dispatcher.class.php 第 140 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM `fa_match_player_wcg` WHERE ( position = 6 and project_id = 6 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100368 or team_b =100368 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+
+[ 2017-08-09T08:50:19+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=update_team_info
+NOTIC: [8] Constant GROUP_NAME already defined F:\ThinkPHP\Lib\Core\Dispatcher.class.php 第 140 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id` FROM `fa_match_player_wcg` WHERE ( position = 6 and project_id = 6 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: team_id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2488 行.
+NOTIC: [8] Undefined index: team_id F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2488 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a =  or team_b = )  [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'or team_b = )' at line 1
+ [ SQL语句 ] : SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a =  or team_b = ) 
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+
+[ 2017-08-09T08:51:05+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=update_team_info
+NOTIC: [8] Constant GROUP_NAME already defined F:\ThinkPHP\Lib\Core\Dispatcher.class.php 第 140 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id` FROM `fa_match_player_wcg` WHERE ( position = 6 and project_id = 6 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100196 or team_b =100196 )  [ RunTime:0.000000s ]
+
+[ 2017-08-09T08:52:00+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=update_team_info
+NOTIC: [8] Constant GROUP_NAME already defined F:\ThinkPHP\Lib\Core\Dispatcher.class.php 第 140 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id` FROM `fa_match_player_wcg` WHERE ( position = 6 and project_id = 6 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100196 or team_b =100196 )  [ RunTime:0.001001s ]
+
+[ 2017-08-09T08:52:08+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=update_team_info
+NOTIC: [8] Constant GROUP_NAME already defined F:\ThinkPHP\Lib\Core\Dispatcher.class.php 第 140 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id` FROM `fa_match_player_wcg` WHERE ( position = 6 and project_id = 6 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100196 or team_b =100196 )  [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100195 or team_b =100195 )  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100194 or team_b =100194 )  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100193 or team_b =100193 )  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100192 or team_b =100192 )  [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100191 or team_b =100191 )  [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100190 or team_b =100190 )  [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100189 or team_b =100189 )  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100188 or team_b =100188 )  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100187 or team_b =100187 )  [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100186 or team_b =100186 )  [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100185 or team_b =100185 )  [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100184 or team_b =100184 )  [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100183 or team_b =100183 )  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100182 or team_b =100182 )  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100181 or team_b =100181 )  [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100180 or team_b =100180 )  [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100179 or team_b =100179 )  [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100178 or team_b =100178 )  [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100177 or team_b =100177 )  [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100176 or team_b =100176 )  [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100177 or team_b =100177 )  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100174 or team_b =100174 )  [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100173 or team_b =100173 )  [ RunTime:0.003001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100166 or team_b =100166 )  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100172 or team_b =100172 )  [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100171 or team_b =100171 )  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100170 or team_b =100170 )  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100169 or team_b =100169 )  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100168 or team_b =100168 )  [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100167 or team_b =100167 )  [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100175 or team_b =100175 )  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100198 or team_b =100198 )  [ RunTime:0.003000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( team_a = 100197 or team_b =100197 )  [ RunTime:0.003000s ]
+
+[ 2017-08-09T08:55:08+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=update_team_info
+NOTIC: [8] Constant GROUP_NAME already defined F:\ThinkPHP\Lib\Core\Dispatcher.class.php 第 140 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id` FROM `fa_match_player_wcg` WHERE ( position = 6 and project_id = 6 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100196 or team_b =100196) )  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100195 or team_b =100195) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100194 or team_b =100194) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100193 or team_b =100193) )  [ RunTime:0.015600s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100192 or team_b =100192) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100191 or team_b =100191) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100190 or team_b =100190) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100189 or team_b =100189) )  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100188 or team_b =100188) )  [ RunTime:0.015600s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100187 or team_b =100187) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100186 or team_b =100186) )  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100185 or team_b =100185) )  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100184 or team_b =100184) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100183 or team_b =100183) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100182 or team_b =100182) )  [ RunTime:0.015600s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100181 or team_b =100181) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100180 or team_b =100180) )  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100179 or team_b =100179) )  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100178 or team_b =100178) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100177 or team_b =100177) )  [ RunTime:0.015600s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100176 or team_b =100176) )  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100177 or team_b =100177) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100174 or team_b =100174) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100173 or team_b =100173) )  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100166 or team_b =100166) )  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100172 or team_b =100172) )  [ RunTime:0.015600s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100171 or team_b =100171) )  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100170 or team_b =100170) )  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100169 or team_b =100169) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100168 or team_b =100168) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100167 or team_b =100167) )  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100175 or team_b =100175) )  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100198 or team_b =100198) )  [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100197 or team_b =100197) )  [ RunTime:0.000000s ]
+
+[ 2017-08-09T08:57:29+08:00 ] 127.0.0.1 /index.php?g=api&m=public&a=update_team_info
+NOTIC: [8] Constant GROUP_NAME already defined F:\ThinkPHP\Lib\Core\Dispatcher.class.php 第 140 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: [2] Memcache::connect():  F:\ThinkPHP\Extend\Driver\Session\SessionMemcache.class.php 第 38 行.
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `id`,`team_id` FROM `fa_match_player_wcg` WHERE ( position = 6 and project_id = 6 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_list` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100196 or team_b =100196) )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='2W-14L' WHERE ( id =100368 ) [ RunTime:0.073004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100195 or team_b =100195) )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100194 or team_b =100194) )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100193 or team_b =100193) )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='9W-7L' WHERE ( id =100371 ) [ RunTime:0.064004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100192 or team_b =100192) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100191 or team_b =100191) )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100190 or team_b =100190) )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100189 or team_b =100189) )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='5W-12L' WHERE ( id =100375 ) [ RunTime:0.062004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100188 or team_b =100188) )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='7W-8L' WHERE ( id =100376 ) [ RunTime:0.065003s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100187 or team_b =100187) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100186 or team_b =100186) )  [ RunTime:0.001001s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='6W-11L' WHERE ( id =100378 ) [ RunTime:0.065003s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100185 or team_b =100185) )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='11W-7L' WHERE ( id =100379 ) [ RunTime:0.065004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100184 or team_b =100184) )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100183 or team_b =100183) )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100182 or team_b =100182) )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='7W-10L' WHERE ( id =100382 ) [ RunTime:0.064004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100181 or team_b =100181) )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100180 or team_b =100180) )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='8W-6L' WHERE ( id =100384 ) [ RunTime:0.073004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100179 or team_b =100179) )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='8W-9L' WHERE ( id =100385 ) [ RunTime:0.066004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100178 or team_b =100178) )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100177 or team_b =100177) )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100176 or team_b =100176) )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='10W-7L' WHERE ( id =100388 ) [ RunTime:0.064004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100177 or team_b =100177) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100174 or team_b =100174) )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100173 or team_b =100173) )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='13W-5L' WHERE ( id =100391 ) [ RunTime:0.055003s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100166 or team_b =100166) )  [ RunTime:0.000000s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='12W-7L' WHERE ( id =100392 ) [ RunTime:0.057004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100172 or team_b =100172) )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100171 or team_b =100171) )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='14W-2L' WHERE ( id =100394 ) [ RunTime:0.048002s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100170 or team_b =100170) )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='12W-4L' WHERE ( id =100395 ) [ RunTime:0.049003s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100169 or team_b =100169) )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100168 or team_b =100168) )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Modules\Api\Action\PublicAction.class.php 第 2489 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100167 or team_b =100167) )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='7W-10L' WHERE ( id =100398 ) [ RunTime:0.064004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100175 or team_b =100175) )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='14W-5L' WHERE ( id =100399 ) [ RunTime:0.049003s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100198 or team_b =100198) )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='5W-12L' WHERE ( id =100400 ) [ RunTime:0.067004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_a`,`team_b`,`score_a`,`score_b` FROM `fa_match_list` WHERE ( match_name_id = 7 and (team_a = 100197 or team_b =100197) )  [ RunTime:0.001000s ]
+SQL: UPDATE `fa_match_player_wcg` SET `result`='1W-15L' WHERE ( id =100401 ) [ RunTime:0.065004s ]
+

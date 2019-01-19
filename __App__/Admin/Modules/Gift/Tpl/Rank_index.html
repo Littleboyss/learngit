@@ -1,0 +1,165 @@
+<include file="Public:header" />
+<style type="text/css">
+select optgroup {
+    color: #2288cc;
+}
+select option {
+    color: #2288cc;
+}
+</style>
+<div class="subnav">
+  <div class="content-menu ib-a blue line-x">
+    <a href='javascript:;' class="on"><em>称号列表</em></a>
+    <span>|</span>
+    <a href="{:U('add')}"><em>称号添加</em></a>
+  </div>
+  <div class="explain-col search-form">
+    <form name="myform" action="{:U('index')}" method="post">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="250">称号分类：
+                  <select name="sub_id" type="text"/>
+                    <option value="0">所有</option>
+                    <?php
+                        foreach ($projects as $key => $value) {
+                          echo '<option value="'.$value['id'].'"';
+                          if($sub_id == $value['id']){
+                            echo 'selected';
+                          }
+                          echo '>'.$value['name'].'</option>';
+                        }
+                    ?>
+                  </select>
+                </td>
+                <td>
+                    <input name="submit" type="submit" value="查询" class="button"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+  </div>
+</div>
+<div class="pad_10">
+  <div class="table-list">
+    <form name="myform" action="" method="post" id="myform">
+    <table id="checkList" class="tableList" width='98%' border='0' cellpadding='1' cellspacing='1' align="center">
+  <thead>
+  <tr align="center" class="h_tr">
+    <th align="center">编号</th>
+    <th align="center">称号缩略图</th>
+    <th align="center">称号名称</th>
+    <th align="center">称号分类</th>
+    <th align="center">发布者</th>
+    <th align="center">添加时间</th>
+    <th align="center">操作</th>
+  </tr>
+  </thead>
+  <tbody id="checkList_tbody">
+    <foreach name= "data" item= "vo" >
+    <tr align='left'>
+      <td align="center">{$vo.id}</td>
+      <td align="center"><img src="{$vo.avatar_img}"></td>
+      <td align="center">{$vo.name}</td>
+      <td align="center">{$vo.class_name}</td>
+      <td align="center">{$vo.author}</td>
+      <td align="center">{$vo.addtime|date="Y-m-d H:i",###}</td>
+      <td width="22%" align="center">
+        <a href="{:U('edit', array('id' => $vo['id']))}">修改</a>
+        
+        <!-- <a href="{:U('del', array('id' => $vo['id']))}" onclick="return confirm('你确定删除该称号？')">删除</a> -->
+      </td>
+    </tr>
+    </foreach>
+    <tr>
+      <td class="pagination" colspan="7" align="center">{$show}</td>
+    </tr>
+  </tbody>
+</table>
+      </table>
+      <!-- <div class="btn"><a href="#" onclick="javascript:$('input[type=checkbox]').attr('checked', true)">全选</a>/<a href="#" onclick="javascript:$('input[type=checkbox]').attr('checked', false)">取消</a>
+        <input name="submit" type="submit" onclick="return confirm('确认删除吗？');" value="删除" id="submit" class="button">
+      </div> -->
+    </form>
+  </div>
+</div>
+</body>
+<style type="text/css">
+  table tr td a img{
+    width: 17px;
+  }
+</style>
+<script type="text/javascript">
+function edit(url) {
+  window.top.art.dialog(
+      { title:'号码导入', id:'edit', iframe:url ,width:'700px',height:'500px'},
+      function(){
+          var d = window.top.art.dialog({id:'edit'}).data.iframe;
+          var form = d.document.getElementById('dosubmit');
+          form.click();
+          return false;
+      },
+      function(){
+          window.top.art.dialog({id:'edit'}).close()
+          location.reload()
+      }
+  );
+}
+function product_edit(url) {
+  window.top.art.dialog(
+      { title:'库存修改', id:'edit', iframe:url ,width:'700px',height:'500px'},
+      function(){
+          var d = window.top.art.dialog({id:'edit'}).data.iframe;
+          var form =  $('.aui_state_highlight');
+          form.click();
+          window.top.art.dialog({id:'edit'}).close()
+          return false;
+      },
+      function(){
+          window.top.art.dialog({id:'edit'}).close()
+          location.reload()
+      }
+  );
+}
+  function createCard(a){
+    if(confirm('你确定生成吗?')){
+      $.ajax({
+        data:{id:a},
+        url:"{:U('createCard')}",
+        success:function(e){
+          alert(e);
+        }
+      });
+    }else{
+      //return false;
+    }
+  }
+
+function oneStatus(obj){
+  var setStatus = $(obj).attr('status') == 1 ? 0 : 1; // 更新后的状态
+  var dataName = $(obj).attr('dataname');
+  console.log(dataName);
+  var id = $(obj).attr('dataid');
+  $.ajax({
+    dataType:"json",
+    url:"/index.php?g=Gift&m=Exchange&a=set_status",
+    data: {
+      'id': id,
+      dataName: dataName,
+      setStatus:setStatus
+    },
+    type:'post',
+    success: function(data){
+      console.log(data);
+        if(setStatus == 1 ){
+            $(obj).html('<img src="/images/yes.gif" title="点击关闭" />');
+            $(obj).attr('state', 1);
+        }else{
+            $(obj).html('<img src="/images/no.gif" title="点击开启" />');
+            $(obj).attr('state', 0);
+        }
+    }
+  });
+}
+</script>
+</html>

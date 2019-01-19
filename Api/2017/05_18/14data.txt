@@ -1,0 +1,9 @@
+{"id":"1","user_token":"1fehsdffd"}时间:2017/05/18 14:07:21请求url:/index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+{"user_token":"4","lineup_id":"16","id":"33"}时间:2017/05/18 14:07:35请求url:/index.php?g=api&m=user&a=getuserlineup
+{"user_token":"4","lineup_id":"16","id":"33"}时间:2017/05/18 14:07:47请求url:/index.php?g=api&m=user&a=getuserlineup
+{"user_token":"4","lineup_id":"16","id":"33"}时间:2017/05/18 14:07:48请求url:/index.php?g=api&m=user&a=getuserlineup
+{"user_token":"4","lineup_id":"16","id":"33"}时间:2017/05/18 14:07:49请求url:/index.php?g=api&m=user&a=getuserlineup
+{"id":"1","user_token":"1fehsdffd"}时间:2017/05/18 14:08:16请求url:/index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+{"id":"33","user_token":"1fehsdffd"}时间:2017/05/18 14:08:19请求url:/index.php?g=api&m=room&a=roomdetail&user_token=1fehsdffd
+{"user_token":"4","id":"16","room_id":"33"}时间:2017/05/18 14:08:23请求url:/index.php?g=api&m=user&a=userroomdetail
+{"user_token":"4","lineup_id":"16","id":"33"}时间:2017/05/18 14:08:29请求url:/index.php?g=api&m=user&a=getuserlineup

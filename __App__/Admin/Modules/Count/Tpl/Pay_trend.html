@@ -1,0 +1,292 @@
+<include file="Public:header" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/highcharts/highcharts.js"></script>
+<div class="subnav">
+    <div class="content-menu ib-a blue line-x">
+        <a href='javascript:;' class="on"><em>付费趋势</em></a>
+    </div>
+</div>
+
+<div class="subnav">
+
+    <div class="explain-col search-form">
+    
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+            <tr>
+                <td width="230">
+                  起始日期:<input placeholder="起始日期" name="start_time" type="text" class="input-text" />
+                </td>
+                <td width="230">
+                  截止日期:<input placeholder="截止日期" name="end_time" type="text" class="input-text" />
+                </td>
+                <td width="60">
+                    <input type="submit" value="查询" class="button"/>
+                </td width="60">
+                <td width="60">
+                    <input name="button" type="button" onclick="getdata(7)" value="最近7天" class="button"/>
+                </td width="60">
+
+                <td>
+                    <input name="button" type="button"  onclick="getdata(30)" value="最近30天" class="button"/>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+
+<div class="pad_10">
+    <div style="margin: 0 2em">
+        <div id="container1" style="min-width: 500px; height: 500px; margin: 0 auto"></div>
+        <div id="container2" style="min-width: 500px; height: 500px; margin: 0 auto"></div>
+        <div id="container3" style="min-width: 500px; height: 500px; margin: 0 auto"></div>
+        <br />
+    </div>
+
+  <div class="table-list">
+    <form name="myform" action="" method="post" id="myform">
+    
+    <table id="checkList" class="tableList" width='98%' border='0'
+    cellpadding='1' cellspacing='1' align="center">
+  <thead>
+    <tr align="center" class="h_tr">
+
+        <th align="center">日期</th>
+        <th align="center">付费金额</th>
+        <th align="center">付费次数</th>
+        <th align="center">付费人数</th>
+
+    </tr>
+  </thead>
+    <tbody id="checkList_tbody">
+
+
+
+    </tbody>
+</table>
+      </table>
+      <!-- <div class="btn"><a href="#" onclick="javascript:$('input[type=checkbox]').attr('checked', true)">全选</a>/<a href="#" onclick="javascript:$('input[type=checkbox]').attr('checked', false)">取消</a>
+        <input name="submit" type="submit" onclick="return confirm('确认删除吗？');" value="删除" id="submit" class="button">
+      </div> -->
+    </form>
+  </div>
+
+
+
+</div>
+</body>
+<script type="text/javascript">
+    
+function show_datas2(match_time,data) {
+    chart = new Highcharts.Chart({
+        chart: {
+            renderTo: 'container3',
+            type: 'line',
+            marginRight: 220,
+            marginBottom: 25
+        },
+        title: {
+            text: '付费人数图表',
+            x: -20 //center
+        },
+        subtitle: {
+            text: '付费人数',
+            x: -20
+        },
+        xAxis: {
+            scrollbar: {
+               enabled: true
+            },
+            categories: match_time
+        },
+        yAxis: {
+            title: {
+                text: '数据'
+            },
+            plotLines: [{
+                value: 0,
+                width: 2,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            formatter: function() {
+                return '<b>' + this.series.name + '</b><br/>数量:' + this.y + '<br />时间:'+this.x;
+            }
+        },
+        legend: {
+           layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: [{
+            name: '付费人数',
+            data: data
+        }]
+    });
+}
+//付费次数
+function show_datas1(match_time,data) {
+    chart = new Highcharts.Chart({
+        chart: {
+            renderTo: 'container2',
+            type: 'line',
+            marginRight: 220,
+            marginBottom: 25
+        },
+        title: {
+            text: '付费次数图表',
+            x: -20 //center
+        },
+        subtitle: {
+            text: '付费次数',
+            x: -20
+        },
+        xAxis: {
+            scrollbar: {
+               enabled: true
+            },
+            categories: match_time
+        },
+        yAxis: {
+            title: {
+                text: '数据'
+            },
+            plotLines: [{
+                value: 0,
+                width: 2,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            formatter: function() {
+                return '<b>' + this.series.name + '</b><br/>数量:' + this.y + '<br />时间:'+this.x;
+            }
+        },
+        legend: {
+           layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: [{
+            name: '付费次数',
+            data: data
+        }]
+    });
+}
+
+//付费金额
+function show_datas(match_time,data) {
+    chart = new Highcharts.Chart({
+        chart: {
+            renderTo: 'container1',
+            type: 'line',
+            marginRight: 220,
+            marginBottom: 25
+        },
+        title: {
+            text: '付费金额图表',
+            x: -20 //center
+        },
+        subtitle: {
+            text: '付费金额',
+            x: -20
+        },
+        xAxis: {
+            scrollbar: {
+               enabled: true
+            },
+            categories: match_time
+        },
+        yAxis: {
+            title: {
+                text: '数据'
+            },
+            plotLines: [{
+                value: 0,
+                width: 2,
+                color: '#808080'
+            }]
+        },
+        tooltip: {
+            formatter: function() {
+                return '<b>' + this.series.name + '</b><br/>数量:' + this.y + '<br />时间:'+this.x;
+            }
+        },
+        legend: {
+           layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: [{
+            name: '付费金额',
+            data: data
+        }]
+    });
+}
+
+
+$(function(){
+    getdata();
+
+    $('input[type=submit]').click(function(){
+        var start_time = $('input[name=start_time]').val();
+        var end_time = $('input[name=end_time]').val();
+        // alert(start_time);alert(end_time);
+        getdata('',start_time,end_time);
+    });
+
+});
+
+
+
+function getdata(day,start_time,end_time){
+
+    if(typeof(day) != 'undefined' && day != ''){
+        var json = {"day":day};
+    }else if(typeof(start_time) != 'undefined' && typeof(end_time) != 'undefined'){
+        var json = {"start_time":start_time,"end_time":end_time};
+    }else{
+        var json = {};
+    }
+    // console.log(json);
+    $.ajax({
+        type:'post',
+        url:"__SELF__",
+        dataType:'json',
+        data:json,
+        success:function(e){
+            console.log(e);
+            if(e.error == 0){
+                show_datas(e.data.time,e.data.pay_money);
+                show_datas1(e.data.time,e.data.pay_uid);
+                show_datas2(e.data.time,e.data.pay_count);
+
+                var _data = e.data.time;
+                var html = '';
+                for(var i in _data){
+                    var f = _data[i];
+                    html += '<tr align="left"><td align="center">'+f+'</td><td align="center">'+e.data.pay_money[i]+'</td><td align="center">'+e.data.pay_count[i]+'</td><td align="center">'+e.data.pay_uid[i]+'</td></tr>';
+                }
+                // console.log(htm)
+                // alert(html);
+                $('#checkList_tbody').html(html);
+
+            }else{
+                alert(e.msg);
+            }
+        }
+    });
+}
+
+
+</script>
+
+</html>

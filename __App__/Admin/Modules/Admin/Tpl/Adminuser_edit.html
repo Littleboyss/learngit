@@ -1,0 +1,53 @@
+<include file="Public:header" />
+<script type="text/javascript">
+    $(document).ready(function() {
+        $.formValidator.initConfig({autotip:true,formid:"myform",onerror:function(msg){}});
+        $("#password").formValidator({empty:true,onshow:"不修改密码请留空。",onfocus:"密码应该为6-20位之间"}).inputValidator({min:6,max:20,onerror:"密码应该为6-20位之间"});
+        $("#pwdconfirm").formValidator({empty:true,onshow:"不修改密码请留空。",onfocus:"请输入两次密码不同。",oncorrect:"密码输入一致"}).compareValidator({desid:"password",operateor:"=",onerror:"请输入两次密码不同。"});
+        $("#email").formValidator({onshow:"请输入E-mail",onfocus:"E-mail格式错误",oncorrect:"E-mail格式正确"}).regexValidator({regexp:"email",datatype:"enum",onerror:"E-mail格式错误"});
+    })
+</script>
+<div class="pad_10">
+    <div class="common-form">
+        <form name="myform" action="" method="post" id="myform">
+            <input type="hidden" name="id" value="{$admin.id}" />
+            <table width="100%" class="table_form contentWrap">
+                <tr>
+                    <td width="80">用户名</td> 
+                    <td><input type="text" name="username"  class="input-text" id="username" value="{$admin.username}" /></td>
+                </tr>
+                <tr>
+                    <td>权限</td>
+                    <td>
+                        <volist name="Think.config.MODULES" id="vo">
+                            <label <neq name="i" value="1">style="margin-left: 10px"</neq>><input type="checkbox" name="rights[]" value="{$key}" <php>if (in_array($key, $admin['rights'])){echo 'checked';}</php> /> {$vo}</label>
+                        </volist>
+                        <div class="onShow">拥有系统管理权限就拥有所有权限</div>
+                    </td>
+                </tr>
+            </table>
+            <div class="bk15"></div>
+            <input type="submit" value="提交" class="dialog" id="dosubmit" />
+        </form>
+    </div>
+</div>
+<script>
+    <?php
+    if (in_array('Admin', $admin['rights'])) {
+        echo '$("input[name=\'rights[]\']").not("[value=\'Admin\']").attr("disabled", "disabled");';
+    }
+    ?>
+    $(document).ready(function(){
+        $("input[name='rights[]']").click(function(){
+            if (this.value == 'Admin') {
+                if (this.checked) {
+                    $("input[name='rights[]']").not(this).attr("disabled", 'disabled');
+                } else {
+                    $("input[name='rights[]']").removeAttr("disabled");
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>

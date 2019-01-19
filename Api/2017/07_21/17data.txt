@@ -1,0 +1,2 @@
+{"id":"7","room_id":"19","user_token":"8db501c5c0367ad2553c63c6d59801eb"}时间:2017/07/21 17:45:06请求url:/index.php?g=api&m=user&a=userroomdetail
+{"id":"18","room_id":"6","user_token":"f958bd24566da50baf8373dd04f61c0a"}时间:2017/07/21 17:46:49请求url:/index.php?g=api&m=user&a=userroomdetail

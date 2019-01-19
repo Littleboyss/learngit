@@ -1,0 +1,53 @@
+<include file="Public:header" />
+<div class="subnav">
+    <div class="content-menu ib-a blue line-x">
+        <a href="{:U('index')}"><em>管理员管理</em></a><span>|</span><a href='javascript:;' class="on"><em>添加管理员</em></a>
+    </div>
+</div>
+<script type="text/javascript">
+    <!--
+    $(function(){
+        $.formValidator.initConfig({autotip:true,formid:"myform",onerror:function(msg){}});
+        $("#username").formValidator({onshow:"请输入wrok.sgamer.com的用户名",onfocus:"请输入wrok.sgamer.com的用户名"}).inputValidator({min:1,onerror:"用户名不能为空"});
+    })
+    //-->
+</script>
+<div class="pad_10">
+    <div class="common-form">
+        <form name="myform" action="" method="post" id="myform">
+            <table width="100%" class="table_form contentWrap">
+                <tr>
+                    <td width="80">用户名</td> 
+                    <td><input type="text" name="username"  class="input-text" id="username" /></td>
+                </tr>
+                <tr>
+                    <td>权限</td> 
+                    <td>
+                        <volist name="Think.config.MODULES" id="vo">
+                            <label <neq name="i" value="1">style="margin-left: 10px"</neq>><input type="checkbox" name="rights[]" value="{$key}" /> {$vo}</label>
+                        </volist>
+                        <div class="onShow">拥有系统管理权限就拥有所有权限</div>
+                    </td>
+                </tr>
+            </table>
+            <div class="bk15"></div>
+            <input type="submit" value="提交" class="button" />
+        </form>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        $("input[name='rights[]']").click(function(){
+            if (this.value == 'Admin') {
+                if (this.checked) {
+                    $("input[name='rights[]']").not(this).attr("disabled", 'disabled');
+                } else {
+                    $("input[name='rights[]']").removeAttr("disabled");
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>
+

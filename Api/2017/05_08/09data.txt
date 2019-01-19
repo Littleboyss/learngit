@@ -1,0 +1,9 @@
+{"id":"33","guess_num":"1","user_token":"4","team_info":{"1":"6","2":"2","3":"8","4":"5","5":"7","6":"47","7":"37","8":"4"}}时间:2017/05/08 09:04:16请求url:/index.php?g=api&m=bet&a=guess
+{"id":"4","user_token":"1fehsdffd"}时间:2017/05/08 09:04:34请求url:/index.php?g=api&m=room&a=roomdetail&user_token=1fehsdffd
+{"id":"33","user_token":"1fehsdffd"}时间:2017/05/08 09:04:49请求url:/index.php?g=api&m=room&a=roomdetail&user_token=1fehsdffd
+{"id":"33","user_token":"1fehsdffd"}时间:2017/05/08 09:05:09请求url:/index.php?g=api&m=room&a=roomplayer&user_token=1fehsdffd
+{"id":"33","user_token":"1fehsdffd"}时间:2017/05/08 09:11:51请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"33","guess_num":"1","user_token":"4","team_info":{"1":"6","2":"2","3":"8","4":"5","5":"7","6":"47","7":"37","8":"4"}}时间:2017/05/08 09:12:44请求url:/index.php?g=api&m=bet&a=guess
+{"id":"33","guess_num":"1","user_token":"5","team_info":{"1":"6","2":"2","3":"8","4":"5","5":"7","6":"47","7":"37","8":"4"}}时间:2017/05/08 09:12:51请求url:/index.php?g=api&m=bet&a=guess
+{"id":"33","guess_num":"1","user_token":"1fehsdffd","team_info":{"1":"6","2":"2","3":"8","4":"5","5":"7","6":"47","7":"37","8":"4"}}时间:2017/05/08 09:13:10请求url:/index.php?g=api&m=bet&a=guess
+{"id":"33","user_token":"1fehsdffd"}时间:2017/05/08 09:17:25请求url:/index.php?g=api&m=room&a=roomdetail&user_token=1fehsdffd

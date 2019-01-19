@@ -1,0 +1,56 @@
+<include file="Public:header" />
+<link rel="stylesheet" type="text/css" href="/js/calendar/jscal2.css" />
+<link rel="stylesheet" type="text/css" href="/js/calendar/border-radius.css" />
+<link rel="stylesheet" type="text/css" href="/js/calendar/win2k.css" />
+<script type="text/javascript" src="/js/calendar/calendar.js"></script>
+<script type="text/javascript" src="/js/calendar/lang/en.js"></script>
+<div class="pad_10">
+    <div class="table-list">
+            <input name="id" type="hidden" value="{$data.id}" />
+            <table width='98%' border='0' cellpadding='0' cellspacing='0' align="center" class="rtable">
+                <form method="post" id="form1" action="">
+                <tr>
+                <td width="180">项目：
+                    <select name="project_id" type="text" id="select_project">
+                        <option value="5">LOL</option>
+                        <option value="6">DOTA2</option>     
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                    <td class="tRight">比赛日期：</td>
+                    <td class="tLeft" colspan="3">
+                        <input type="text" name="day" value="" class="huge iptxt" id="mstime" />
+                        <span id="stime">选择</span>
+                    </td>
+                </tr>
+                
+                <tr id="subtn">
+                    <td class="center"></td>
+                    <td class="center" colspan="3">
+                        <input type="submit" value="提 交"  />
+                    </td>
+                </tr>
+                </form>
+            </table>
+        <br />
+        <br />
+        <br />
+    </div>
+</div>
+</body>
+<script>
+Calendar.setup({
+    weekNumbers: false,
+    inputField: "mstime",
+    trigger: "stime",
+    dateFormat: "%Y-%m-%d",
+    showTime: true,
+    minuteStep: 1,
+    onSelect: function() {
+        this.hide();
+    }
+});
+</script>
+
+</html>

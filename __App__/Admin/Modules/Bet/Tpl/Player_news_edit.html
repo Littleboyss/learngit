@@ -1,0 +1,149 @@
+<include file="Public:header" />
+<link rel="stylesheet" type="text/css" href="/js/calendar/jscal2.css" />
+<link rel="stylesheet" type="text/css" href="/js/calendar/border-radius.css" />
+<link rel="stylesheet" type="text/css" href="/js/calendar/win2k.css" />
+<script type="text/javascript" src="/js/calendar/calendar.js"></script>
+<script type="text/javascript" src="/js/calendar/lang/en.js"></script>
+<style type="text/css">
+input.iptxt {
+    width: 350px;
+}
+</style>
+<div class="subnav">
+    <div class="content-menu ib-a blue line-x">
+        <a href='javascript:;' class="on"><em>修改新闻</em></a>
+        <span>|</span>
+        <a href="{:U('news')}"><em>返回列表</em></a>
+    </div>
+</div>
+<div class="pad_10">
+    <div class="table-list">
+        <form method="post" id="form1" action="{:U('news_edit')}">
+            <table width='98%' border='0' cellpadding='0' cellspacing='0' align="center" class="rtable">
+                <tr>
+                    <td class="tRight">所属项目：</td>
+                    <td class="tLeft" colspan="3">
+                        <select name="project_id" id="project">
+                          <foreach name= "project" item= "item" >
+                          <option value="{$key}" <if condition="$key eq $data[project_id]">selected="selected"</if>>{$item}</option>
+                            </foreach>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tRight">所属队伍：</td>
+                    <td class="tLeft" colspan="3">
+                        <select name="team_id" id="team">
+                        <foreach name= "team" item= "item" >
+                          <option value="{$item['id']}" <if condition="$item['id'] eq $data[team_id]">selected="selected"</if>>{$item['name']}</option>
+                            </foreach>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tRight">选择球员：</td>
+                    <td class="tLeft" colspan="3">
+                        <select name="player_id" id="player">
+                        <foreach name= "player" item= "item" >
+                          <option value="{$item['id']}" <if condition="$item['id'] eq $data[player_id]">selected="selected"</if>>{$item['name']}</option>
+                            </foreach>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tRight">信息来源：</td>
+                    <td class="tLeft" colspan="3">
+                        <input type="text" name="title" value="{$data[title]}"  />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tRight">详细信息：</td>
+                   <td class="tLeft" colspan="3">
+                        <textarea name="detail" style="width: 350px;" rows="5"  >{$data[detail]}</textarea>（255字以内包括标点符号）
+                    </td>
+                </tr>
+                <tr>
+                    <td class="center"></td>
+                    <td class="center" colspan="3">
+                        <input type="hidden" name="id" value='{$data[id]}'>
+                        <input type="submit" value="保 存" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <br />
+        <br />
+        <br />
+    </div>
+</div>
+<script type="text/javascript">
+$(function(){
+  var html = '';
+        $.ajax({
+            type:'post',
+            url:"{:U('getteamjson')}",
+            data:{'project_id':4},
+            dataType:'json',
+            success:function(e){
+                $.each(e,function(i, j) {
+                    html += '<option value="' + i + '">' + j + '</option>';
+                    $('.team_numbers').html(html);
+                });
+                if(e == null){
+                    $('.team_numbers').html('');
+                }
+            }
+        });
+      $('#project').on('change',function(){
+          var project_id = $(this).val();
+          var html = '';
+          $.ajax({
+              type:'post',
+              url:"{:U('getteamjson')}",
+              data:{'project_id':project_id},
+              dataType:'json',
+              success:function(e){
+                  team_id = e[0]['id'];
+                  get_player(project_id,team_id)
+                  $.each(e,function(i, j) {
+                      html += '<option value="' + j['id'] + '">' + j['name'] + '</option>';
+                      $('#team').html(html);
+                  });
+                  if(e == null){
+                      $('#team').html('');
+                  }
+              }
+          });
+
+      });
+    $('#team').on('change',function(){
+        var team_id = $(this).val();
+        var project_id = $('#project').val();
+        get_player(project_id,team_id)
+      });
+    function get_player(project_id,team_id){
+      var html = '';
+        $.ajax({
+            type:'post',
+            url:"{:U('getplayerjson')}",
+            data:{
+                'project_id':project_id,
+                'team_id':team_id
+            },
+              dataType:'json',
+              success:function(e){
+                  $.each(e,function(i, j) {
+                      html += '<option value="' + j['id'] + '">' + j['name'] + '</option>';
+                      $('#player').html(html);
+                  });
+                  if(e == null){
+                      $('#player').html('');
+                  }
+              }
+          });
+    }
+  });
+</script>
+</body>
+
+</html>

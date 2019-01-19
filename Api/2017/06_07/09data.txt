@@ -1,0 +1,3 @@
+{"user_token":"1fehsdffd"}时间:2017/06/07 09:14:15请求url:/index.php?g=api&m=user&a=userbetmatch
+{"user_token":"1fehsdffd"}时间:2017/06/07 09:43:13请求url:/index.php?g=api&m=user&a=userbetmatch
+{"user_token":"4"}时间:2017/06/07 09:43:17请求url:/index.php?g=api&m=user&a=userbetmatch

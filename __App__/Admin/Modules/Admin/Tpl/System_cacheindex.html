@@ -1,0 +1,22 @@
+<include file="Public:header" />
+<div class="subnav">
+  <div class="content-menu ib-a blue line-x"> <a href='javascript:;' class="on"><em>更新缓存</em></a> </div>
+</div>
+<div class="pad_10">
+  <div class="common-form">
+    <form name="myform" action="" method="post" id="myform">
+      <table width="100%" class="table_form contentWrap">
+        <tr>
+          <td width="80">项目选择</td>
+          <td><volist name=":C('APP_LIST')" id="a">
+              <label style="margin-right: 10px"><input name="cache[]" type="checkbox" value="{$a}" />&nbsp;{$key}</label>
+        </volist></td>
+        </tr>
+      </table>
+      <div class="bk15"></div>
+      <input type="submit" value="提交" class="button" />
+    </form>
+  </div>
+</div>
+</body>
+</html>

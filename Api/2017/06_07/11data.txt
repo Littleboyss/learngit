@@ -1,0 +1,17 @@
+{"id":"1","lineup_id":"2","user_token":"1fehsdffd"}时间:2017/06/07 11:01:37请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"1","lineup_id":"2","user_token":"1fehsdffd"}时间:2017/06/07 11:02:27请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"1","lineup_id":"2","user_token":"1fehsdffd"}时间:2017/06/07 11:11:53请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"3","lineup_id":"2","user_token":"1fehsdffd"}时间:2017/06/07 11:13:59请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"3","lineup_id":"2","user_token":"1fehsdffd"}时间:2017/06/07 11:17:27请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"3","lineup_id":"2","user_token":"1fehsdffd"}时间:2017/06/07 11:17:57请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"3","lineup_id":"2","user_token":"1fehsdffd"}时间:2017/06/07 11:18:42请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"3","lineup_id":"2","user_token":"1fehsdffd"}时间:2017/06/07 11:19:08请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"3","lineup_id":"2","user_token":"1fehsdffd"}时间:2017/06/07 11:19:18请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"3","lineup_id":"2","user_token":"1fehsdffd"}时间:2017/06/07 11:20:46请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"3","lineup_id":"2","user_token":"1fehsdffd"}时间:2017/06/07 11:20:56请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"id":"3","lineup_id":"2","user_token":"1fehsdffd"}时间:2017/06/07 11:23:16请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=1fehsdffd
+{"user_token":"1fehsdffd"}时间:2017/06/07 11:31:29请求url:/index.php?g=api&m=public&a=add_rand_salary&user_token=1fehsdffd
+{"user_token":"1fehsdffd"}时间:2017/06/07 11:31:38请求url:/index.php?g=api&m=public&a=add_rand_salary&user_token=1fehsdffd
+{"user_token":"1fehsdffd"}时间:2017/06/07 11:33:00请求url:/index.php?g=api&m=public&a=add_rand_salary&user_token=1fehsdffd
+{"user_token":"1fehsdffd"}时间:2017/06/07 11:33:05请求url:/index.php?g=api&m=public&a=add_rand_salary&user_token=1fehsdffd
+{"user_token":"1fehsdffd"}时间:2017/06/07 11:34:08请求url:/index.php?g=api&m=public&a=add_rand_salary&user_token=1fehsdffd

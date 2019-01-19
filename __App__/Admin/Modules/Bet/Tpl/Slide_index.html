@@ -1,0 +1,58 @@
+<include file="Public:header" />
+<div class="subnav">
+  <div class="content-menu ib-a blue line-x"> <a href='javascript:;' class="on"><em>图片列表</em></a>
+    <span>|</span><a href="{:U('add',array('gid'=>$_GET['gid']))}"><em>添加图片</em></a> </div>
+  </div>
+</div>
+<div class="pad_10">
+  <div class="table-list">
+    <form name="myform" action="" method="post" id="myform">
+    
+    <table id="checkList" class="tableList" width='98%' border='0'
+	cellpadding='1' cellspacing='1' align="center">
+  <thead>
+
+	<tr align="center" class="h_tr">
+    <th width="4%" align="center"><input type="checkbox" value="" id="check_box" onclick="selectall('id[]');"></th>
+    <th align="center">ID</th>
+		<th align="center">标题</th>
+    <th align="center">图片类型</th>
+    <th align="center">图片</th>
+    <th align="center">图片链接</th>
+		<th align="center">添加时间</th>
+		<th align="center">操作</th>
+	</tr>
+  </thead>
+	<tbody id="checkList_tbody">
+    <foreach name= "data" item= "vo" >
+		<tr align='left'>
+      <td align="center"><input class="inputcheckbox" name="id[]" value="{$vo['hero_id']}" type="checkbox"></td>
+      <td align="center">{$vo.id}</td>
+			<td align="center">{$vo.title}</td>
+      <td align="center">{$types[$vo[type]]}</td>
+      <td align="center"><img src="{$vo.img}" height="50px"></td>
+      <td align="center">{$vo.url}</td>
+      <td align="center">{$vo['add_time']|date='Y-m-d H:i',###}</td>
+      
+      <td width="20%" align="center">
+          <a href="{:U('edit', array('id' => $vo['id']))}">修改</a>
+          &nbsp;
+          <a href="{:U('del', array('id' => $vo['id']))}" onclick="return confirm('你确定删除？')">删除</a>
+      </td>
+		</tr>
+    </foreach>
+    <tr>
+      <td class="pagination" colspan="9" align="center">{$show}</td>
+    </tr>
+	</tbody>
+</table>
+      </table>
+      <!-- <div class="btn"><a href="#" onclick="javascript:$('input[type=checkbox]').attr('checked', true)">全选</a>/<a href="#" onclick="javascript:$('input[type=checkbox]').attr('checked', false)">取消</a>
+        <input name="submit" type="submit" onclick="return confirm('确认删除吗？');" value="删除" id="submit" class="button">
+      </div> -->
+    </form>
+  </div>
+</div>
+</body>
+
+</html>

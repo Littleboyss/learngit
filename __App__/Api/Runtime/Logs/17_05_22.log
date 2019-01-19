@@ -1,0 +1,792 @@
+[ 2017-05-22T09:19:42+08:00 ] 127.0.0.1 /index.php?g=api&m=extra&a=lolplayermatchdata
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_id`,`position` FROM `fa_match_player_wcg` WHERE ( `id` = 9 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: team_id F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 141 行.
+NOTIC: [8] Undefined index: position F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 142 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_lol` WHERE ( `player_id` = 9 ) ORDER BY addtime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+
+[ 2017-05-22T09:20:01+08:00 ] 127.0.0.1 /index.php?g=api&m=extra&a=lolplayermatchdata
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.000000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_id`,`position` FROM `fa_match_player_wcg` WHERE ( `id` = 10 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: team_id F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 141 行.
+NOTIC: [8] Undefined index: position F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 142 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_lol` WHERE ( `player_id` = 10 ) ORDER BY addtime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+
+[ 2017-05-22T09:26:24+08:00 ] 127.0.0.1 /index.php?g=api&m=extra&a=lolplayermatchdata
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_id`,`position` FROM `fa_match_player_wcg` WHERE ( `id` = 17 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: team_id F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 141 行.
+NOTIC: [8] Undefined index: position F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 142 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_lol` WHERE ( `player_id` = 17 ) ORDER BY addtime desc  [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+
+[ 2017-05-22T09:35:12+08:00 ] 127.0.0.1 /index.php?g=api&m=extra&a=lolplayermatchdata
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_id`,`position` FROM `fa_match_player_wcg` WHERE ( `id` = 17 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: team_id F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 141 行.
+NOTIC: [8] Undefined index: position F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 142 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_lol` WHERE ( `player_id` = 17 ) ORDER BY addtime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+
+[ 2017-05-22T09:35:49+08:00 ] 127.0.0.1 /index.php?g=api&m=extra&a=lolplayermatchdata
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_id`,`position` FROM `fa_match_player_wcg` WHERE ( `id` = 17 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: team_id F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 141 行.
+NOTIC: [8] Undefined index: position F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 142 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_lol` WHERE ( `player_id` = 17 ) ORDER BY addtime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+
+[ 2017-05-22T09:53:53+08:00 ] 127.0.0.1 /index.php?g=api&m=extra&a=lolplayermatchdata
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_id`,`position` FROM `fa_match_player_wcg` WHERE ( `id` = 100053 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: team_id F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 141 行.
+NOTIC: [8] Undefined index: position F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 142 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_lol` WHERE ( `player_id` = 100053 ) ORDER BY addtime desc  [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+
+[ 2017-05-22T10:41:36+08:00 ] 127.0.0.1 /index.php?g=api&m=extra&a=lolplayermatchdata
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_id`,`position` FROM `fa_match_player_wcg` WHERE ( `id` = 100053 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: team_id F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 141 行.
+NOTIC: [8] Undefined index: position F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 142 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_lol` WHERE ( `player_id` = 100053 ) ORDER BY addtime desc  [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined variable: season_data F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 173 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 488 行.
+
+[ 2017-05-22T11:30:21+08:00 ] 127.0.0.1 /index.php?g=api&m=extra&a=lolplayermatchdata
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002001s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_id`,`position` FROM `fa_match_player_wcg` WHERE ( `id` = 100053 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: team_id F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 141 行.
+NOTIC: [8] Undefined index: position F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 142 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_lol` WHERE ( `player_id` = 100053 ) ORDER BY addtime desc  [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+
+[ 2017-05-22T11:31:15+08:00 ] 127.0.0.1 /index.php?g=api&m=extra&a=lolplayermatchdata
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_id`,`position` FROM `fa_match_player_wcg` WHERE ( `id` = 100053 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: team_id F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 141 行.
+NOTIC: [8] Undefined index: position F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 142 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_lol` WHERE ( `player_id` = 100053 ) ORDER BY addtime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: time F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+
+[ 2017-05-22T11:32:10+08:00 ] 127.0.0.1 /index.php?g=api&m=extra&a=lolplayermatchdata
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '4' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_player_match_data_lol` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `fa_match_player_wcg` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `team_id`,`position` FROM `fa_match_player_wcg` WHERE ( `id` = 100053 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: team_id F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 141 行.
+NOTIC: [8] Undefined index: position F:\work\__App__\Api\Modules\Api\Action\ExtraAction.class.php 第 142 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_player_match_data_lol` WHERE ( `player_id` = 100053 ) ORDER BY addtime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: player_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: match_id F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: death F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: assists F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: jungle F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: ten_kill F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: score F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: scores F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: tower F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: dragons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: barons F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: first_blood F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_win F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_join F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: is_fast F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: remain F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: season F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+NOTIC: [8] Undefined index: opponents F:\work\__App__\Api\Lib\Action\CommonAction.class.php 第 497 行.
+

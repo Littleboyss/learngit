@@ -1,0 +1,9 @@
+{"user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 15:00:52请求url:/index.php?g=api&m=user&a=recommendlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 15:01:04请求url:/index.php?g=api&m=bet&a=recommendlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 15:02:07请求url:/index.php?g=api&m=user&a=getuserlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"id":"34","lineup_id":"18","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 15:02:40请求url:/index.php?g=api&m=user&a=getuserlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"id":"34","lineup_id":"443","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 15:02:59请求url:/index.php?g=api&m=user&a=getuserlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"id":"34","lineup_id":"18","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 15:04:19请求url:/index.php?g=api&m=user&a=getuserlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"id":"34","lineup_id":"18","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 15:04:38请求url:/index.php?g=api&m=user&a=getuserlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"id":"34","lineup_id":"18","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 15:05:24请求url:/index.php?g=api&m=user&a=getuserlineup&user_token=4093e5bbbc23222c6a161bd5954620d6
+{"id":"34","lineup_id":"18","user_token":"4093e5bbbc23222c6a161bd5954620d6"}时间:2017/07/18 15:09:36请求url:/index.php?g=api&m=user&a=getuserlineup&user_token=4093e5bbbc23222c6a161bd5954620d6

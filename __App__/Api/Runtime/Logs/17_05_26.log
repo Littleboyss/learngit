@@ -1,0 +1,35 @@
+[ 2017-05-26T09:33:40+08:00 ] 127.0.0.1 /index.php?m=shop&a=hot_goods&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_shop_goods_order` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t2.id,sum(t1.goods_nums) AS nums,t2.price,t2. NAME,t2.type,t2.shop_sub_id,t2.avatar_img,t2.sell_num FROM `fa_shop_goods_order` as t1
+LEFT JOIN fa_shop_goods AS t2 ON t1.goods_id = t2.id WHERE ( t1.addtime > 1495157620 ) GROUP BY  t2.id ORDER BY  nums desc LIMIT 10   [ RunTime:0.001000s ]
+
+[ 2017-05-26T09:37:20+08:00 ] 127.0.0.1 /index.php?m=shop&a=order_detail&user_token=1fehsdffd
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Common\common.php 第 171 行.
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: 建议使用I方法替代_request
+NOTIC: 建议使用I方法替代_request
+SQL: SHOW COLUMNS FROM `fa_user_user` [ RunTime:0.002000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT * FROM `fa_user_user` WHERE ( `token` = '1fehsdffd' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_shop_goods_order` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT t1.id,t1.goods_nums,t1.goods_type,t1.numbers,t1.status,t2.name FROM `fa_shop_goods_order` as t1 LEFT JOIN fa_shop_goods as t2 on t1.goods_id = t2.id WHERE ( t1.id = '10' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fa_virtual_order_info` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `code_id`,`nums` FROM `fa_virtual_order_info` WHERE ( `user_id` = 1 ) AND ( `order_id` = 10 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `fa_shop_virtual_code` [ RunTime:0.001000s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead F:\ThinkPHP\Lib\Core\Db.class.php 第 601 行.
+SQL: SELECT `codes`,`pwd` FROM `fa_shop_virtual_code` WHERE ( id = 49 ) LIMIT 1   [ RunTime:0.000000s ]
+

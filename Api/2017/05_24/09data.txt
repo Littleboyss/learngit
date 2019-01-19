@@ -1,0 +1,5 @@
+{"user_token":"4","player_id":"100053"}时间:2017/05/24 09:18:40请求url:/index.php?g=api&m=extra&a=lolplayermatchdata
+{"class_id":"1","user_token":"1fehsdffd"}时间:2017/05/24 09:24:16请求url:/index.php?m=award&a=try_turnplate&user_token=1fehsdffd
+{"user_token":"4","player_id":"100053"}时间:2017/05/24 09:39:02请求url:/index.php?g=api&m=extra&a=lolplayermatchdata
+{"user_token":"4","player_id":"100053"}时间:2017/05/24 09:39:17请求url:/index.php?g=api&m=extra&a=lolplayermatchdata
+{"user_token":"4","player_id":"100053"}时间:2017/05/24 09:46:26请求url:/index.php?g=api&m=extra&a=lolplayermatchdata

@@ -1,0 +1,41 @@
+<include file="Public:header" />
+<div class="subnav">
+  <div class="content-menu ib-a blue line-x"> <a href='javascript:;' class="on"><em>留言反馈</em></a>
+  </div>
+  <div class="explain-col search-form">
+    <form action="{:U('index')}" method="post">
+          关键字:<input placeholder="手机号" name="user" type="text" id="check_box" class="input-text">
+          <input type="submit" value="搜索" class="button">
+    </form>
+  </div>
+</div>
+<div class="pad_10">
+  <div class="table-list">
+    <table id="checkList" class="tableList" width='98%' border='0'
+	cellpadding='1' cellspacing='1' align="center">
+  <thead>
+	<tr align="center" class="h_tr">
+		<th align="center">ID</th>
+		<th align="center">用户</th>
+    <th align="center">反馈信息</th>
+    <th align="center">反馈时间</th>
+	</tr>
+  </thead>
+	<tbody id="checkList_tbody">
+    <foreach name= "data" item= "vo" >
+		<tr align='left'>
+			<td align="center">{$vo.id}</td>
+      <td align="center">{$vo.user}</td>
+      <td align="center">{$vo.content}</td>
+      <td align="center">{$vo['add_time']}</td>
+		</tr>
+    </foreach>
+    <tr>
+      <td class="pagination" colspan="9" align="center">{$show}</td>
+    </tr>
+	</tbody>
+</table>
+      </table>
+  </div>
+</div>
+</body></html>

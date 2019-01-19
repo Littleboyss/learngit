@@ -1,0 +1,2 @@
+[]时间:2017/06/13 16:50:10请求url:/index.php?g=api&m=user&a=check_bind
+{"user_token":"2950a0c7fb4ccf3b8d13203f052869a2"}时间:2017/06/13 16:50:38请求url:/index.php?g=api&m=user&a=check_bind

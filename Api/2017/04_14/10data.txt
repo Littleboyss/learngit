@@ -1,0 +1,3 @@
+{"class_id":"1","user_token":"4"}时间:2017/04/14 10:00:15请求url:/index.php?m=award&a=try_turnplate&user_token=4
+{"class_id":"1","user_token":"4"}时间:2017/04/14 10:00:23请求url:/index.php?m=award&a=try_turnplate&user_token=4
+{"class_id":"1","user_token":"4"}时间:2017/04/14 10:06:29请求url:/index.php?m=award&a=try_turnplate&user_token=4

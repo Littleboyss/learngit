@@ -1,0 +1,13 @@
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+	_MP(0,$('#first_menu_url').val(),$('#first_menu_name').val());
+});
+//-->
+</script>
+<ul>
+    <foreach name="submenus" item="i">
+    <if condition="key eq 0"><input type='hidden' id='first_menu_url'  value="{$i.url}"/><input type='hidden' id='first_menu_name'  value="{$i.name}"/></if>
+    <li id="_MP{$key}" class="sub_menu"><a href="javascript:_MP({$key},'{$i.url}','{$i.name}');" hidefocus="true" style="outline:none;">{$i.name}</a></li>
+    </foreach>
+</ul>

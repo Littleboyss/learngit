@@ -1,0 +1,3 @@
+{"user_token":"4","lineup_id":"16","id":"33"}时间:2017/06/02 09:58:16请求url:/index.php?g=api&m=user&a=getuserlineup
+{"user_token":"4","lineup_id":"16","id":"34"}时间:2017/06/02 09:58:27请求url:/index.php?g=api&m=user&a=getuserlineup
+{"user_token":"4","lineup_id":"16","id":"33"}时间:2017/06/02 09:58:36请求url:/index.php?g=api&m=user&a=getuserlineup

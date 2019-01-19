@@ -1,0 +1,100 @@
+<include file="Public:header" />
+<div class="subnav">
+  <div class="content-menu ib-a blue line-x"> <a href='javascript:;' class="on"><em>球员列表</em></a>
+    <span>|</span><a href="{:U('add')}"><em>添加球员</em></a> </div>
+  </div>
+</div>
+<div class="subnav">
+    <div class="explain-col search-form">
+    <form name="myform" action="{:U('index')}" method="post">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="180">球队：
+                  <select name="team_id" type="text"/>
+                    <option value="0">所有</option>
+                    <volist name="team" id="rs">
+                      <option value="{$key}">{$rs.name}</option>
+                    </volist>
+                  </select>
+                </td>
+                <td width="180">项目：
+                  <select name="project_id" type="text"/>
+                    <option value="0">所有</option>
+                    <volist name="project" id="rs">
+                      <option value="{$key}">{$rs}</option>
+                    </volist>
+                  </select>
+                </td>
+                <td width="230">
+                  中文名:<input placeholder="中文名称(昵称支持模糊搜索)" name="name" type="text" class="input-text">
+                </td>
+                <td>
+                    <input name="submit" type="submit" value="查询" class="button"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</div>
+<div class="pad_10">
+  <div class="table-list">
+    <form name="myform" action="{:U('Dota2/HeroNew/del')}" method="post" id="myform">
+    
+    <table id="checkList" class="tableList" width='98%' border='0'
+	cellpadding='1' cellspacing='1' align="center">
+  <thead>
+	<tr align="center" class="h_tr">
+    <th width="4%" align="center"><input type="checkbox" value="" id="check_box" onclick="selectall('id[]');"></th>
+		<th align="center">ID</th>
+		<th align="center">中文名</th>
+    <th align="center">英文名</th>
+    <th align="center">头像</th>
+    <th align="center">球队</th>
+		<th align="center">项目</th>
+    <th align="center">平均分</th>
+		<th align="center">出场次数</th>
+    <th align="center">出场时间</th>
+    <th align="center">待定</th>
+    <th align="center">伤病</th>
+    <th align="center">禁赛</th>
+    <th align="center">操作</th>
+	</tr>
+  </thead>
+  <php>$arr = array(1 => '是',2 => '否');</php>
+	<tbody id="checkList_tbody">
+  <foreach name="data" item="vo">
+		<tr align='left'>
+      <td align="center"><input class="inputcheckbox" name="id[]" value="{$vo['id']}" type="checkbox"></td>
+			<td align="center">{$vo.id}</td>
+      <td align="center">{$vo.name}</td>
+      <td align="center">{$vo.e_name}</td>
+			<td align="center"><img src="{$vo.img}" height="50px;"></td>
+      <td align="center">{$team[$vo[team_id]][name]}</td>
+      <td align="center">{$project[$vo[project_id]]}</td>
+      <td align="center">{$vo.average}</td>
+      <td align="center">{$vo.play_num}</td>
+      <td align="center">{$vo.play_time}</td>
+      <td align="center">{$arr[$vo[is_undetermined]]}</td>
+      <td align="center">{$arr[$vo[is_illness]]}</td>
+      <td align="center">{$arr[$vo[is_ban]]}</td>
+      
+      <td width="10%" align="center">
+          <a href="{:U('edit', array('id' => $vo['id']))}">修改</a>
+          &nbsp;
+          <a href="{:U('del', array('id' => $vo['id']))}" onclick="return confirm('你确定删除该项目？')">删除</a>
+      </td>
+		</tr>
+                </foreach>
+    <tr>
+      <td class="pagination" colspan="10" align="center">{$show}</td>
+    </tr>
+	</tbody>
+</table>
+      </table>
+      <!-- <div class="btn"><a href="#" onclick="javascript:$('input[type=checkbox]').attr('checked', true)">全选</a>/<a href="#" onclick="javascript:$('input[type=checkbox]').attr('checked', false)">取消</a>
+        <input name="submit" type="submit" onclick="return confirm('确认删除吗？');" value="删除" id="submit" class="button">
+      </div> -->
+    </form>
+  </div>
+</div>
+</body></html>
